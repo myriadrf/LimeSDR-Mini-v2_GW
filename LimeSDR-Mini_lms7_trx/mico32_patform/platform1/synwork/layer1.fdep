@@ -1,0 +1,227 @@
+#OPTIONS:"|-mixedhdl|-modhint|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_verilog_hintfile|-top|work.platform1_uniq_1|-top|work.jtagconn16|-top|work.top_la0|-mpparams|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\platform1_platform1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\soc|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-DSBP_SYNTHESIS|-dup|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1628583508
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_verilog_hintfile":1644956176
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\verilog\\pmi_def.v":1606287228
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\ertl.v":1493206472
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\rvl_j2w_module.v":1385395354
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\wb2sci.v":1384186746
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\JTAG_SOFT.v":1459344300
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_la0_trig_gen.v":1644956173
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_la0_gen.v":1644956173
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_rvl_top.v":1644956174
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" verilog
+1			"C:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v" verilog
+2			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\rvl_j2w_module.v" verilog
+3			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\wb2sci.v" verilog
+4			"C:\lscc\diamond\3.12\module\reveal\src\ertl\JTAG_SOFT.v" verilog
+5			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v" verilog
+6			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v" verilog
+7			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 7
+2 -1
+3 -1
+4 -1
+5 1
+6 1 5
+7 -1
+#Dependency Lists(Users Of)
+0 -1
+1 5 6
+2 -1
+3 -1
+4 -1
+5 6
+6 -1
+7 1
+#Design Unit to File Association
+module work pmi_distributed_rom 0
+module work pmi_distributed_spram 0
+module work pmi_distributed_shift_reg 0
+module work pmi_constant_mult 0
+module work pmi_mult 0
+module work pmi_mac 0
+module work pmi_multaddsub 0
+module work pmi_multaddsubsum 0
+module work pmi_complex_mult 0
+module work pmi_add 0
+module work pmi_sub 0
+module work pmi_counter 0
+module work pmi_ram_dp_be 0
+module work pmi_ram_dp_true_be 0
+module work pmi_ram_dq_be 0
+module work pmi_rom 0
+module work pmi_dsp_mac 0
+module work pmi_dsp_mult 0
+module work pmi_dsp_multaddsub 0
+module work pmi_dsp_casmultaddsub 0
+module work pmi_dsp_multaddsubsum 0
+module work pmi_dsp_preadd_slice 0
+module work pmi_pll 0
+module work pmi_pll_fp 0
+module work rvl_tcnt 1
+module work rvl_jtag_int 1
+module work rvl_tu 1
+module work rvl_serial_tu 1
+module work rvl_te 1
+module work rvl_decode 1
+module work rvl_tm 1
+module work rvl_j2w 2
+module work rvl_jtag2wb 2
+module work jtaghub_if 2
+module work wb_control 2
+module work idata 2
+module work jtaghub16 2
+module work wb2sci 3
+module work JTAG_SOFT 4
+module work jtag_cntl_soft 4
+module work jtag_tap_cntl_soft 4
+module work jtag_inst_dec_soft 4
+module work jtag_logic_soft 4
+module work jtag_register_soft 4
+module work top_la0_trig 5
+module work top_la0 6
+module work arbiter2 7
+module work lm32_load_store_unit_uniq_1 7
+module work lm32_dcache_uniq_1 7
+module work lm32_decoder_uniq_1 7
+module work lm32_icache_uniq_1 7
+module work lm32_ram_uniq_1 7
+module work lm32_ram_uniq_2 7
+module work lm32_instruction_unit_uniq_1 7
+module work lm32_cpu_uniq_1 7
+module work lm32_adder_uniq_1 7
+module work lm32_logic_op_uniq_1 7
+module work lm32_shifter_uniq_1 7
+module work lm32_multiplier_uniq_1 7
+module work lm32_mc_arithmetic_uniq_1 7
+module work lm32_interrupt_uniq_1 7
+module work lm32_jtag_uniq_1 7
+module work lm32_debug_uniq_1 7
+module work lm32_top_uniq_1 7
+module work lm32_monitor_uniq_1 7
+module work jtag_cores_uniq_1 7
+module work arbiter2_uniq_1 7
+module work TYPEB 7
+module work TYPEA 7
+module work platform1_uniq_1 7
+module work gpio_uniq_1 7
+module work wb_ebr_ctrl_uniq_1 7
+module work gpio_uniq_2 7
+module work Reg_Comp_uniq_1 7
+module work spi_uniq_1 7
+module work FIFO_Comp_uniq_1 7
+module work uart_core_uniq_1 7
+module work jtag_cores 7
+module work jtag_lm32 7
+module work lm32_jtag 7
+module work lm32_addsub 7
+module work lm32_adder 7
+module work lm32_cpu 7
+module work lm32_instruction_unit 7
+module work lm32_decoder 7
+module work lm32_load_store_unit 7
+module work lm32_logic_op 7
+module work lm32_shifter 7
+module work lm32_multiplier 7
+module work lm32_mc_arithmetic 7
+module work lm32_interrupt 7
+module work lm32_debug 7
+module work lm32_dcache 7
+module work lm32_ram 7
+module work lm32_icache 7
+module work lm32_top 7
+module work lm32_monitor 7
+module work lm32_monitor_ram 7
+module work gpio 7
+module work tpio 7
+module work wb_ebr_ctrl 7
+module work Reg_Comp 7
+module work wb_reg_dev 7
+module work spi 7
+module work FIFO_Comp 7
+module work wb_fifo_dev 7
+module work txcver_fifo 7
+module work intface 7
+module work rxcver_fifo 7
+module work rxcver 7
+module work txmitt 7
+module work uart_core 7
+module work platform1 7
+module work platform1_top 7
+module work sim_fifo 7
+module work lm32_ram_uniq_3 7
+module work lm32_ram_uniq_4 7
+module work lm32_ram_uniq_5 7
+module work lm32_ram_uniq_6 7
+module work lm32_ram_uniq_7 7
+module work lm32_addsub_uniq_1 7
+module work lm32_monitor_ram_uniq_1 7
+module work jtag_lm32_uniq_1 7
+module work TYPEA_uniq_1 7
+module work TYPEA_uniq_2 7
+module work TYPEA_uniq_3 7
+module work TYPEA_uniq_4 7
+module work TYPEA_uniq_5 7
+module work TYPEA_uniq_6 7
+module work TYPEA_uniq_7 7
+module work TYPEA_uniq_8 7
+module work TYPEA_uniq_9 7
+module work TYPEA_uniq_10 7
+module work TYPEA_uniq_11 7
+module work tpio_uniq_1 7
+module work tpio_uniq_2 7
+module work tpio_uniq_3 7
+module work tpio_uniq_4 7
+module work tpio_uniq_5 7
+module work tpio_uniq_6 7
+module work tpio_uniq_7 7
+module work tpio_uniq_8 7
+module work tpio_uniq_9 7
+module work wb_reg_dev_uniq_1 7
+module work wb_fifo_dev_uniq_1 7
+module work intface_uniq_1 7
+module work rxcver_uniq_1 7
+module work txmitt_uniq_1 7
+module work pmi_distributed_dpram 7
+module work pmi_addsub 7
+module work pmi_ram_dp 7
+module work pmi_ram_dp_true 7
+module work pmi_ram_dq 7
+module work pmi_fifo_dc 7
+module work pmi_fifo 7
+module work jtagconn16 7
+#Unbound instances to file Association.
+inst work DP16KA DP16KA 7
+inst work DP16KA DP16KA 7
+inst work DP16KB DP16KB 7
+inst work DP16KB DP16KB 7
+inst work DP8KA DP8KA 7
+inst work DP8KA DP8KA 7
+inst work DP16KC DP16KC 7
+inst work DP16KC DP16KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7
+inst work DP16KA DP16KA 7
+inst work DP16KA DP16KA 7
+inst work DP16KB DP16KB 7
+inst work DP16KB DP16KB 7
+inst work DP8KA DP8KA 7
+inst work DP8KA DP8KA 7
+inst work DP16KC DP16KC 7
+inst work DP16KC DP16KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7
+inst work DP8KC DP8KC 7

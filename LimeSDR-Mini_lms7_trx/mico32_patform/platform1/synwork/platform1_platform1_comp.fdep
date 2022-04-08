@@ -1,0 +1,240 @@
+#OPTIONS:"|-mixedhdl|-top|top|-layerid|0|-orig_srs|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\platform1_platform1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1628583642
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1628582822
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_rvl_top.vhd":1644956174
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.vhd":1628583068
+#OPTIONS:"|-mixedhdl|-modhint|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_verilog_hintfile|-top|work.platform1_uniq_1|-top|work.jtagconn16|-top|work.top_la0|-mpparams|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\platform1_platform1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\soc|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor|-I|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-DSBP_SYNTHESIS|-dup|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1628583508
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\_verilog_hintfile":1644956176
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\verilog\\pmi_def.v":1606287228
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\ertl.v":1493206472
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\rvl_j2w_module.v":1385395354
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\wb2sci.v":1384186746
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\JTAG_SOFT.v":1459344300
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_la0_trig_gen.v":1644956173
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_la0_gen.v":1644956173
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_rvl_top.v":1644956174
+0			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd" vhdl
+1			"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" verilog
+2			"C:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v" verilog
+3			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\rvl_j2w_module.v" verilog
+4			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\wb2sci.v" verilog
+5			"C:\lscc\diamond\3.12\module\reveal\src\ertl\JTAG_SOFT.v" verilog
+6			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v" verilog
+7			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v" verilog
+8			"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v" verilog
+#Dependency Lists(Uses List)
+0 8 7
+1 -1
+2 8
+3 -1
+4 -1
+5 -1
+6 2
+7 6 2
+8 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 7 6
+3 -1
+4 -1
+5 -1
+6 7
+7 0
+8 0 2
+#Design Unit to File Association
+module work jtagconn16 8
+module work pmi_fifo 8
+module work pmi_fifo_dc 8
+module work pmi_ram_dq 8
+module work pmi_ram_dp_true 8
+module work pmi_ram_dp 8
+module work pmi_addsub 8
+module work pmi_distributed_dpram 8
+module work txmitt_uniq_1 8
+module work rxcver_uniq_1 8
+module work intface_uniq_1 8
+module work wb_fifo_dev_uniq_1 8
+module work wb_reg_dev_uniq_1 8
+module work tpio_uniq_9 8
+module work tpio_uniq_8 8
+module work tpio_uniq_7 8
+module work tpio_uniq_6 8
+module work tpio_uniq_5 8
+module work tpio_uniq_4 8
+module work tpio_uniq_3 8
+module work tpio_uniq_2 8
+module work tpio_uniq_1 8
+module work TYPEA_uniq_11 8
+module work TYPEA_uniq_10 8
+module work TYPEA_uniq_9 8
+module work TYPEA_uniq_8 8
+module work TYPEA_uniq_7 8
+module work TYPEA_uniq_6 8
+module work TYPEA_uniq_5 8
+module work TYPEA_uniq_4 8
+module work TYPEA_uniq_3 8
+module work TYPEA_uniq_2 8
+module work TYPEA_uniq_1 8
+module work jtag_lm32_uniq_1 8
+module work lm32_monitor_ram_uniq_1 8
+module work lm32_addsub_uniq_1 8
+module work lm32_ram_uniq_7 8
+module work lm32_ram_uniq_6 8
+module work lm32_ram_uniq_5 8
+module work lm32_ram_uniq_4 8
+module work lm32_ram_uniq_3 8
+module work sim_fifo 8
+module work platform1_top 8
+module work platform1 8
+module work uart_core 8
+module work txmitt 8
+module work rxcver 8
+module work rxcver_fifo 8
+module work intface 8
+module work txcver_fifo 8
+module work wb_fifo_dev 8
+module work FIFO_Comp 8
+module work spi 8
+module work wb_reg_dev 8
+module work Reg_Comp 8
+module work wb_ebr_ctrl 8
+module work tpio 8
+module work gpio 8
+module work lm32_monitor_ram 8
+module work lm32_monitor 8
+module work lm32_top 8
+module work lm32_icache 8
+module work lm32_ram 8
+module work lm32_dcache 8
+module work lm32_debug 8
+module work lm32_interrupt 8
+module work lm32_mc_arithmetic 8
+module work lm32_multiplier 8
+module work lm32_shifter 8
+module work lm32_logic_op 8
+module work lm32_load_store_unit 8
+module work lm32_decoder 8
+module work lm32_instruction_unit 8
+module work lm32_cpu 8
+module work lm32_adder 8
+module work lm32_addsub 8
+module work lm32_jtag 8
+module work jtag_lm32 8
+module work jtag_cores 8
+module work uart_core_uniq_1 8
+module work FIFO_Comp_uniq_1 8
+module work spi_uniq_1 8
+module work Reg_Comp_uniq_1 8
+module work gpio_uniq_2 8
+module work wb_ebr_ctrl_uniq_1 8
+module work gpio_uniq_1 8
+module work platform1_uniq_1 8
+module work TYPEA 8
+module work TYPEB 8
+module work arbiter2_uniq_1 8
+module work jtag_cores_uniq_1 8
+module work lm32_monitor_uniq_1 8
+module work lm32_top_uniq_1 8
+module work lm32_debug_uniq_1 8
+module work lm32_jtag_uniq_1 8
+module work lm32_interrupt_uniq_1 8
+module work lm32_mc_arithmetic_uniq_1 8
+module work lm32_multiplier_uniq_1 8
+module work lm32_shifter_uniq_1 8
+module work lm32_logic_op_uniq_1 8
+module work lm32_adder_uniq_1 8
+module work lm32_cpu_uniq_1 8
+module work lm32_instruction_unit_uniq_1 8
+module work lm32_ram_uniq_2 8
+module work lm32_ram_uniq_1 8
+module work lm32_icache_uniq_1 8
+module work lm32_decoder_uniq_1 8
+module work lm32_dcache_uniq_1 8
+module work lm32_load_store_unit_uniq_1 8
+module work arbiter2 8
+module work top_la0 7
+module work top_la0_trig 6
+module work jtag_register_soft 5
+module work jtag_logic_soft 5
+module work jtag_inst_dec_soft 5
+module work jtag_tap_cntl_soft 5
+module work jtag_cntl_soft 5
+module work JTAG_SOFT 5
+module work wb2sci 4
+module work jtaghub16 3
+module work idata 3
+module work wb_control 3
+module work jtaghub_if 3
+module work rvl_jtag2wb 3
+module work rvl_j2w 3
+module work rvl_tm 2
+module work rvl_decode 2
+module work rvl_te 2
+module work rvl_serial_tu 2
+module work rvl_tu 2
+module work rvl_jtag_int 2
+module work rvl_tcnt 2
+module work pmi_pll_fp 1
+module work pmi_pll 1
+module work pmi_dsp_preadd_slice 1
+module work pmi_dsp_multaddsubsum 1
+module work pmi_dsp_casmultaddsub 1
+module work pmi_dsp_multaddsub 1
+module work pmi_dsp_mult 1
+module work pmi_dsp_mac 1
+module work pmi_rom 1
+module work pmi_ram_dq_be 1
+module work pmi_ram_dp_true_be 1
+module work pmi_ram_dp_be 1
+module work pmi_counter 1
+module work pmi_sub 1
+module work pmi_add 1
+module work pmi_complex_mult 1
+module work pmi_multaddsubsum 1
+module work pmi_multaddsub 1
+module work pmi_mac 1
+module work pmi_mult 1
+module work pmi_constant_mult 1
+module work pmi_distributed_shift_reg 1
+module work pmi_distributed_spram 1
+module work pmi_distributed_rom 1
+module work reveal_coretop 0
+arch work reveal_coretop one 0
+module work platform1_vhd 0
+arch work platform1_vhd platform1_vhd_a 0
+module work alive 0
+arch work alive alive_arch 0
+module work mcfg32wm_fsm 0
+arch work mcfg32wm_fsm mcfg32wm_fsm_arch 0
+module work fpgacfg 0
+arch work fpgacfg fpgacfg_arch 0
+module work fifo_dc_32x32 0
+arch work fifo_dc_32x32 structure 0
+module work top 0
+module work alive_uniq_0 0
+arch work alive_uniq_0 alive_arch 0
+module work platform1_vhd_uniq_0 0
+arch work platform1_vhd_uniq_0 platform1_vhd_a 0
+module work fpgacfg_uniq_0 0
+module work mcfg32wm_fsm_uniq_0 0
+arch work mcfg32wm_fsm_uniq_0 mcfg32wm_fsm_arch 0
+arch work fpgacfg_uniq_0 fpgacfg_arch 0
+module work fifo_dc_32x32_uniq_0 0
+arch work fifo_dc_32x32_uniq_0 structure 0
+arch work top top_arch 0

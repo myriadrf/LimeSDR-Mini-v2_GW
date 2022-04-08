@@ -1,0 +1,168 @@
+<Project ModBy="Analyzer" Name="C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/proj/debug.rvs" Date="2022-04-05">
+ <Core Name="lms7_trx_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="1024" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="3"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delay_done"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delay_en"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delay_error"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delay_mode"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_dir"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_done"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_en"/>
+    <Bus Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay" Radix="0">
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:0"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:1"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:2"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:3"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:4"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:5"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:6"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/delayf_ctrl_ndelay:7"/>
+    </Bus>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/smpl_cmp_done"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/smpl_cmp_en"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/smpl_cmp_error"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/reset_n"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/smpl_cmp_done_reg"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/min_found_reg"/>
+    <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/max_found_reg"/>
+    <Bus Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt" Radix="0">
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:0"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:1"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:2"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:3"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:4"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:5"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:6"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/move_cnt:7"/>
+    </Bus>
+    <Sig Name="lms_inst/inst0/inst3_cflag"/>
+    <Sig Name="lms_inst/inst0/inst3_direction"/>
+    <Sig Name="lms_inst/inst0/inst3_loadn"/>
+    <Sig Name="lms_inst/inst0/inst3_move"/>
+    <Sig Name="lms_inst/inst0/sel"/>
+    <Sig Name="lms_inst/rx_path/data_cflag"/>
+    <Bus Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state" Radix="0">
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:0"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:1"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:2"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:3"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:4"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:5"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:6"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:7"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:8"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:9"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:10"/>
+     <Sig Name="lms_inst/inst1_delay_ctrl/inst0_delay_ctrl_fsm/current_state:11"/>
+    </Bus>
+    <Bus Name="lms_inst/delay_sel" Radix="0">
+     <Sig Name="lms_inst/delay_sel:0"/>
+     <Sig Name="lms_inst/delay_sel:1"/>
+    </Bus>
+    <Sig Name="lms_inst/rx_path/data_direction"/>
+    <Sig Name="lms_inst/rx_path/data_loadn"/>
+    <Sig Name="lms_inst/rx_path/data_move"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU2" ID="1" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU3" ID="2" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU4" ID="3" Value="0" Radix="0"/>
+    <TU Operator="6" Name="TU5" ID="4" Value="0" Radix="0"/>
+    <TU Operator="6" Name="TU6" ID="5" Value="0" Radix="0"/>
+    <TU Operator="6" Name="TU7" ID="6" Value="0" Radix="3"/>
+    <TU Operator="6" Name="TU8" ID="7" Value="0" Radix="3"/>
+    <TU Operator="0" Name="TU9" ID="8" Value="0" Radix="3"/>
+    <TU Operator="6" Name="TU10" ID="9" Value="0" Radix="3"/>
+    <TU Operator="0" Name="TU11" ID="10" Value="0" Radix="3"/>
+    <TU Operator="6" Name="TU12" ID="11" Value="0" Radix="3"/>
+    <TU Operator="0" Name="TU13" ID="12" Value="0" Radix="3"/>
+    <TU Operator="6" Name="TU14" ID="13" Value="0" Radix="3"/>
+    <TU Operator="0" Name="TU15" ID="14" Value="0" Radix="3"/>
+    <TU Operator="0" Name="TU16" ID="15" Value="004" Radix="3"/>
+    <TU Operator="0" Name="TU17" ID="16" Value="0" Radix="3"/>
+    <TE Enable="1" Expression="TU16&amp;TU14" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+ <Core Name="lms7_trx_top_LA1">
+  <Setting>
+   <Capture SamplesPerTrig="256" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/ai_err"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/aq_err"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/bi_err"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/bq_err"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/cmp_done"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/cmp_error"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/cmp_start"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/compare_stop"/>
+    <Bus Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/current_state" Radix="RVL_ENUM_inst6_rxtx_top_rx_path_top_inst5_diq2fifo_inst0_inst3_smpl_cmp_current_state">
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/current_state:0"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/current_state:1"/>
+    </Bus>
+    <Bus Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h" Radix="0">
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:0"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:1"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:2"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:3"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:4"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:5"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:6"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:7"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:8"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:9"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:10"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:11"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_h:12"/>
+    </Bus>
+    <Bus Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l" Radix="0">
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:0"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:1"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:2"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:3"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:4"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:5"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:6"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:7"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:8"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:9"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:10"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:11"/>
+     <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/diq_l:12"/>
+    </Bus>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/iq_sel_err"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/reset_n"/>
+    <Sig Name="inst6_rxtx_top/rx_path_top_inst5/diq2fifo_inst0/inst3_smpl_cmp/smpl_err"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="0" Radix="0"/>
+    <TU Operator="6" Name="TU3" ID="3" Value="0" Radix="0"/>
+    <TU Operator="6" Name="TU4" ID="4" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU5" ID="5" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU6" ID="6" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU7" ID="7" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU8" ID="8" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU9" ID="9" Value="0" Radix="0"/>
+    <TE Enable="1" Expression="TU3" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+ <Token width="4" type="user" name="TOKEN_SET_0"/>
+ <Token width="2" type="ENUM" name="RVL_ENUM_inst6_rxtx_top_rx_path_top_inst5_diq2fifo_inst0_inst3_smpl_cmp_current_state">
+  <entry key="idle" value="00"/>
+  <entry key="wait_cyc" value="01"/>
+  <entry key="compare" value="10"/>
+  <entry key="compare_done" value="11"/>
+ </Token>
+</Project>

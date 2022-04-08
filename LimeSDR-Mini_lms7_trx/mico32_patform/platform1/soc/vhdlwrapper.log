@@ -1,0 +1,80 @@
+Program: C:\lscc\diamond\3.12\micosystem\utilities\tclscript\vhdlwrapper.tcl
+Number of arguments: 9
+Argument: 0: C:\lattice\LimeSDR-Mini_GW\LimeSDR-Mini_lms7_trx\mico32_patform\platform1\soc
+Argument: 1: platform1
+Argument: 2: nongo
+Argument: 3: 2.1
+Argument: 4: C:\lscc\diamond\3.12
+Argument: 5: C:\lscc\diamond\3.12\bin\nt64
+Argument: 6: C:\lscc\diamond\3.12\ispfpga\bin\nt64
+Argument: 7: C:\lscc\diamond\3.12\tcltk\lib
+Argument: 8: true
+
+install_dir: C:/lscc/diamond/3.12
+cpld_bin: C:/lscc/diamond/3.12/bin/nt64
+fpga_bin: C:/lscc/diamond/3.12/ispfpga/bin/nt64
+fpga_dir: C:/lscc/diamond/3.12/ispfpga
+tcl_lib: C:/lscc/diamond/3.12/tcltk/lib
+bali_app: true
+
+Verilog Filename: C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
+VHDL Filename: C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+MSB Filename: C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+
+open C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+tech: ECP5U
+cpu: LM32
+comp: lm32_top
+comp: wb_ebr_ctrl
+comp: spi_flash
+comp: gpio
+comp: gpio
+comp: Reg_Comp
+comp: spi
+comp: FIFO_Comp
+comp: uart_core
+comp: gpio
+comp: gpio
+comp: i2cm_opencores
+comp: spi
+close C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+
+open C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
+
+
+list top module port type width bus
+SPIFlash_CEJ out 1 0
+SPIFlash_SCK out 1 0
+SPIFlash_SI out 1 0
+SPIFlash_SO in 1 0
+SPIFlash_WPJ out 1 0
+LEDPIO_OUT out 8-1 1
+GPIOPIO_BOTH_IN in 1-1 1
+GPIOPIO_BOTH_OUT out 1-1 1
+GPOout_pins out 7 1
+spiMISO_MASTER in 1 0
+spiMOSI_MASTER out 1 0
+spiSS_N_MASTER out 2-1 1
+spiSCLK_MASTER out 1 0
+FIFOout_pins out 7 1
+FIFOof_d out 31 1
+FIFOof_wr out 1 0
+FIFOof_wrfull in 1 0
+FIFOif_d in 31 1
+FIFOif_rd out 1 0
+FIFOif_rdempty in 1 0
+FIFOfifo_rst out 1 0
+uartSIN in 1 0
+uartSOUT out 1 0
+lms_ctr_gpioPIO_OUT out 4-1 1
+SPIFlash_USRMCLKTS_PIO_OUT out 1-1 1
+i2cm_oc_SDA inout 1 0
+i2cm_oc_SCL inout 1 0
+dac_spi_MISO_MASTER in 1 0
+dac_spi_MOSI_MASTER out 1 0
+dac_spi_SS_N_MASTER out 1-1 1
+dac_spi_SCLK_MASTER out 1 0
+open C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+close C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+
+Tech: ECP5U

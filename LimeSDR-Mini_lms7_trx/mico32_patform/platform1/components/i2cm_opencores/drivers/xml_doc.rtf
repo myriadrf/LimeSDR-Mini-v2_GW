@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial-BoldMT;}{\f1\froman\fcharset0 TimesNewRomanPSMT;}{\f2\froman\fcharset0 TimesNewRomanPS-BoldItalicMT;}{\f3\fnil\fcharset0 Wingdings-Regular;}{\f4\fnil\fcharset0 SymbolMT;}{\f5\froman\fcharset0 CourierNewPS-BoldItalicMT;}{\f6\fmodern\fprq1\fcharset0 Courier New;}{\f7\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red255\green218\blue136;\red0\green128\blue128;\red0\green0\blue128;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32 MSB XML Description\par
+\b0\f1\fs24 This document describes the .msb structure. This is primarily an XML file. The file is an\par
+hierarchical structure of XML Elements. Most elements have special attributes associated\par
+with them. Element names must be unique.\par
+The Elements are described below in the order of their hierarchy.\par
+\b\i\f2 <Platform> \b0\i0\f1 - Describes the global properties of an MSB platform. It has the following\par
+attributes.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <DesignName> \b0\i0\f1 this is the name of the top-level module generated.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Device> \b0\i0\f1 Target FPGA device family\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Frequency> \b0\i0\f1 Of the Design\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <BoardFrequency> \b0\i0\f1 Frequency of the input clock.\par
+The Platform consists of several <Components>.\par
+\b\i\f2 <Component> \b0\i0\f1 - Defines the following attributes.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Access> \b0\i0\f1 - R/O or R/W used for memories\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Help> \b0\i0\f1 - Location of Help File.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Text> \b0\i0\f1 - Name displayed on the GUI (left pane).\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Type> \b0\i0\f1 - "Memory"/"IO"/"CPU"\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Version> \b0\i0\f1 - version string.\par
+In addition to the attributes, each component has many elements describing more\par
+complex attributes.\par
+\b\i\f2 <MasterSlavePorts> \b0\i0\f1 - contains under it elements describing the Wishbone Master/Slave\par
+ports of the component.\par
+\b\i\f2 <MasterPort> \b0\i0\f1 - specifies the attributes of a master port of the component.\par
+A component can have multiple master ports. This element has the\par
+following attributes.\par
+\f4\bullet  \b\i\f2 <Name> \b0\i0\f1 - displayed on the GUI.\par
+\f4\bullet  \b\i\f2 <Prefix> \b0\i0\f1 - the string prefixed to the Wishbone Bus signals\par
+for this component\par
+\f4\bullet  \b\i\f2 <Type> \b0\i0\f1 - this determines the slave port that can be\par
+connected to master port.\par
+\b\i\f2 <SlavePort> \b0\i0\f1 - specifies the attributes of a slave port of the component. A\par
+component is allowed to have ONE slave port.\par
+\cf2\b\f0\fs60\par
+\cf1\b0\f4\fs24\bullet  \b\i\f2 <Name> \b0\i0\f1 - Display on the GUI.\par
+\f4\bullet  \b\i\f2 <Prefix> \b0\i0\f1 - has the same meaning as the Master port.\par
+\f4\bullet  \b\i\f2 <Connections> \b0\i0\f1 - specifies a list of connections to Master\par
+Ports\par
+\b\i\f5 o \f2 <Connection> \b0\i0\f1 - Specifies a single connection has\par
+the following attributes\par
+\b\i\f5 o \f2 <InstansceName> \b0\i0\f1 - instance name of the\par
+component this port is connected to.\par
+\b\i\f5 o \f2 <MasterPort> \b0\i0\f1 - Prefix of the master port in the\par
+component it is connected to.\par
+\b\i\f2 <ClockPort> \b0\i0\f1 - has two attributes\par
+\f4\bullet  \b\i\f2 <Description> \b0\i0\f1 - used by GUI\par
+\f4\bullet  \b\i\f2 <Name> \b0\i0\f1 - name of the clock port.\par
+\b\i\f2 <ResetPort> \b0\i0\f1 - has two attributes as well.\par
+\f4\bullet  \b\i\f2 <Description> \b0\i0\f1 - used by GUI\par
+\f4\bullet  \b\i\f2 <Name> \b0\i0\f1 - name of the reset port.\par
+\b\i\f2 <Interrupt> \b0\i0\f1 - has four attributes\par
+\f4\bullet  \b\i\f2 <Active> \b0\i0\f1 - values are "high" or "low".\par
+\f4\bullet  \b\i\f2 <IRQ> \b0\i0\f1 - describes the IRQ number is assigned.\par
+\f4\bullet  \b\i\f2 <Name> \b0\i0\f1 - Port Name\par
+\f4\bullet  \b\i\f2 <Type> \b0\i0\f1 - "sink" or "source" only one sink is allowed in\par
+the system.\par
+\f4\bullet  \b\i\f2 <Width> \b0\i0\f1 - this attribute is allowed for "sink" only and is\par
+the number (width) of the interrupt port. Source and sink\par
+types may have different <Active> types.\par
+\b\i\f2 <Files> \b0\i0\f1 - is a list of sources files for the component.\par
+\b\i\f2 <File> \b0\i0\f1 - has one attribute\par
+\b\i\f2 <Name> \b0\i0\f1 - of the file to be included.\par
+\b\i\f2 <Parms> \b0\i0\f1 - is a list of parameters for the component.\par
+\b\i\f2 <Parm> \b0\i0\f1 - has many attributes\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Name> \b0\i0\f1 - Typically the name of the Verilog `define or parameter\par
+name\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Type> \b0\i0\f1 - Can be "string","integer","define".\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Text> \b0\i0\f1 - Used by GUI to display in configuration dialoge\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <isuse> \b0\i0\f1 - if set to "true" specifies that this parameter marks the\par
+USED flag\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <isiname> \b0\i0\f1 - set to "true" means this parameter is the instance name\par
+\cf2\b\f0\fs60\par
+\cf1\b0\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <isba> \b0\i0\f1 - set to "true' means this parameter is the base address of the\par
+slave port.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <issize> \b0\i0\f1 - set to "true" means this parameter is the size.\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <Value> \b0\i0\f1 - is the value for this parameter ("def" or "undef" if Type\par
+= "define")\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <ValueRange> \b0\i0\f1 - For integer parameters this species a valid range\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <OType> \b0\i0\f1 - determines the output format in the verilog top-level\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <isparm> \b0\i0\f1 - true specifies this is a "parameter" for a verilog, default\par
+is `define\par
+\f3\fs25\u56256?\u56451? \b\i\f2\fs24 <condition> \b0\i0\f1 - this parameter is applicable only if "Condition" is\par
+defined.\par
+\b\i\f2 <ExternalPorts> \b0\i0\f1 - list of external ports to be connected to the top level of the design\par
+\b\i\f2 <ExternalPort> \b0\i0\f1 - has many attributes\par
+\f4\bullet  \b\i\f2 <Condition> \b0\i0\f1 - this external port will be used ONLY if\par
+condition is defined.\par
+\f4\bullet  \b\i\f2 <Name> \b0\i0\f1 - HDL name of the top-level port\par
+\f4\bullet  \b\i\f2 <Width> \b0\i0\f1 - width of the port\par
+\f4\bullet  \b\i\f2 <Type> \b0\i0\f1 - "in", "out" or "inout".\par
+<DeviceDriver> -*_*_*_*_*_*_*_*_*_*_*-\par
+\par
+\par
+\tab The <DeviceDriver element specifies the attributes required to associate SPE software APIs with an instance of a MSB component.\par
+\tab\tab\cf3\f6\fs20 <\cf4\b DeviceDriver\cf1\b0  InitRoutine\cf5\b =\cf6\b0 "MicoXXXInit"\cf1  StructName\cf5\b =\cf6\b0 "MicoXXXCtx_t"\cf3 > <\cf1 /\cf4\b DeviceDriver\cf3\b0 >\cf1\line\f1\fs24\tab\tab\tab * \f4  \b\i\f2 <InitRoutine> \b0\i0 - API used to initialize the component at system power up and reset.\par
+\f1\tab\tab\tab * \f4  \b\i\f2 <StructName> \b0\i0 - Name of the structure that defines the register space of the component.\par
+\par
+\tab The <DDstruct>  and </DDstruct> elements delimit the elements and attributes used to define the members of the component's structure.\par
+\f6\fs20\tab\tab\cf3 <\cf4\b DDstruct\cf3\b0 >  <\cf1 /\cf4\b DDstruct\cf3\b0 >\par
+\cf1\f2\fs24\tab\tab\tab The <DDSElem and /> elements delimit the attributes of each member of the component's structure.\par
+\f6\fs20\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "attrib"\cf1  MemberType \cf5\b =\cf1\b0  \cf6 "attrib*" \cf1 Type\cf5\b =\cf6\b0 "attrib"\cf1  Value\cf5\b =\cf6\b0 "attrib"\cf1  Format \cf5\b =\cf1\b0  \cf6 "attrib"\cf1 /\cf3 >\cf1\line\f2\fs24\tab\tab\tab\tab MemberName - This attribute provides a C label used to access a particular member of a component's structure.\par
+\tab\tab\tab\tab\tab Can be name, base, intrLevel, usrCtx, callback, prev, next or ????????.\par
+\tab\tab\tab\tab MemberType - This attribute provides a reference to the C type used to access a particular member of a component's structure.\par
+\tab\tab\tab\tab\tab Can be any valid C type, user defined type or ??????.\par
+\tab\tab\tab\tab Type - This attribute provides a place holder to attach special information regarding a particular member of a component's structure.\par
+\tab\tab\tab\tab\tab Can be Parm, Interrupt, unititialized or ???????.\par
+\tab\tab\tab\tab Value - This attribute provides a default  value to be assigned to a particular member of a component's structure.\par
+\tab\tab\tab\tab\tab Can be InstanceName, BASE_ADDRESS, IRQ_LEVEL, SIZE, blank, etc.\par
+\tab\tab\tab\tab Format - This attribute provides specific information regarding the organization of a component's structure members.\par
+\tab\tab\tab\tab\tab Can be string,????????\par
+\par
+\tab\tab\tab\tab\tab\par
+\f6\fs20\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "name"\cf1  MemberType \cf5\b =\cf1\b0  \cf6 "const char*" \cf1 Type\cf5\b =\cf6\b0 "Parm"\cf1  Value\cf5\b =\cf6\b0 "InstanceName"\cf1  Format \cf5\b =\cf1\b0  \cf6 "string"\cf1 /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "base"\cf1\tab\tab MemberType \cf5\b =\cf1\b0  \cf6 "unsigned int"\cf1\tab Type\cf5\b =\cf6\b0 "Parm"\cf1\tab\tab\tab Value\cf5\b =\cf6\b0 "BASE_ADDRESS"\cf1 /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "intrLevel"\cf1\tab MemberType \cf5\b =\cf1\b0  \cf6 "unsigned int"\cf1\tab Type\cf5\b =\cf6\b0 "Interrupt"\cf1\tab\tab Value\cf5\b =\cf6\b0 "IRQ_LEVEL"\cf1\tab /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "userCtx"\cf1\tab MemberType \cf5\b =\cf1\b0  \cf6 "void *"\cf1\tab\tab Type\cf5\b =\cf6\b0 "uninitialized"\cf1\tab Value \cf5\b =\cf1\b0  \cf6 ""\cf1\tab\tab /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "callback"\cf1\tab MemberType \cf5\b =\cf1\b0  \cf6 "void *"\cf1\tab\tab Type\cf5\b =\cf6\b0 "uninitialized"\cf1\tab Value \cf5\b =\cf1\b0  \cf6 ""\cf1\tab\tab /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "prev"\cf1\tab\tab MemberType \cf5\b =\cf1\b0  \cf6 "void *"\cf1\tab\tab Type\cf5\b =\cf6\b0 "uninitialized"\cf1\tab Value \cf5\b =\cf1\b0  \cf6 ""\cf1\tab\tab /\cf3 >\cf1\line\tab\tab\tab\cf3 <\cf4\b DDSElem\cf1\b0  MemberName \cf5\b =\cf1\b0  \cf6 "next"\cf1\tab\tab MemberType \cf5\b =\cf1\b0  \cf6 "void *"\cf1\tab\tab Type\cf5\b =\cf6\b0 "uninitialized"\cf1\tab Value \cf5\b =\cf1\b0  \cf6 ""\cf1\tab\tab /\cf3 >\cf1\line\tab\tab\line\par
+\f1\fs24\par
+\par
+<GUIS> -*_*_*_*_*_*_*_*_*_*_*-\f0\fs20\par
+\cf0\f7\par
+}
+ 

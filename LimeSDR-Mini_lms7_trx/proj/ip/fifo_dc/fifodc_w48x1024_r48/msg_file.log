@@ -1,0 +1,33 @@
+SCUBA, Version Diamond (64-bit) 3.12.1.454
+Fri Mar 11 20:45:41 2022
+  
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+  
+BEGIN SCUBA Module Synthesis
+  
+    Issued command   : C:\lscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n fifodc_w48x1024_r48 -lang vhdl -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -depth 1024 -width 48 -rwidth 48 -reset_rel SYNC -pe -1 -pf -1 -rfill -fill 
+    Circuit name     : fifodc_w48x1024_r48
+    Module type      : ebfifo
+    Module Version   : 5.8
+    Ports            : 
+    Inputs       : Data[47:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
+    Outputs      : Q[47:0], WCNT[10:0], RCNT[10:0], Empty, Full
+    I/O buffer       : not inserted
+    EDIF output      : fifodc_w48x1024_r48.edn
+    VHDL output      : fifodc_w48x1024_r48.vhd
+    VHDL template    : fifodc_w48x1024_r48_tmpl.vhd
+    VHDL testbench   : tb_fifodc_w48x1024_r48_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : fifodc_w48x1024_r48.srp
+    Estimated Resource Usage:
+            LUT : 145
+            EBR : 3
+            Reg : 134
+  
+END   SCUBA Module Synthesis
+

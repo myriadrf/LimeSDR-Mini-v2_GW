@@ -1,0 +1,1216 @@
+----------------------------------------------------------------------
+Report for cell top.top_arch
+
+Register bits: 3561 of 43848 (8%)
+PIC Latch:       0
+I/O cells:       15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                               AND2        2       100.0
+                              CCU2C      251       100.0
+                             DP16KD       10       100.0
+                           DPR16X4C       32       100.0
+                            FD1P3AX       50       100.0
+                            FD1P3BX       90       100.0
+                            FD1P3DX     2077       100.0
+                            FD1S3AX      160       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3BX       73       100.0
+                            FD1S3DX     1021       100.0
+                            FD1S3IX       87       100.0
+                            FD1S3JX        2       100.0
+                                GSR        1       100.0
+                                 IB        9       100.0
+                                INV       33       100.0
+                            L6MUX21       94       100.0
+                         MULT18X18D        4       100.0
+                                 OB        6       100.0
+                                OR2        1       100.0
+                           ORCALUT4     4989       100.0
+                           PDPW16KD        3       100.0
+                              PFUMX      426       100.0
+                                PUR        1       100.0
+                           ROM16X1A       14       100.0
+                                VHI       71       100.0
+                                VLO       71       100.0
+                               XOR2       10       100.0
+                         jtagconn16        2       100.0
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+              pmi_ram_dp_Z11_layer1        1       100.0
+              pmi_ram_dp_Z13_layer1        1       100.0
+               pmi_ram_dp_Z4_layer1        1       100.0
+SUB MODULES 
+          FIFO_Comp_uniq_1_305441741        1       100.0
+          Reg_Comp_uniq_1_305441741_48.000000        1       100.0
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+                       alive_uniq_0        1       100.0
+          arbiter2_uniq_1_32s_32s_32s_32s        1       100.0
+               fifo_dc_32x32_uniq_0        1       100.0
+                     fpgacfg_uniq_0        1       100.0
+              gpio_uniq_1_Z3_layer1        1       100.0
+              gpio_uniq_2_Z6_layer1        1       100.0
+           intface_uniq_1_Z8_layer1        1       100.0
+                  jtag_cores_uniq_1        1       100.0
+                   jtag_lm32_uniq_1        1       100.0
+                  lm32_adder_uniq_1        1       100.0
+                 lm32_addsub_uniq_1        1       100.0
+                    lm32_cpu_uniq_1        1       100.0
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+             lm32_debug_uniq_1_0s_0        1       100.0
+                lm32_decoder_uniq_1        1       100.0
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+              lm32_interrupt_uniq_1        1       100.0
+                   lm32_jtag_uniq_1        1       100.0
+          lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+               lm32_logic_op_uniq_1        1       100.0
+          lm32_mc_arithmetic_uniq_1        1       100.0
+            lm32_monitor_ram_uniq_1        1       100.0
+                lm32_monitor_uniq_1        1       100.0
+             lm32_multiplier_uniq_1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                lm32_shifter_uniq_1        1       100.0
+                    lm32_top_uniq_1        1       100.0
+                mcfg32wm_fsm_uniq_0        1       100.0
+                   platform1_uniq_1        1       100.0
+               platform1_vhd_uniq_0        1       100.0
+                     reveal_coretop        1       100.0
+          rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U        1       100.0
+               spi_uniq_1_Z7_layer1        1       100.0
+                            top_la0        1       100.0
+                       top_la0_trig        1       100.0
+          txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6        1       100.0
+          uart_core_uniq_1_Z9_layer1        1       100.0
+          wb_ebr_ctrl_uniq_1_Z5_layer1        1       100.0
+          wb_fifo_dev_uniq_1_305441741        1       100.0
+          wb_reg_dev_uniq_1_48.000000_305441741_48s        1       100.0
+                            
+                         TOTAL          9657           
+----------------------------------------------------------------------
+Report for cell fifo_dc_32x32_uniq_0.netlist
+     Instance path:  inst3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2       100.0
+                              CCU2C       18         7.2
+                            FD1P3BX        2         2.2
+                            FD1P3DX       34         1.6
+                            FD1S3BX        1         1.4
+                            FD1S3DX       25         2.4
+                                INV        2         6.1
+                                OR2        1       100.0
+                           PDPW16KD        1        33.3
+                           ROM16X1A       14       100.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                               XOR2       10       100.0
+                            
+                         TOTAL           112           
+----------------------------------------------------------------------
+Report for cell fpgacfg_uniq_0.netlist
+     Instance path:  inst2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       47         2.3
+                            FD1S3BX       63        86.3
+                            FD1S3DX      463        45.3
+                                INV        2         6.1
+                            L6MUX21       89        94.7
+                           ORCALUT4      878        17.6
+                              PFUMX      148        34.7
+                                VHI        2         2.8
+                                VLO        2         2.8
+SUB MODULES 
+                mcfg32wm_fsm_uniq_0        1       100.0
+                            
+                         TOTAL          1695           
+----------------------------------------------------------------------
+Report for cell mcfg32wm_fsm_uniq_0.netlist
+     Instance path:  inst2.fsm
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        6         0.6
+                                INV        1         3.0
+                           ORCALUT4       17         0.3
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell platform1_vhd_uniq_0.netlist
+     Instance path:  inst_cpu
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C      175        69.7
+                             DP16KD       10       100.0
+                           DPR16X4C       32       100.0
+                            FD1P3AX       32        64.0
+                            FD1P3BX       55        61.1
+                            FD1P3DX     1444        69.5
+                            FD1S3AX      160       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3BX        8        11.0
+                            FD1S3DX      318        31.1
+                            FD1S3IX       87       100.0
+                            FD1S3JX        2       100.0
+                                INV       12        36.4
+                         MULT18X18D        4       100.0
+                           ORCALUT4     3359        67.3
+                           PDPW16KD        2        66.7
+                              PFUMX      260        61.0
+                                VHI       53        74.6
+                                VLO       53        74.6
+                         jtagconn16        1        50.0
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+               pmi_ram_dp_Z4_layer1        1       100.0
+SUB MODULES 
+          FIFO_Comp_uniq_1_305441741        1       100.0
+          Reg_Comp_uniq_1_305441741_48.000000        1       100.0
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+          arbiter2_uniq_1_32s_32s_32s_32s        1       100.0
+              gpio_uniq_1_Z3_layer1        1       100.0
+              gpio_uniq_2_Z6_layer1        1       100.0
+           intface_uniq_1_Z8_layer1        1       100.0
+                  jtag_cores_uniq_1        1       100.0
+                   jtag_lm32_uniq_1        1       100.0
+                  lm32_adder_uniq_1        1       100.0
+                 lm32_addsub_uniq_1        1       100.0
+                    lm32_cpu_uniq_1        1       100.0
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+             lm32_debug_uniq_1_0s_0        1       100.0
+                lm32_decoder_uniq_1        1       100.0
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+              lm32_interrupt_uniq_1        1       100.0
+                   lm32_jtag_uniq_1        1       100.0
+          lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+               lm32_logic_op_uniq_1        1       100.0
+          lm32_mc_arithmetic_uniq_1        1       100.0
+            lm32_monitor_ram_uniq_1        1       100.0
+                lm32_monitor_uniq_1        1       100.0
+             lm32_multiplier_uniq_1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                lm32_shifter_uniq_1        1       100.0
+                    lm32_top_uniq_1        1       100.0
+                   platform1_uniq_1        1       100.0
+          rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U        1       100.0
+               spi_uniq_1_Z7_layer1        1       100.0
+          txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6        1       100.0
+          uart_core_uniq_1_Z9_layer1        1       100.0
+          wb_ebr_ctrl_uniq_1_Z5_layer1        1       100.0
+          wb_fifo_dev_uniq_1_305441741        1       100.0
+          wb_reg_dev_uniq_1_48.000000_305441741_48s        1       100.0
+                            
+                         TOTAL          6124           
+----------------------------------------------------------------------
+Report for cell platform1_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C      175        69.7
+                             DP16KD       10       100.0
+                           DPR16X4C       32       100.0
+                            FD1P3AX       32        64.0
+                            FD1P3BX       55        61.1
+                            FD1P3DX     1444        69.5
+                            FD1S3AX      160       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3BX        8        11.0
+                            FD1S3DX      318        31.1
+                            FD1S3IX       87       100.0
+                            FD1S3JX        2       100.0
+                                INV       12        36.4
+                         MULT18X18D        4       100.0
+                           ORCALUT4     3359        67.3
+                           PDPW16KD        2        66.7
+                              PFUMX      260        61.0
+                                VHI       52        73.2
+                                VLO       52        73.2
+                         jtagconn16        1        50.0
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+               pmi_ram_dp_Z4_layer1        1       100.0
+SUB MODULES 
+          FIFO_Comp_uniq_1_305441741        1       100.0
+          Reg_Comp_uniq_1_305441741_48.000000        1       100.0
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+          arbiter2_uniq_1_32s_32s_32s_32s        1       100.0
+              gpio_uniq_1_Z3_layer1        1       100.0
+              gpio_uniq_2_Z6_layer1        1       100.0
+           intface_uniq_1_Z8_layer1        1       100.0
+                  jtag_cores_uniq_1        1       100.0
+                   jtag_lm32_uniq_1        1       100.0
+                  lm32_adder_uniq_1        1       100.0
+                 lm32_addsub_uniq_1        1       100.0
+                    lm32_cpu_uniq_1        1       100.0
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+             lm32_debug_uniq_1_0s_0        1       100.0
+                lm32_decoder_uniq_1        1       100.0
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+              lm32_interrupt_uniq_1        1       100.0
+                   lm32_jtag_uniq_1        1       100.0
+          lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+               lm32_logic_op_uniq_1        1       100.0
+          lm32_mc_arithmetic_uniq_1        1       100.0
+            lm32_monitor_ram_uniq_1        1       100.0
+                lm32_monitor_uniq_1        1       100.0
+             lm32_multiplier_uniq_1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                lm32_shifter_uniq_1        1       100.0
+                    lm32_top_uniq_1        1       100.0
+          rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U        1       100.0
+               spi_uniq_1_Z7_layer1        1       100.0
+          txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6        1       100.0
+          uart_core_uniq_1_Z9_layer1        1       100.0
+          wb_ebr_ctrl_uniq_1_Z5_layer1        1       100.0
+          wb_fifo_dev_uniq_1_305441741        1       100.0
+          wb_reg_dev_uniq_1_48.000000_305441741_48s        1       100.0
+                            
+                         TOTAL          6121           
+----------------------------------------------------------------------
+Report for cell uart_core_uniq_1_Z9_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.uart
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       23         9.2
+                            FD1P3BX       18        20.0
+                            FD1P3DX       63         3.0
+                            FD1S3BX        5         6.8
+                            FD1S3DX       41         4.0
+                                INV        4        12.1
+                           ORCALUT4      219         4.4
+                              PFUMX       12         2.8
+                                VHI        4         5.6
+                                VLO        4         5.6
+SUB MODULES 
+           intface_uniq_1_Z8_layer1        1       100.0
+          rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U        1       100.0
+          txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6        1       100.0
+                            
+                         TOTAL           396           
+----------------------------------------------------------------------
+Report for cell txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6.netlist
+     Instance path:  inst_cpu.lm32_inst.uart.u_txmitt
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         3.6
+                            FD1P3BX        2         2.2
+                            FD1P3DX       16         0.8
+                            FD1S3BX        1         1.4
+                            FD1S3DX       13         1.3
+                                INV        1         3.0
+                           ORCALUT4       65         1.3
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           109           
+----------------------------------------------------------------------
+Report for cell rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U.netlist
+     Instance path:  inst_cpu.lm32_inst.uart.u_rxcver
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14         5.6
+                            FD1P3BX        1         1.1
+                            FD1P3DX       28         1.3
+                            FD1S3BX        4         5.5
+                            FD1S3DX       23         2.3
+                                INV        1         3.0
+                           ORCALUT4       92         1.8
+                              PFUMX        5         1.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           170           
+----------------------------------------------------------------------
+Report for cell intface_uniq_1_Z8_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.uart.u_intface
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX       15        16.7
+                            FD1P3DX       19         0.9
+                            FD1S3DX        5         0.5
+                                INV        2         6.1
+                           ORCALUT4       62         1.2
+                              PFUMX        7         1.6
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           112           
+----------------------------------------------------------------------
+Report for cell FIFO_Comp_uniq_1_305441741.netlist
+     Instance path:  inst_cpu.lm32_inst.FIFO
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       64         3.1
+                            FD1S3DX        5         0.5
+                           ORCALUT4       85         1.7
+                                VHI        2         2.8
+                                VLO        2         2.8
+SUB MODULES 
+          wb_fifo_dev_uniq_1_305441741        1       100.0
+                            
+                         TOTAL           159           
+----------------------------------------------------------------------
+Report for cell wb_fifo_dev_uniq_1_305441741.netlist
+     Instance path:  inst_cpu.lm32_inst.FIFO.instantiate_wb_fifo_dev
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       64         3.1
+                            FD1S3DX        5         0.5
+                           ORCALUT4       85         1.7
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           156           
+----------------------------------------------------------------------
+Report for cell spi_uniq_1_Z7_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.spi
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         3.6
+                            FD1P3BX        1         1.1
+                            FD1P3DX      173         8.3
+                            FD1S3BX        3         4.1
+                            FD1S3DX       67         6.6
+                                INV        1         3.0
+                           ORCALUT4      155         3.1
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           411           
+----------------------------------------------------------------------
+Report for cell Reg_Comp_uniq_1_305441741_48.000000.netlist
+     Instance path:  inst_cpu.lm32_inst.GPO
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX        2         2.2
+                            FD1P3DX       62         3.0
+                            FD1S3DX        1         0.1
+                           ORCALUT4       36         0.7
+                                VHI        2         2.8
+                                VLO        2         2.8
+SUB MODULES 
+          wb_reg_dev_uniq_1_48.000000_305441741_48s        1       100.0
+                            
+                         TOTAL           106           
+----------------------------------------------------------------------
+Report for cell wb_reg_dev_uniq_1_48.000000_305441741_48s.netlist
+     Instance path:  inst_cpu.lm32_inst.GPO.instantiate_wb_reg_dev
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX        2         2.2
+                            FD1P3DX       62         3.0
+                            FD1S3DX        1         0.1
+                           ORCALUT4       36         0.7
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           103           
+----------------------------------------------------------------------
+Report for cell gpio_uniq_2_Z6_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.GPIO
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                            FD1S3DX        1         0.1
+                           ORCALUT4        4         0.1
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             9           
+----------------------------------------------------------------------
+Report for cell wb_ebr_ctrl_uniq_1_Z5_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.ebr
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       43        17.1
+                            FD1S3AX        5         3.1
+                            FD1S3AY        1       100.0
+                            FD1S3IX       85        97.7
+                           ORCALUT4      205         4.1
+                              PFUMX       45        10.6
+                                VHI        1         1.4
+                                VLO        1         1.4
+               pmi_ram_dp_Z4_layer1        1       100.0
+                            
+                         TOTAL           387           
+----------------------------------------------------------------------
+Report for cell gpio_uniq_1_Z3_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.LED
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        1         0.1
+                           ORCALUT4        2         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell lm32_top_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C      100        39.8
+                             DP16KD       10       100.0
+                           DPR16X4C       32       100.0
+                            FD1P3AX       32        64.0
+                            FD1P3BX       34        37.8
+                            FD1P3DX     1080        52.0
+                            FD1S3AX      155        96.9
+                            FD1S3DX      197        19.3
+                            FD1S3IX        2         2.3
+                            FD1S3JX        2       100.0
+                                INV        6        18.2
+                         MULT18X18D        4       100.0
+                           ORCALUT4     2377        47.6
+                           PDPW16KD        2        66.7
+                              PFUMX      203        47.7
+                                VHI       38        53.5
+                                VLO       38        53.5
+                         jtagconn16        1        50.0
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+SUB MODULES 
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+                  jtag_cores_uniq_1        1       100.0
+                   jtag_lm32_uniq_1        1       100.0
+                  lm32_adder_uniq_1        1       100.0
+                 lm32_addsub_uniq_1        1       100.0
+                    lm32_cpu_uniq_1        1       100.0
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+             lm32_debug_uniq_1_0s_0        1       100.0
+                lm32_decoder_uniq_1        1       100.0
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+              lm32_interrupt_uniq_1        1       100.0
+                   lm32_jtag_uniq_1        1       100.0
+          lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+               lm32_logic_op_uniq_1        1       100.0
+          lm32_mc_arithmetic_uniq_1        1       100.0
+            lm32_monitor_ram_uniq_1        1       100.0
+                lm32_monitor_uniq_1        1       100.0
+             lm32_multiplier_uniq_1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                lm32_shifter_uniq_1        1       100.0
+                            
+                         TOTAL          4353           
+----------------------------------------------------------------------
+Report for cell lm32_monitor_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.debug_rom
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        2        20.0
+                            FD1P3AX       32        64.0
+                            FD1P3DX       34         1.6
+                            FD1S3DX        2         0.2
+                           ORCALUT4      129         2.6
+                              PFUMX        3         0.7
+                                VHI        2         2.8
+                                VLO        2         2.8
+SUB MODULES 
+            lm32_monitor_ram_uniq_1        1       100.0
+                            
+                         TOTAL           207           
+----------------------------------------------------------------------
+Report for cell lm32_monitor_ram_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.debug_rom.ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        2        20.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell lm32_cpu_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C      100        39.8
+                             DP16KD        8        80.0
+                           DPR16X4C       32       100.0
+                            FD1P3BX       34        37.8
+                            FD1P3DX     1024        49.3
+                            FD1S3AX      155        96.9
+                            FD1S3DX      195        19.1
+                            FD1S3IX        2         2.3
+                            FD1S3JX        2       100.0
+                                INV        4        12.1
+                         MULT18X18D        4       100.0
+                           ORCALUT4     2235        44.8
+                           PDPW16KD        2        66.7
+                              PFUMX      200        46.9
+                                VHI       22        31.0
+                                VLO       22        31.0
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+SUB MODULES 
+                  lm32_adder_uniq_1        1       100.0
+                 lm32_addsub_uniq_1        1       100.0
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+             lm32_debug_uniq_1_0s_0        1       100.0
+                lm32_decoder_uniq_1        1       100.0
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+              lm32_interrupt_uniq_1        1       100.0
+                   lm32_jtag_uniq_1        1       100.0
+          lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s        1       100.0
+               lm32_logic_op_uniq_1        1       100.0
+          lm32_mc_arithmetic_uniq_1        1       100.0
+             lm32_multiplier_uniq_1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                lm32_shifter_uniq_1        1       100.0
+                            
+                         TOTAL          4065           
+----------------------------------------------------------------------
+Report for cell lm32_debug_uniq_1_0s_0.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.hw_debug
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        1         0.0
+                           ORCALUT4        2         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell lm32_jtag_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.jtag
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       28         1.3
+                            FD1S3DX        4         0.4
+                                INV        2         6.1
+                           ORCALUT4       16         0.3
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            52           
+----------------------------------------------------------------------
+Report for cell lm32_interrupt_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.interrupt
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       35         1.7
+                            FD1S3DX        2         0.2
+                           ORCALUT4       29         0.6
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell lm32_mc_arithmetic_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.mc_arithmetic
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       21         8.4
+                            FD1P3DX      134         6.5
+                            FD1S3DX        3         0.3
+                           ORCALUT4      119         2.4
+                              PFUMX        1         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           280           
+----------------------------------------------------------------------
+Report for cell lm32_multiplier_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.multiplier
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                            FD1P3DX       18         0.9
+                            FD1S3DX       32         3.1
+                         MULT18X18D        4       100.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            58           
+----------------------------------------------------------------------
+Report for cell lm32_shifter_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.shifter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       33         1.6
+                           ORCALUT4      224         4.5
+                              PFUMX       39         9.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           298           
+----------------------------------------------------------------------
+Report for cell lm32_logic_op_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.logic_op
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       64         1.3
+                              PFUMX       32         7.5
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            98           
+----------------------------------------------------------------------
+Report for cell lm32_adder_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.adder
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        2         2.8
+                                VLO        2         2.8
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+SUB MODULES 
+                 lm32_addsub_uniq_1        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell lm32_addsub_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.adder.addsub
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1         1.4
+                                VLO        1         1.4
+          pmi_addsub_32s_32s_off_ECP5U_pmi_addsub        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       25        10.0
+                             DP16KD        4        40.0
+                            FD1P3BX       10        11.1
+                            FD1P3DX      178         8.6
+                            FD1S3AX       79        49.4
+                            FD1S3DX       42         4.1
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                                INV        1         3.0
+                           ORCALUT4      492         9.9
+                           PDPW16KD        1        33.3
+                              PFUMX       12         2.8
+                                VHI        7         9.9
+                                VLO        7         9.9
+SUB MODULES 
+          lm32_dcache_uniq_1_Z2_layer1        1       100.0
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                            
+                         TOTAL           866           
+----------------------------------------------------------------------
+Report for cell lm32_dcache_uniq_1_Z2_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       25        10.0
+                             DP16KD        4        40.0
+                            FD1P3BX        9        10.0
+                            FD1P3DX       32         1.5
+                            FD1S3AX       79        49.4
+                            FD1S3DX        5         0.5
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                           ORCALUT4      202         4.0
+                           PDPW16KD        1        33.3
+                              PFUMX        9         2.1
+                                VHI        6         8.5
+                                VLO        6         8.5
+SUB MODULES 
+          lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP        1       100.0
+                            
+                         TOTAL           385           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].way_0_tag_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                            FD1S3AX       21        13.1
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                           ORCALUT4       28         0.6
+                           PDPW16KD        1        33.3
+                              PFUMX        1         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            59           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                             DP16KD        1        10.0
+                            FD1S3AX        9         5.6
+                           ORCALUT4        8         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                             DP16KD        1        10.0
+                            FD1S3AX        9         5.6
+                           ORCALUT4        8         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                             DP16KD        1        10.0
+                            FD1S3AX        9         5.6
+                           ORCALUT4        8         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                             DP16KD        1        10.0
+                            FD1S3AX       31        19.4
+                           ORCALUT4       19         0.4
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            57           
+----------------------------------------------------------------------
+Report for cell lm32_decoder_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.decoder
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4      161         3.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL           163           
+----------------------------------------------------------------------
+Report for cell lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.instruction_unit
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       29        11.6
+                             DP16KD        4        40.0
+                            FD1P3BX       23        25.6
+                            FD1P3DX      266        12.8
+                            FD1S3AX       76        47.5
+                            FD1S3DX       37         3.6
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                                INV        1         3.0
+                           ORCALUT4      794        15.9
+                           PDPW16KD        1        33.3
+                              PFUMX       50        11.7
+                                VHI        4         5.6
+                                VLO        4         5.6
+SUB MODULES 
+          lm32_icache_uniq_1_Z1_layer1        1       100.0
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+                            
+                         TOTAL          1294           
+----------------------------------------------------------------------
+Report for cell lm32_icache_uniq_1_Z1_layer1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       13         5.2
+                             DP16KD        4        40.0
+                            FD1P3BX        9        10.0
+                            FD1P3DX       31         1.5
+                            FD1S3AX       76        47.5
+                            FD1S3DX        5         0.5
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                                INV        1         3.0
+                           ORCALUT4      118         2.4
+                           PDPW16KD        1        33.3
+                              PFUMX        1         0.2
+                                VHI        3         4.2
+                                VLO        3         4.2
+SUB MODULES 
+          lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP        1       100.0
+          lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP        1       100.0
+                            
+                         TOTAL           269           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\memories[0].way_0_tag_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                            FD1S3AX       21        13.1
+                            FD1S3IX        1         1.1
+                            FD1S3JX        1        50.0
+                           ORCALUT4       14         0.3
+                           PDPW16KD        1        33.3
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            44           
+----------------------------------------------------------------------
+Report for cell lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\memories[0].way_0_data_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        4         1.6
+                             DP16KD        4        40.0
+                            FD1S3AX       55        34.4
+                           ORCALUT4       12         0.2
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            77           
+----------------------------------------------------------------------
+Report for cell jtag_cores_uniq_1.verilog
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       22         1.1
+                                INV        2         6.1
+                           ORCALUT4       13         0.3
+                                VHI       13        18.3
+                                VLO       13        18.3
+                         jtagconn16        1        50.0
+SUB MODULES 
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+                   jtag_lm32_uniq_1        1       100.0
+                            
+                         TOTAL            76           
+----------------------------------------------------------------------
+Report for cell jtag_lm32_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       22         1.1
+                                INV        1         3.0
+                           ORCALUT4       13         0.3
+                                VHI       12        16.9
+                                VLO       12        16.9
+SUB MODULES 
+                       TYPEA_uniq_1        1       100.0
+                      TYPEA_uniq_10        1       100.0
+                      TYPEA_uniq_11        1       100.0
+                       TYPEA_uniq_2        1       100.0
+                       TYPEA_uniq_3        1       100.0
+                       TYPEA_uniq_4        1       100.0
+                       TYPEA_uniq_5        1       100.0
+                       TYPEA_uniq_6        1       100.0
+                       TYPEA_uniq_7        1       100.0
+                       TYPEA_uniq_8        1       100.0
+                       TYPEA_uniq_9        1       100.0
+                            
+                         TOTAL            71           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_11.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                                INV        1         3.0
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_10.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_9.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_8.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_7.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_6.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_5.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_4.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_3.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_2.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell TYPEA_uniq_1.netlist
+     Instance path:  inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2         0.1
+                           ORCALUT4        1         0.0
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell arbiter2_uniq_1_32s_32s_32s_32s.netlist
+     Instance path:  inst_cpu.lm32_inst.arbiter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        2         0.2
+                           ORCALUT4       91         1.8
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            95           
+----------------------------------------------------------------------
+Report for cell alive_uniq_0.netlist
+     Instance path:  inst1_alive
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       13         5.2
+                            FD1S3DX       25         2.4
+                                VHI        1         1.4
+                                VLO        1         1.4
+                            
+                         TOTAL            40           
+----------------------------------------------------------------------
+Report for cell reveal_coretop.one
+     Instance path:  top_reveal_coretop_instance
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       45        17.9
+                            FD1P3AX       18        36.0
+                            FD1P3BX       33        36.7
+                            FD1P3DX      552        26.6
+                            FD1S3BX        1         1.4
+                            FD1S3DX      189        18.5
+                                INV       15        45.5
+                            L6MUX21        5         5.3
+                           ORCALUT4      748        15.0
+                              PFUMX       18         4.2
+                                VHI       13        18.3
+                                VLO       13        18.3
+                         jtagconn16        1        50.0
+              pmi_ram_dp_Z11_layer1        1       100.0
+              pmi_ram_dp_Z13_layer1        1       100.0
+SUB MODULES 
+                            top_la0        1       100.0
+                       top_la0_trig        1       100.0
+                            
+                         TOTAL          1655           
+----------------------------------------------------------------------
+Report for cell top_la0.netlist
+     Instance path:  top_reveal_coretop_instance.core0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       45        17.9
+                            FD1P3AX       18        36.0
+                            FD1P3BX       33        36.7
+                            FD1P3DX      552        26.6
+                            FD1S3BX        1         1.4
+                            FD1S3DX      189        18.5
+                                INV       15        45.5
+                            L6MUX21        5         5.3
+                           ORCALUT4      748        15.0
+                              PFUMX       18         4.2
+                                VHI       12        16.9
+                                VLO       12        16.9
+              pmi_ram_dp_Z11_layer1        1       100.0
+              pmi_ram_dp_Z13_layer1        1       100.0
+SUB MODULES 
+                       top_la0_trig        1       100.0
+                            
+                         TOTAL          1651           
+----------------------------------------------------------------------
+Report for cell top_la0_trig.netlist
+     Instance path:  top_reveal_coretop_instance.core0.trig_u
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       12         4.8
+                            FD1P3AX       16        32.0
+                            FD1P3BX        1         1.1
+                            FD1P3DX       57         2.7
+                            FD1S3BX        1         1.4
+                            FD1S3DX       26         2.5
+                                INV        9        27.3
+                            L6MUX21        5         5.3
+                           ORCALUT4      154         3.1
+                              PFUMX       15         3.5
+                                VHI        9        12.7
+                                VLO        9        12.7
+              pmi_ram_dp_Z11_layer1        1       100.0
+                            
+                         TOTAL           315           

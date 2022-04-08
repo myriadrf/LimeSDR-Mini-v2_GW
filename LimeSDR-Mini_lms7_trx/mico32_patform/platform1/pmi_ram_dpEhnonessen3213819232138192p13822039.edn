@@ -1,0 +1,2403 @@
+(edif pmi_ram_dpEhnonessen3213819232138192p13822039
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 2 15 19 43 23)
+      (program "SCUBA" (version "Diamond (64-bit) 3.12.1.454"))))
+      (comment "C:/lscc/diamond/3.12/ispfpga/bin/nt64/scuba -w -bus_exp 7 -bb -arch sa5p00 -type bram -wp 10 -rp 0011 -data_width 32 -num_rows 8192 -rdata_width 32 -gsr ENABLED -sync_reset -memformat hex -cascade -1 -n pmi_ram_dpEhnonessen3213819232138192p13822039 -pmi ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell DP16KD
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port DIA17
+            (direction INPUT))
+          (port DIA16
+            (direction INPUT))
+          (port DIA15
+            (direction INPUT))
+          (port DIA14
+            (direction INPUT))
+          (port DIA13
+            (direction INPUT))
+          (port DIA12
+            (direction INPUT))
+          (port DIA11
+            (direction INPUT))
+          (port DIA10
+            (direction INPUT))
+          (port DIA9
+            (direction INPUT))
+          (port DIA8
+            (direction INPUT))
+          (port DIA7
+            (direction INPUT))
+          (port DIA6
+            (direction INPUT))
+          (port DIA5
+            (direction INPUT))
+          (port DIA4
+            (direction INPUT))
+          (port DIA3
+            (direction INPUT))
+          (port DIA2
+            (direction INPUT))
+          (port DIA1
+            (direction INPUT))
+          (port DIA0
+            (direction INPUT))
+          (port ADA13
+            (direction INPUT))
+          (port ADA12
+            (direction INPUT))
+          (port ADA11
+            (direction INPUT))
+          (port ADA10
+            (direction INPUT))
+          (port ADA9
+            (direction INPUT))
+          (port ADA8
+            (direction INPUT))
+          (port ADA7
+            (direction INPUT))
+          (port ADA6
+            (direction INPUT))
+          (port ADA5
+            (direction INPUT))
+          (port ADA4
+            (direction INPUT))
+          (port ADA3
+            (direction INPUT))
+          (port ADA2
+            (direction INPUT))
+          (port ADA1
+            (direction INPUT))
+          (port ADA0
+            (direction INPUT))
+          (port CEA
+            (direction INPUT))
+          (port OCEA
+            (direction INPUT))
+          (port CLKA
+            (direction INPUT))
+          (port WEA
+            (direction INPUT))
+          (port CSA2
+            (direction INPUT))
+          (port CSA1
+            (direction INPUT))
+          (port CSA0
+            (direction INPUT))
+          (port RSTA
+            (direction INPUT))
+          (port DIB17
+            (direction INPUT))
+          (port DIB16
+            (direction INPUT))
+          (port DIB15
+            (direction INPUT))
+          (port DIB14
+            (direction INPUT))
+          (port DIB13
+            (direction INPUT))
+          (port DIB12
+            (direction INPUT))
+          (port DIB11
+            (direction INPUT))
+          (port DIB10
+            (direction INPUT))
+          (port DIB9
+            (direction INPUT))
+          (port DIB8
+            (direction INPUT))
+          (port DIB7
+            (direction INPUT))
+          (port DIB6
+            (direction INPUT))
+          (port DIB5
+            (direction INPUT))
+          (port DIB4
+            (direction INPUT))
+          (port DIB3
+            (direction INPUT))
+          (port DIB2
+            (direction INPUT))
+          (port DIB1
+            (direction INPUT))
+          (port DIB0
+            (direction INPUT))
+          (port ADB13
+            (direction INPUT))
+          (port ADB12
+            (direction INPUT))
+          (port ADB11
+            (direction INPUT))
+          (port ADB10
+            (direction INPUT))
+          (port ADB9
+            (direction INPUT))
+          (port ADB8
+            (direction INPUT))
+          (port ADB7
+            (direction INPUT))
+          (port ADB6
+            (direction INPUT))
+          (port ADB5
+            (direction INPUT))
+          (port ADB4
+            (direction INPUT))
+          (port ADB3
+            (direction INPUT))
+          (port ADB2
+            (direction INPUT))
+          (port ADB1
+            (direction INPUT))
+          (port ADB0
+            (direction INPUT))
+          (port CEB
+            (direction INPUT))
+          (port OCEB
+            (direction INPUT))
+          (port CLKB
+            (direction INPUT))
+          (port WEB
+            (direction INPUT))
+          (port CSB2
+            (direction INPUT))
+          (port CSB1
+            (direction INPUT))
+          (port CSB0
+            (direction INPUT))
+          (port RSTB
+            (direction INPUT))
+          (port DOA17
+            (direction OUTPUT))
+          (port DOA16
+            (direction OUTPUT))
+          (port DOA15
+            (direction OUTPUT))
+          (port DOA14
+            (direction OUTPUT))
+          (port DOA13
+            (direction OUTPUT))
+          (port DOA12
+            (direction OUTPUT))
+          (port DOA11
+            (direction OUTPUT))
+          (port DOA10
+            (direction OUTPUT))
+          (port DOA9
+            (direction OUTPUT))
+          (port DOA8
+            (direction OUTPUT))
+          (port DOA7
+            (direction OUTPUT))
+          (port DOA6
+            (direction OUTPUT))
+          (port DOA5
+            (direction OUTPUT))
+          (port DOA4
+            (direction OUTPUT))
+          (port DOA3
+            (direction OUTPUT))
+          (port DOA2
+            (direction OUTPUT))
+          (port DOA1
+            (direction OUTPUT))
+          (port DOA0
+            (direction OUTPUT))
+          (port DOB17
+            (direction OUTPUT))
+          (port DOB16
+            (direction OUTPUT))
+          (port DOB15
+            (direction OUTPUT))
+          (port DOB14
+            (direction OUTPUT))
+          (port DOB13
+            (direction OUTPUT))
+          (port DOB12
+            (direction OUTPUT))
+          (port DOB11
+            (direction OUTPUT))
+          (port DOB10
+            (direction OUTPUT))
+          (port DOB9
+            (direction OUTPUT))
+          (port DOB8
+            (direction OUTPUT))
+          (port DOB7
+            (direction OUTPUT))
+          (port DOB6
+            (direction OUTPUT))
+          (port DOB5
+            (direction OUTPUT))
+          (port DOB4
+            (direction OUTPUT))
+          (port DOB3
+            (direction OUTPUT))
+          (port DOB2
+            (direction OUTPUT))
+          (port DOB1
+            (direction OUTPUT))
+          (port DOB0
+            (direction OUTPUT)))))
+    (cell pmi_ram_dpEhnonessen3213819232138192p13822039
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (array (rename WrAddress "WrAddress(12:0)") 13)
+            (direction INPUT))
+          (port (array (rename RdAddress "RdAddress(12:0)") 13)
+            (direction INPUT))
+          (port (array (rename Data "Data(31:0)") 32)
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port RdClock
+            (direction INPUT))
+          (port RdClockEn
+            (direction INPUT))
+          (port Reset
+            (direction INPUT))
+          (port WrClock
+            (direction INPUT))
+          (port WrClockEn
+            (direction INPUT))
+          (port (array (rename Q "Q(31:0)") 32)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEhnonessen3213819232138192p13822039__PMIP__8192__32__32H"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "NOREG"))
+            (property REGMODE_A
+              (string "NOREG"))
+            (property DATA_WIDTH_B
+              (string "2"))
+            (property DATA_WIDTH_A
+              (string "2")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))))
+          (net scuba_vlo
+            (joined
+              (portRef Z (instanceRef scuba_vlo_inst))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CSB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CSA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CSB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CSA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CSB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CSA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef WEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef ADB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef ADA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA17 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA16 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA15 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA14 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef DIB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net dataout31
+            (joined
+              (portRef (member Q 0))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net dataout30
+            (joined
+              (portRef (member Q 1))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net dataout29
+            (joined
+              (portRef (member Q 2))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))))
+          (net dataout28
+            (joined
+              (portRef (member Q 3))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))))
+          (net dataout27
+            (joined
+              (portRef (member Q 4))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))))
+          (net dataout26
+            (joined
+              (portRef (member Q 5))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))))
+          (net dataout25
+            (joined
+              (portRef (member Q 6))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))))
+          (net dataout24
+            (joined
+              (portRef (member Q 7))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))))
+          (net dataout23
+            (joined
+              (portRef (member Q 8))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))))
+          (net dataout22
+            (joined
+              (portRef (member Q 9))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))))
+          (net dataout21
+            (joined
+              (portRef (member Q 10))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))))
+          (net dataout20
+            (joined
+              (portRef (member Q 11))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))))
+          (net dataout19
+            (joined
+              (portRef (member Q 12))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))))
+          (net dataout18
+            (joined
+              (portRef (member Q 13))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))))
+          (net dataout17
+            (joined
+              (portRef (member Q 14))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))))
+          (net dataout16
+            (joined
+              (portRef (member Q 15))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))))
+          (net dataout15
+            (joined
+              (portRef (member Q 16))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))))
+          (net dataout14
+            (joined
+              (portRef (member Q 17))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))))
+          (net dataout13
+            (joined
+              (portRef (member Q 18))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))))
+          (net dataout12
+            (joined
+              (portRef (member Q 19))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))))
+          (net dataout11
+            (joined
+              (portRef (member Q 20))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))))
+          (net dataout10
+            (joined
+              (portRef (member Q 21))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))))
+          (net dataout9
+            (joined
+              (portRef (member Q 22))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))))
+          (net dataout8
+            (joined
+              (portRef (member Q 23))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))))
+          (net dataout7
+            (joined
+              (portRef (member Q 24))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))))
+          (net dataout6
+            (joined
+              (portRef (member Q 25))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))))
+          (net dataout5
+            (joined
+              (portRef (member Q 26))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))))
+          (net dataout4
+            (joined
+              (portRef (member Q 27))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))))
+          (net dataout3
+            (joined
+              (portRef (member Q 28))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))))
+          (net dataout2
+            (joined
+              (portRef (member Q 29))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))))
+          (net dataout1
+            (joined
+              (portRef (member Q 30))
+              (portRef DOB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))))
+          (net dataout0
+            (joined
+              (portRef (member Q 31))
+              (portRef DOB0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))))
+          (net WrClockEn
+            (joined
+              (portRef WrClockEn)
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef OCEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net clk
+            (joined
+              (portRef WrClock)
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CLKA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net Reset
+            (joined
+              (portRef Reset)
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef RSTB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef RSTA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net RdClockEn
+            (joined
+              (portRef RdClockEn)
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef OCEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))
+              (portRef CEB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net rdclk
+            (joined
+              (portRef RdClock)
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef CLKB (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net wren
+            (joined
+              (portRef WE)
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef WEA (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net datain31
+            (joined
+              (portRef (member Data 0))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net datain30
+            (joined
+              (portRef (member Data 1))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net datain29
+            (joined
+              (portRef (member Data 2))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))))
+          (net datain28
+            (joined
+              (portRef (member Data 3))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))))
+          (net datain27
+            (joined
+              (portRef (member Data 4))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))))
+          (net datain26
+            (joined
+              (portRef (member Data 5))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))))
+          (net datain25
+            (joined
+              (portRef (member Data 6))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))))
+          (net datain24
+            (joined
+              (portRef (member Data 7))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))))
+          (net datain23
+            (joined
+              (portRef (member Data 8))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))))
+          (net datain22
+            (joined
+              (portRef (member Data 9))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))))
+          (net datain21
+            (joined
+              (portRef (member Data 10))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))))
+          (net datain20
+            (joined
+              (portRef (member Data 11))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))))
+          (net datain19
+            (joined
+              (portRef (member Data 12))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))))
+          (net datain18
+            (joined
+              (portRef (member Data 13))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))))
+          (net datain17
+            (joined
+              (portRef (member Data 14))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))))
+          (net datain16
+            (joined
+              (portRef (member Data 15))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))))
+          (net datain15
+            (joined
+              (portRef (member Data 16))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))))
+          (net datain14
+            (joined
+              (portRef (member Data 17))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))))
+          (net datain13
+            (joined
+              (portRef (member Data 18))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))))
+          (net datain12
+            (joined
+              (portRef (member Data 19))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))))
+          (net datain11
+            (joined
+              (portRef (member Data 20))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))))
+          (net datain10
+            (joined
+              (portRef (member Data 21))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))))
+          (net datain9
+            (joined
+              (portRef (member Data 22))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))))
+          (net datain8
+            (joined
+              (portRef (member Data 23))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))))
+          (net datain7
+            (joined
+              (portRef (member Data 24))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))))
+          (net datain6
+            (joined
+              (portRef (member Data 25))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))))
+          (net datain5
+            (joined
+              (portRef (member Data 26))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))))
+          (net datain4
+            (joined
+              (portRef (member Data 27))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))))
+          (net datain3
+            (joined
+              (portRef (member Data 28))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))))
+          (net datain2
+            (joined
+              (portRef (member Data 29))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))))
+          (net datain1
+            (joined
+              (portRef (member Data 30))
+              (portRef DIA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))))
+          (net datain0
+            (joined
+              (portRef (member Data 31))
+              (portRef DIA0 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))))
+          (net raddr12
+            (joined
+              (portRef (member RdAddress 0))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr11
+            (joined
+              (portRef (member RdAddress 1))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr10
+            (joined
+              (portRef (member RdAddress 2))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr9
+            (joined
+              (portRef (member RdAddress 3))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr8
+            (joined
+              (portRef (member RdAddress 4))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr7
+            (joined
+              (portRef (member RdAddress 5))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr6
+            (joined
+              (portRef (member RdAddress 6))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr5
+            (joined
+              (portRef (member RdAddress 7))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr4
+            (joined
+              (portRef (member RdAddress 8))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr3
+            (joined
+              (portRef (member RdAddress 9))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr2
+            (joined
+              (portRef (member RdAddress 10))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr1
+            (joined
+              (portRef (member RdAddress 11))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net raddr0
+            (joined
+              (portRef (member RdAddress 12))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADB1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr12
+            (joined
+              (portRef (member WrAddress 0))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA13 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr11
+            (joined
+              (portRef (member WrAddress 1))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA12 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr10
+            (joined
+              (portRef (member WrAddress 2))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA11 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr9
+            (joined
+              (portRef (member WrAddress 3))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA10 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr8
+            (joined
+              (portRef (member WrAddress 4))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA9 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr7
+            (joined
+              (portRef (member WrAddress 5))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA8 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr6
+            (joined
+              (portRef (member WrAddress 6))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA7 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr5
+            (joined
+              (portRef (member WrAddress 7))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA6 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr4
+            (joined
+              (portRef (member WrAddress 8))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA5 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr3
+            (joined
+              (portRef (member WrAddress 9))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA4 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr2
+            (joined
+              (portRef (member WrAddress 10))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA3 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr1
+            (joined
+              (portRef (member WrAddress 11))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA2 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))
+          (net waddr0
+            (joined
+              (portRef (member WrAddress 12))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_0_15))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_1_14))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_2_13))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_3_12))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_4_11))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_5_10))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_6_9))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_7_8))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_8_7))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_9_6))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_10_5))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_11_4))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_12_3))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_13_2))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_14_1))
+              (portRef ADA1 (instanceRef pmi_ram_dpEhnonessen3213819232138192p13822039_0_15_0))))))))
+  (design pmi_ram_dpEhnonessen3213819232138192p13822039
+    (cellRef pmi_ram_dpEhnonessen3213819232138192p13822039
+      (libraryRef ORCLIB)))
+)

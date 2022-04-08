@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lms7_trx" device="LFE5U-45F-8MG285C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="fifodc_w32x256_r32_outreg">
+            <Option name="include path" value="../mico32_patform/platform1/soc"/>
+            <Option name="top" value="lms7_trx_top"/>
+        </Options>
+        <Source name="../src/top/synth/lms7_trx_top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="lms7_trx_top"/>
+        </Source>
+        <Source name="../src/spi/cfg_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/fpgacfg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/fpgacfg_pkg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/mcfg_components.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/mcfg32wm_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/mem_package.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/periphcfg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/periphcfg_pkg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/pllcfg_pkg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/tstcfg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/tstcfg_pkg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/packages/synth/FIFO_PACK.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/revision/revision.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/pll_top/synth/pll_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/spi/pllcfg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/sync_reg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/nios_cpu/nios_cpu.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/FT601/synth/FT601_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/FT601/synth/FT601_arb.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/FT601/synth/FT601.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/tst_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/clock_test.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general_periph/synth/general_periph_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/alive.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/FX3_LED_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/FPGA_LED2_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/FPGA_LED_cntrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/gpio_ctrl_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/gpio_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/general_pkg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/transition_count.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/singl_clk_with_ref_test.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/clk_with_ref_test.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/self_test/clk_no_ref_test.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../mico32_patform/platform1/soc/platform1_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../mico32_patform/platform1/soc/platform1_vhd.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rxtx_top/synth/rxtx_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/tx_path/synth/sync_fifo_rw.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/tx_path/synth/tx_path_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/pulse_gen/synth/pulse_gen.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/pct_separate/synth/one_pct_fifo.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/pct_separate/synth/pct_separate_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/p2d_rd.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/p2d_rd_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/p2d_sync_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/p2d_wr_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/packets2data.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/packets2data/synth/packets2data_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/handshake_sync/synth/handshake_sync.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/fifo2diq/synth/fifo2diq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/fifo2diq/synth/txiq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/fifo2diq/synth/txiq_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/bit_unpack/synth/bit_unpack_64.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/bit_unpack/synth/unpack_64_to_48.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/bit_unpack/synth/unpack_64_to_56.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/bit_unpack/synth/unpack_64_to_64.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/bit_pack/synth/bit_pack.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/bit_pack/synth/pack_48_to_64.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/bit_pack/synth/pack_56_to_64.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/smpl_cmp/synth/smpl_cmp.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/rx_path/synth/rx_path_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/diq2fifo.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_mimo.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_mimo_ddr.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_pulse_ddr.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_siso.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_siso_ddr.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/rxiq_siso_sdr.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/diq2fifo/synth/test_data_dd.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/data2packets/synth/data2packets.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/data2packets/synth/data2packets_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/data2packets/synth/data2packets_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/bus_sync_reg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/smpl_cnt/synth/iq_smpl_cnt.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/rx_path_top/smpl_cnt/synth/smpl_cnt.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifo_dc_64x256x64_outreg/fifo_dc_64x256x64_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w128x256_r128_outreg/fifodc_w128x256_r128_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w64x256_r64_outreg/fifodc_w64x256_r64_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w128x256_r64_outreg/fifodc_w128x256_r64_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../src/altera_inst/lpm_cnt_inst.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/altera_inst/fifo_inst.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w48x1024_r48_outreg/fifodc_w48x1024_r48_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../src/txiqmux/synth/txiqmux.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/txiqmux/synth/txiq_tst_ptrn.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/altera_inst/lpm_compare_inst.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w32x1024_r128/fifodc_w32x1024_r128.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w128x256_r128/fifodc_w128x256_r128.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w128x256_r64/fifodc_w128x256_r64.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifodc_w64x256_r64/fifodc_w64x256_r64.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w48x1024_r48/fifodc_w48x1024_r48.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../src/lms7002/lms7002_clk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/lms7002/lms7002_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/lms7002/lms7002_rxiq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/lms7002/lms7002_txiq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/delayf_ctrl/delay_ctrl_fsm.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/delayf_ctrl/delay_ctrl_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/delayf_ctrl/delayf_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/tx_path_top/fifo2diq/synth/edge_delay.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../src/general/busy_delay.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w32x1024_r128_outreg/fifodc_w32x1024_r128_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w64x2024_r32/fifodc_w64x2024_r32.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w32x256_r32_outreg/fifodc_w32x256_r32_outreg.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="ip/fifo_dc/fifodc_w32x256_r32/fifodc_w32x256_r32.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../../LimeSDR-Mini_bitstreams/impl1_flash_dualboot.xcf" type="Programming Project File" type_short="Programming" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="../../LimeSDR-Mini_bitstreams/impl1_sram.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="../modelsim/project/project.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Clock_groups.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="debug.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+        <Source name="debug.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
+        <Source name="FT601_timing.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="LMS7002_timing.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="lms7_trx.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="sim/fifo_sim/fifo_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim/fifo_sim/fifo_sim/fifo_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim/fifo_simm/fifo_simm.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="timing.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lms7_trx1.sty"/>
+    <Strategy name="user_timing" file="user_timing.sty"/>
+</BaliProject>

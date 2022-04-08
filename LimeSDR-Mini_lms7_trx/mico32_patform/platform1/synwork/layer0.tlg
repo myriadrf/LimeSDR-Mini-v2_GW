@@ -1,0 +1,150 @@
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4781:7:4781:9|Synthesizing work.top.top_arch.
+@W: CD638 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":7490:11:7490:19|Signal if_d_test is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4:7:4:20|Synthesizing work.reveal_coretop.one.
+@W: CD638 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":19:11:19:21|Signal trigger_out is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on jtagconn16 .......
+Finished optimization stage 1 on jtagconn16 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 1 on top_la0 .......
+Finished optimization stage 1 on top_la0 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.reveal_coretop.one
+Running optimization stage 1 on reveal_coretop .......
+Finished optimization stage 1 on reveal_coretop (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":6163:7:6163:26|Synthesizing work.fifo_dc_32x32_uniq_0.structure.
+Post processing for work.fifo_dc_32x32_uniq_0.structure
+Running optimization stage 1 on fifo_dc_32x32_uniq_0 .......
+@W: CL167 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":7368:4:7368:16|Input cin of instance full_cmp_ci_a is floating
+@W: CL167 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":7283:4:7283:17|Input cin of instance empty_cmp_ci_a is floating
+@W: CL167 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":7215:4:7215:13|Input cin of instance r_gctr_cia is floating
+@W: CL167 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":7147:4:7147:13|Input cin of instance w_gctr_cia is floating
+Finished optimization stage 1 on fifo_dc_32x32_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 102MB)
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4948:7:4948:20|Synthesizing work.fpgacfg_uniq_0.fpgacfg_arch.
+@W: CD638 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5635:11:5635:29|Signal spi_config_data_rev is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5048:7:5048:25|Synthesizing work.mcfg32wm_fsm_uniq_0.mcfg32wm_fsm_arch.
+Post processing for work.mcfg32wm_fsm_uniq_0.mcfg32wm_fsm_arch
+Running optimization stage 1 on mcfg32wm_fsm_uniq_0 .......
+Finished optimization stage 1 on mcfg32wm_fsm_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 121MB peak: 122MB)
+Post processing for work.fpgacfg_uniq_0.fpgacfg_arch
+Running optimization stage 1 on fpgacfg_uniq_0 .......
+@W: CL265 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5932:8:5932:9|Removing unused bit 15 of din_reg_18(15 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(0) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(13) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(14) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to MAJOR_REV_reg(15) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(0) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(4) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(13) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(14) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to BOARD_ID_reg(15) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(0) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(1) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(2) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(3) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(4) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5891:8:5891:9|All reachable assignments to COMPILE_REV_reg(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on fpgacfg_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4847:7:4847:26|Synthesizing work.platform1_vhd_uniq_0.platform1_vhd_a.
+Running optimization stage 1 on platform1_uniq_1 .......
+Finished optimization stage 1 on platform1_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+Post processing for work.platform1_vhd_uniq_0.platform1_vhd_a
+Running optimization stage 1 on platform1_vhd_uniq_0 .......
+Finished optimization stage 1 on platform1_vhd_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+@N: CD630 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4823:7:4823:18|Synthesizing work.alive_uniq_0.alive_arch.
+Post processing for work.alive_uniq_0.alive_arch
+Running optimization stage 1 on alive_uniq_0 .......
+Finished optimization stage 1 on alive_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+Post processing for work.top.top_arch
+Running optimization stage 1 on top .......
+@W: CL240 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4809:8:4809:13|Signal FT_WRn is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+Running optimization stage 2 on alive_uniq_0 .......
+Finished optimization stage 2 on alive_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 125MB)
+Running optimization stage 2 on platform1_uniq_1 .......
+Finished optimization stage 2 on platform1_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 125MB)
+Running optimization stage 2 on platform1_vhd_uniq_0 .......
+Finished optimization stage 2 on platform1_vhd_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 125MB)
+Running optimization stage 2 on mcfg32wm_fsm_uniq_0 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5103:8:5103:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 33 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011010
+   011011
+   011100
+   011101
+   011110
+   011111
+   100000
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":5052:8:5052:15|Input port bits 4 to 0 of inst_reg(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on mcfg32wm_fsm_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 125MB)
+Running optimization stage 2 on fpgacfg_uniq_0 .......
+Finished optimization stage 2 on fpgacfg_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+Running optimization stage 2 on fifo_dc_32x32_uniq_0 .......
+Finished optimization stage 2 on fifo_dc_32x32_uniq_0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+Running optimization stage 2 on top_la0 .......
+Finished optimization stage 2 on top_la0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+Running optimization stage 2 on jtagconn16 .......
+Finished optimization stage 2 on jtagconn16 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+Running optimization stage 2 on reveal_coretop .......
+Finished optimization stage 2 on reveal_coretop (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+Running optimization stage 2 on top .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4804:8:4804:13|Input FT_CLK is unused.
+@W: CL158 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4805:8:4805:12|Inout FT_BE is unused
+@W: CL158 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4806:8:4806:11|Inout FT_D is unused
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4807:8:4807:14|Input FT_RXFn is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4808:8:4808:14|Input FT_TXEn is unused.
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 127MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\layer0.rt.csv
+

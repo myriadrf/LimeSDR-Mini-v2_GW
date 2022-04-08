@@ -1,0 +1,45 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-45F-8MG285C
+family = ECP5U
+device = LFE5U-45F
+speed = 8
+package = CSFBGA285
+operation = Commercial
+
+#design options
+[Design]
+title = platform1
+path = D:/darbas/lattice/orange_crab/lm32_tutor/platform1
+core_generate = D:/darbas/lattice/orange_crab/lm32_tutor/platform1
+search_path = D:/darbas/lattice/orange_crab/lm32_tutor/platform1/soc;D:/darbas/lattice/orange_crab/lm32_tutor
+top = top
+lpf = D:/darbas/lattice/orange_crab/lm32_tutor/platform1.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+D:/darbas/lattice/orange_crab/lm32_tutor/platform1/soc/platform1_top.v = Verilog
+D:/darbas/lattice/orange_crab/lm32_tutor/platform1/soc/platform1_vhd.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/top.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/spi/fpgacfg.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/spi/fpgacfg_pkg.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/spi/mcfg_components.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/spi/mcfg32wm_fsm.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/spi/mem_package.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/revision/revision.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/ip/fifo_dc_32x32/fifo_dc_32x32/fifo_dc_32x32.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/alive.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/sim_fifo/sim_fifo.v = Verilog
+D:/darbas/lattice/orange_crab/lm32_tutor/src/FT601/synth/FT601.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/FT601/synth/FT601_arb.vhd = VHDL, work
+D:/darbas/lattice/orange_crab/lm32_tutor/src/FT601/synth/FT601_top.vhd = VHDL, work
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]

@@ -1,0 +1,11 @@
+include ../../../../mico32_patform/platform1/soc/../components/lm32_top/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/spi_flash/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/spi_flash/drivers/device/lm32/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/gpio/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/gpio/drivers/device/lm32/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/Reg_Comp/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/spi/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/FIFO_Comp/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/uart_core/drivers/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/uart_core/drivers/device/lm32/peripheral.mk 
+include ../../../../mico32_patform/platform1/soc/../components/i2cm_opencores/drivers/peripheral.mk 

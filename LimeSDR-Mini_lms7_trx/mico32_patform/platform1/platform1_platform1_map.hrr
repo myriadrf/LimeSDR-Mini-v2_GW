@@ -1,0 +1,779 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    4020.00        100.0
+                                  LUT4	    5050.00        100.0
+                               DISTRAM	      96.00        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	       3609        100.0
+                                RIPPLE	        277        100.0
+                                   EBR	         47        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               sa5phub	          1         1.0
+                        reveal_coretop	          1        18.5
+                  platform1_vhd_uniq_0	          1        67.3
+                        fpgacfg_uniq_0	          1        11.4
+                  fifo_dc_32x32_uniq_0	          1         1.3
+                          alive_uniq_0	          1         0.3
+---------------------------------------------------
+Report for cell fifo_dc_32x32_uniq_0
+   Instance path: top/inst3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      50.58         1.3
+                                  LUT4	      25.00         0.5
+                                PFUREG	         62         1.7
+                                RIPPLE	         18         6.5
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell fpgacfg_uniq_0
+   Instance path: top/inst2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     459.75        11.4
+                                  LUT4	     879.00        17.4
+                                PFUREG	        573        15.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   mcfg32wm_fsm_uniq_0	          1         0.2
+---------------------------------------------------
+Report for cell mcfg32wm_fsm_uniq_0
+   Instance path: top/inst2/fsm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         0.2
+                                  LUT4	      18.00         0.4
+                                PFUREG	          6         0.2
+---------------------------------------------------
+Report for cell platform1_vhd_uniq_0
+   Instance path: top/inst_cpu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2705.67        67.3
+                                  LUT4	    3370.00        66.7
+                               DISTRAM	      96.00        100.0
+                                PFUREG	       2107        58.4
+                                RIPPLE	        193        69.7
+                                   EBR	         28        59.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      platform1_uniq_1	          1        67.3
+---------------------------------------------------
+Report for cell platform1_uniq_1
+   Instance path: top/inst_cpu/lm32_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2705.67        67.3
+                                  LUT4	    3370.00        66.7
+                               DISTRAM	      96.00        100.0
+                                PFUREG	       2107        58.4
+                                RIPPLE	        193        69.7
+                                   EBR	         28        59.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          wb_ebr_ctrl_uniq_1_Z5_layer1	          1         4.7
+            uart_core_uniq_1_Z9_layer1	          1         4.2
+                  spi_uniq_1_Z7_layer1	          1         4.2
+                       lm32_top_uniq_1	          1        47.6
+                 gpio_uniq_2_Z6_layer1	          1         0.1
+                 gpio_uniq_1_Z3_layer1	          1         0.0
+       arbiter2_uniq_1_32s_32s_32s_32s	          1         1.0
+   Reg_Comp_uniq_1_305441741_48_000000	          1         1.4
+            FIFO_Comp_uniq_1_305441741	          1         2.0
+---------------------------------------------------
+Report for cell uart_core_uniq_1_Z9_layer1
+   Instance path: top/inst_cpu/lm32_inst/uart
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     167.08         4.2
+                                  LUT4	     221.50         4.4
+                                PFUREG	        127         3.5
+                                RIPPLE	         23         8.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+     txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6	          1         1.1
+   rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U	          1         2.0
+              intface_uniq_1_Z8_layer1	          1         1.1
+---------------------------------------------------
+Report for cell txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6
+   Instance path: top/inst_cpu/lm32_inst/uart/u_txmitt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      45.83         1.1
+                                  LUT4	      65.00         1.3
+                                PFUREG	         32         0.9
+                                RIPPLE	          9         3.2
+---------------------------------------------------
+Report for cell rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U
+   Instance path: top/inst_cpu/lm32_inst/uart/u_rxcver
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      79.00         2.0
+                                  LUT4	      94.00         1.9
+                                PFUREG	         56         1.6
+                                RIPPLE	         14         5.1
+---------------------------------------------------
+Report for cell intface_uniq_1_Z8_layer1
+   Instance path: top/inst_cpu/lm32_inst/uart/u_intface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.25         1.1
+                                  LUT4	      62.50         1.2
+                                PFUREG	         39         1.1
+---------------------------------------------------
+Report for cell FIFO_Comp_uniq_1_305441741
+   Instance path: top/inst_cpu/lm32_inst/FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.08         2.0
+                                  LUT4	      86.00         1.7
+                                PFUREG	         69         1.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          wb_fifo_dev_uniq_1_305441741	          1         2.0
+---------------------------------------------------
+Report for cell wb_fifo_dev_uniq_1_305441741
+   Instance path: top/inst_cpu/lm32_inst/FIFO/instantiate_wb_fifo_dev
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.08         2.0
+                                  LUT4	      86.00         1.7
+                                PFUREG	         69         1.9
+---------------------------------------------------
+Report for cell spi_uniq_1_Z7_layer1
+   Instance path: top/inst_cpu/lm32_inst/spi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     167.17         4.2
+                                  LUT4	     155.50         3.1
+                                PFUREG	        244         6.8
+                                RIPPLE	          9         3.2
+---------------------------------------------------
+Report for cell Reg_Comp_uniq_1_305441741_48_000000
+   Instance path: top/inst_cpu/lm32_inst/GPO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      55.50         1.4
+                                  LUT4	      36.00         0.7
+                                PFUREG	         65         1.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+wb_reg_dev_uniq_1_48_000000_305441741_48s	          1         1.4
+---------------------------------------------------
+Report for cell wb_reg_dev_uniq_1_48_000000_305441741_48s
+   Instance path: top/inst_cpu/lm32_inst/GPO/instantiate_wb_reg_dev
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      55.50         1.4
+                                  LUT4	      36.00         0.7
+                                PFUREG	         65         1.8
+---------------------------------------------------
+Report for cell gpio_uniq_2_Z6_layer1
+   Instance path: top/inst_cpu/lm32_inst/GPIO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         0.1
+                                  LUT4	       4.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell wb_ebr_ctrl_uniq_1_Z5_layer1
+   Instance path: top/inst_cpu/lm32_inst/ebr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     189.00         4.7
+                                  LUT4	     205.00         4.1
+                                PFUREG	         91         2.5
+                                RIPPLE	         43        15.5
+                                   EBR	         16        34.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEhnonessen3213819232138192p13822039	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEhnonessen3213819232138192p13822039
+   Instance path: top/inst_cpu/lm32_inst/ebr/\genblk1.ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	         16        34.0
+---------------------------------------------------
+Report for cell gpio_uniq_1_Z3_layer1
+   Instance path: top/inst_cpu/lm32_inst/LED
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       2.00         0.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell lm32_top_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1914.17        47.6
+                                  LUT4	    2377.00        47.1
+                               DISTRAM	      96.00        100.0
+                                PFUREG	       1502        41.6
+                                RIPPLE	        118        42.6
+                                   EBR	         12        25.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     jtag_cores_uniq_1	          1         0.3
+                   lm32_monitor_uniq_1	          1         1.9
+                       lm32_cpu_uniq_1	          1        45.3
+---------------------------------------------------
+Report for cell lm32_monitor_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/debug_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      77.33         1.9
+                                  LUT4	     124.00         2.5
+                                PFUREG	         68         1.9
+                                   EBR	          2         4.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               lm32_monitor_ram_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell lm32_monitor_ram_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/debug_rom/ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         4.3
+---------------------------------------------------
+Report for cell lm32_cpu_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1822.83        45.3
+                                  LUT4	    2240.00        44.4
+                               DISTRAM	      96.00        100.0
+                                PFUREG	       1412        39.1
+                                RIPPLE	        118        42.6
+                                   EBR	         10        21.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   lm32_shifter_uniq_1	          1         3.0
+                lm32_multiplier_uniq_1	          1         0.6
+             lm32_mc_arithmetic_uniq_1	          1         2.2
+lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s	          1         9.0
+                  lm32_logic_op_uniq_1	          1         0.8
+                 lm32_interrupt_uniq_1	          1         0.8
+lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s	          1        14.3
+                lm32_debug_uniq_1_0s_0	          1         0.0
+                   lm32_decoder_uniq_1	          1         2.3
+                     lm32_adder_uniq_1	          1         0.5
+                      lm32_jtag_uniq_1	          1         0.5
+---------------------------------------------------
+Report for cell lm32_debug_uniq_1_0s_0
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/hw_debug
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         0.0
+                                  LUT4	       2.00         0.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell lm32_jtag_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/jtag
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.83         0.5
+                                  LUT4	      17.00         0.3
+                                PFUREG	         32         0.9
+---------------------------------------------------
+Report for cell lm32_interrupt_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/interrupt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.33         0.8
+                                  LUT4	      29.00         0.6
+                                PFUREG	         37         1.0
+---------------------------------------------------
+Report for cell lm32_mc_arithmetic_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/mc_arithmetic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      89.17         2.2
+                                  LUT4	     119.00         2.4
+                                PFUREG	        137         3.8
+                                RIPPLE	         21         7.6
+---------------------------------------------------
+Report for cell lm32_multiplier_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/multiplier
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00         0.6
+                                PFUREG	         50         1.4
+---------------------------------------------------
+Report for cell lm32_shifter_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/shifter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     119.50         3.0
+                                  LUT4	     224.00         4.4
+                                PFUREG	         33         0.9
+---------------------------------------------------
+Report for cell lm32_logic_op_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/logic_op
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.00         0.8
+                                  LUT4	      64.00         1.3
+---------------------------------------------------
+Report for cell lm32_adder_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/adder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         0.5
+                                  LUT4	       2.00         0.0
+                                RIPPLE	         18         6.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    lm32_addsub_uniq_1	          1         0.5
+---------------------------------------------------
+Report for cell lm32_addsub_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/adder/addsub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         0.5
+                                  LUT4	       2.00         0.0
+                                RIPPLE	         18         6.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+              pmi_addsubEo3232p6334814	          1         0.5
+---------------------------------------------------
+Report for cell pmi_addsubEo3232p6334814
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/adder/addsub/\genblk1.addsub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         0.5
+                                  LUT4	       2.00         0.0
+                                RIPPLE	         18         6.5
+---------------------------------------------------
+Report for cell lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     360.75         9.0
+                                  LUT4	     493.00         9.8
+                                PFUREG	        311         8.6
+                                RIPPLE	         25         9.0
+                                   EBR	          5        10.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          lm32_dcache_uniq_1_Z2_layer1	          1         4.0
+---------------------------------------------------
+Report for cell lm32_dcache_uniq_1_Z2_layer1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     159.75         4.0
+                                  LUT4	     202.00         4.0
+                                PFUREG	        127         3.5
+                                RIPPLE	         25         9.0
+                                   EBR	          5        10.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+     lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP	          1         0.6
+    lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP	          1         0.4
+    lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP	          1         0.4
+    lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP	          1         0.4
+    lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP	          1         0.6
+---------------------------------------------------
+Report for cell lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache/\memories[0].way_0_tag_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.25         0.6
+                                  LUT4	      28.67         0.6
+                                PFUREG	         23         0.6
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache/\memories[0].genblk1.byte_memories[3].way_0_data_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.25         0.4
+                                  LUT4	       8.00         0.2
+                                PFUREG	          9         0.2
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache/\memories[0].genblk1.byte_memories[2].way_0_data_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.33         0.4
+                                  LUT4	       8.00         0.2
+                                PFUREG	          9         0.2
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache/\memories[0].genblk1.byte_memories[1].way_0_data_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.33         0.4
+                                  LUT4	       8.00         0.2
+                                PFUREG	          9         0.2
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/load_store_unit/dcache/\memories[0].genblk1.byte_memories[0].way_0_data_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.00         0.6
+                                  LUT4	      19.00         0.4
+                                PFUREG	         31         0.9
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_decoder_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      93.50         2.3
+                                  LUT4	     161.00         3.2
+---------------------------------------------------
+Report for cell lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/instruction_unit
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     573.67        14.3
+                                  LUT4	     795.67        15.8
+                                PFUREG	        404        11.2
+                                RIPPLE	         29        10.5
+                                   EBR	          5        10.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          lm32_icache_uniq_1_Z1_layer1	          1         2.6
+---------------------------------------------------
+Report for cell lm32_icache_uniq_1_Z1_layer1
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/instruction_unit/icache
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     106.08         2.6
+                                  LUT4	     119.00         2.4
+                                PFUREG	        123         3.4
+                                RIPPLE	         13         4.7
+                                   EBR	          5        10.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+     lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP	          1         0.4
+   lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP	          1         0.8
+---------------------------------------------------
+Report for cell lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/instruction_unit/icache/\memories[0].way_0_tag_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.50         0.4
+                                  LUT4	      14.00         0.3
+                                PFUREG	         23         0.6
+                                RIPPLE	          4         1.4
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP
+   Instance path: top/inst_cpu/lm32_inst/LM32/cpu/instruction_unit/icache/\memories[0].way_0_data_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.33         0.8
+                                  LUT4	      12.00         0.2
+                                PFUREG	         55         1.5
+                                RIPPLE	          4         1.4
+                                   EBR	          4         8.5
+---------------------------------------------------
+Report for cell jtag_cores_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.00         0.3
+                                  LUT4	      13.00         0.3
+                                PFUREG	         22         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      jtag_lm32_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell jtag_lm32_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.00         0.3
+                                  LUT4	      13.00         0.3
+                                PFUREG	         22         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TYPEA_uniq_5	          1         0.0
+                          TYPEA_uniq_9	          1         0.0
+                          TYPEA_uniq_7	          1         0.0
+                          TYPEA_uniq_8	          1         0.0
+                          TYPEA_uniq_6	          1         0.0
+                         TYPEA_uniq_11	          1         0.0
+                          TYPEA_uniq_3	          1         0.0
+                          TYPEA_uniq_4	          1         0.0
+                          TYPEA_uniq_2	          1         0.0
+                          TYPEA_uniq_1	          1         0.0
+                         TYPEA_uniq_10	          1         0.0
+---------------------------------------------------
+Report for cell TYPEA_uniq_11
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/ADDR_BIT2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_10
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/ADDR_BIT1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_9
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/ADDR_BIT0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_8
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_7
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_6
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_5
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_4
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_3
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_2
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell TYPEA_uniq_1
+   Instance path: top/inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/DATA_BIT0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell arbiter2_uniq_1_32s_32s_32s_32s
+   Instance path: top/inst_cpu/lm32_inst/arbiter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.50         1.0
+                                  LUT4	      98.00         1.9
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell alive_uniq_0
+   Instance path: top/inst1_alive
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00         0.3
+                                PFUREG	         25         0.7
+                                RIPPLE	         13         4.7
+---------------------------------------------------
+Report for cell reveal_coretop
+   Instance path: top/top_reveal_coretop_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     743.83        18.5
+                                  LUT4	     746.00        14.8
+                                PFUREG	        793        22.0
+                                RIPPLE	         45        16.2
+                                   EBR	         18        38.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               top_la0	          1        18.5
+---------------------------------------------------
+Report for cell top_la0
+   Instance path: top/top_reveal_coretop_instance/core0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     743.83        18.5
+                                  LUT4	     746.00        14.8
+                                PFUREG	        793        22.0
+                                RIPPLE	         45        16.2
+                                   EBR	         18        38.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          top_la0_trig	          1         3.2
+                     rvl_tm_Z12_layer1	          1         6.7
+rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s	          1         8.5
+---------------------------------------------------
+Report for cell top_la0_trig
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     129.00         3.2
+                                  LUT4	     151.00         3.0
+                                PFUREG	        101         2.8
+                                RIPPLE	         12         4.3
+                                   EBR	          1         2.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             rvl_tu_1s_0s_0s_0s_1s_4_0	          1         0.3
+             rvl_tu_1s_0s_0s_0s_1s_4_1	          1         0.3
+             rvl_tu_1s_0s_0s_0s_1s_4_2	          1         0.3
+               rvl_tu_1s_0s_0s_0s_1s_2	          1         0.3
+               rvl_tu_1s_0s_0s_0s_1s_4	          1         0.3
+                     rvl_te_Z10_layer1	          1         1.1
+                   rvl_tcnt_1s_3s_1_0s	          1         0.3
+                      rvl_decode_5s_1s	          1         0.2
+---------------------------------------------------
+Report for cell rvl_decode_5s_1s
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/decode_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.33         0.2
+                                  LUT4	      16.50         0.3
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_4
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tu_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_2
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tu_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_4_2
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tu_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_4_1
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tu_3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_4_0
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tu_4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.83         0.3
+                                  LUT4	      13.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_te_Z10_layer1
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/te_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.50         1.1
+                                  LUT4	      33.50         0.7
+                                PFUREG	         49         1.4
+                                RIPPLE	         12         4.3
+                                   EBR	          1         2.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+ pmi_ram_dpEbnonesadr15321532p132a5f64	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr15321532p132a5f64
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell rvl_tcnt_1s_3s_1_0s
+   Instance path: top/top_reveal_coretop_instance/core0/trig_u/tcnt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.17         0.3
+                                  LUT4	      20.00         0.4
+                                PFUREG	         12         0.3
+---------------------------------------------------
+Report for cell rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s
+   Instance path: top/top_reveal_coretop_instance/core0/jtag_int_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     342.75         8.5
+                                  LUT4	     471.00         9.3
+                                PFUREG	        269         7.5
+                                RIPPLE	          9         3.2
+---------------------------------------------------
+Report for cell rvl_tm_Z12_layer1
+   Instance path: top/top_reveal_coretop_instance/core0/tm_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     270.58         6.7
+                                  LUT4	     122.50         2.4
+                                PFUREG	        423        11.7
+                                RIPPLE	         24         8.7
+                                   EBR	         17        36.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEbnonesadr150112048150112048p13cd16eb	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr150112048150112048p13cd16eb
+   Instance path: top/top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	         17        36.2
+---------------------------------------------------
+Report for cell sa5phub
+   Instance path: top/sa5phub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.33         1.0
+                                  LUT4	      23.00         0.5
+                                PFUREG	         48         1.3
+                                RIPPLE	          8         2.9

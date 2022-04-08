@@ -1,0 +1,56 @@
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGO design 'lngotmp/pmi_ram_dpehnonessen321381923213819211e08d7f.ngo'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_addsubeo3232491b9e8.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr153215321188cf97.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr150112048150112048123cb5f0.ngo'...
+WARNING - synthesis: Jtagconn16 "top_reveal_coretop_instance/jtag0" has conflict HUB_ID 0, changing to 1.
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'C:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5phub.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[15]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[14]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[13]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[12]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[11]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[10]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[9]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[8]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[7]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[6]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[5]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[4]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[3]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[2]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[1]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.SPI_SS[0]' has no load.
+WARNING - synthesis: logical net 'inst2_from_fpgacfg.LMS1_SS' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[7]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[6]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[5]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[4]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[3]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[2]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[1]' has no load.
+WARNING - synthesis: logical net 'inst1_LEDPIO_OUT[0]' has no load.
+WARNING - synthesis: logical net 'top_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'sa5phub/tdoa' has no load.
+WARNING - synthesis: logical net 'sa5phub/cdn' has no load.
+WARNING - synthesis: logical net 'sa5phub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'sa5phub/genblk8.un1_jtagg_u_1' has no load.
+WARNING - synthesis: logical net 'sa5phub/genblk8.un1_jtagg_u' has no load.
+WARNING - synthesis: DRC complete with 31 warnings.
+
+Design Results:
+  13751 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file platform1_platform1.ngd.

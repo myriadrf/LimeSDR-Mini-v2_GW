@@ -1,0 +1,385 @@
+# Tue Feb 15 20:16:35 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-BDUFN08
+
+Implementation : platform1
+Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+
+Reading constraint file: D:\darbas\lattice\orange_crab\lm32_tutor\timing_sdc.sdc
+@L: D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1_scck.rpt 
+See clock summary report "D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 158MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 160MB)
+
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@N: FX493 |Applying initial value "0" on instance reset_n.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.instruction_unit.i_cti_o_1[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.instruction_unit.i_cti_o_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.instruction_unit.i_stb_o because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.instruction_unit.i_cyc_o. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.d_stb_o because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.d_cyc_o. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.d_cti_o_1[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.d_cti_o_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30942:4:30942:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.thr_ready because it is equivalent to instance inst_cpu.lm32_inst.uart.u_txmitt.thr_empty. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27650:34:27650:45|Tristate driver PIO_BOTH_OUT_1 (in view: work.gpio_uniq_1_Z3_layer1(verilog)) on net PIO_BOTH_OUT_1 (in view: work.gpio_uniq_1_Z3_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28168:32:28168:38|Tristate driver PIO_OUT_1 (in view: work.gpio_uniq_2_Z6_layer1(verilog)) on net PIO_OUT_1 (in view: work.gpio_uniq_2_Z6_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30000:11:30000:24|Tristate driver fifo_empty_thr (in view: work.intface_uniq_1_Z8_layer1(verilog)) on net fifo_empty_thr (in view: work.intface_uniq_1_Z8_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30001:11:30001:23|Tristate driver fifo_full_thr (in view: work.intface_uniq_1_Z8_layer1(verilog)) on net fifo_full_thr (in view: work.intface_uniq_1_Z8_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30263:11:30263:26|Tristate driver fifo_almost_full (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net fifo_almost_full (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30262:11:30262:20|Tristate driver fifo_empty (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net fifo_empty (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|Tristate driver rbr_fifo_1 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net rbr_fifo_1 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|Tristate driver rbr_fifo_2 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net rbr_fifo_2 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|Tristate driver rbr_fifo_3 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net rbr_fifo_3 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|Tristate driver rbr_fifo_4 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) on net rbr_fifo_4 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog)) has its enable tied to GND.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27771:33:27771:56|Removing instance \\genblk9\.itio_inst\[0\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27792:33:27792:56|Removing instance \\genblk9\.itio_inst\[1\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27813:33:27813:56|Removing instance \\genblk9\.itio_inst\[2\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27834:33:27834:56|Removing instance \\genblk9\.itio_inst\[3\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27855:33:27855:56|Removing instance \\genblk9\.itio_inst\[4\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27876:33:27876:56|Removing instance \\genblk9\.itio_inst\[5\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27897:33:27897:56|Removing instance \\genblk9\.itio_inst\[6\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27918:33:27918:56|Removing instance \\genblk9\.itio_inst\[7\]\.TP (in view: work.gpio_uniq_1_Z3_layer1(verilog)) of type view:work.tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN115 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28248:33:28248:56|Removing instance \\genblk9\.itio_inst\[0\]\.TP (in view: work.gpio_uniq_2_Z6_layer1(verilog)) of type view:work.tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s(verilog) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31119:4:31119:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31242:4:31242:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31365:4:31365:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31488:4:31488:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31611:4:31611:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31734:4:31734:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31857:4:31857:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31980:4:31980:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32103:4:32103:9|Removing sequential instance PIO_DATA_I (in view: work.tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":188:0:188:3|Instance tm_u of partition view:work.rvl_tm_Z12_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_4(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_3(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_2(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_0(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":198:0:198:3|Instance te_0 of partition view:work.rvl_te_Z10_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":188:0:188:3|Instance tm_u of partition view:work.rvl_tm_Z12_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_4(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_3(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_2(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_0(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":198:0:198:3|Instance te_0 of partition view:work.rvl_te_Z10_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+Encoding state machine selected[2:0] (in view: work.arbiter2_uniq_1_32s_32s_32s_32s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[3:0] (in view: work.lm32_icache_uniq_1_Z1_layer1(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1543:4:1543:9|There are no possible illegal states for state machine state[3:0] (in view: work.lm32_icache_uniq_1_Z1_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine state[2:0] (in view: work.lm32_dcache_uniq_1_Z2_layer1(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine state[2:0] (in view: work.lm32_mc_arithmetic_uniq_1(verilog))
+original code -> new code
+   000 -> 00
+   010 -> 01
+   011 -> 10
+Encoding state machine \\genblk1\.state[5:0] (in view: work.wb_ebr_ctrl_uniq_1_Z5_layer1(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   100 -> 001000
+   101 -> 010000
+   110 -> 100000
+@N: FX493 |Applying initial value "1" on instance \\genblk1\.state[0].
+@N: FX493 |Applying initial value "0" on instance \\genblk1\.state[1].
+@N: FX493 |Applying initial value "0" on instance \\genblk1\.state[2].
+@N: FX493 |Applying initial value "0" on instance \\genblk1\.state[3].
+@N: FX493 |Applying initial value "0" on instance \\genblk1\.state[4].
+@N: FX493 |Applying initial value "0" on instance \\genblk1\.state[5].
+Encoding state machine cs_state[3:0] (in view: work.intface_uniq_1_Z8_layer1(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30166:4:30166:9|There are no possible illegal states for state machine cs_state[3:0] (in view: work.intface_uniq_1_Z8_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine cs_state[4:0] (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine tx_state[6:0] (in view: work.txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state[0:32] (in view: work.mcfg32wm_fsm_uniq_0(mcfg32wm_fsm_arch))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000010
+   000011 -> 000011
+   000100 -> 000100
+   000101 -> 000101
+   000110 -> 000110
+   000111 -> 000111
+   001000 -> 001000
+   001001 -> 001001
+   001010 -> 001010
+   001011 -> 001011
+   001100 -> 001100
+   001101 -> 001101
+   001110 -> 001110
+   001111 -> 001111
+   010000 -> 010000
+   010001 -> 010001
+   010010 -> 010010
+   010011 -> 010011
+   010100 -> 010100
+   010101 -> 010101
+   010110 -> 010110
+   010111 -> 010111
+   011000 -> 011000
+   011001 -> 011001
+   011010 -> 011010
+   011011 -> 011011
+   011100 -> 011100
+   011101 -> 011101
+   011110 -> 011110
+   011111 -> 011111
+   100000 -> 100000
+@N: MF135 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|RAM registers_1[31:0] (in view: work.lm32_cpu_uniq_1(verilog)) is 32 words by 32 bits.
+@N: MF135 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|RAM registers[31:0] (in view: work.lm32_cpu_uniq_1(verilog)) is 32 words by 32 bits.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 199MB)
+
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 200MB)
+
+@W: BZ101 |Potential glitch can occur at the output of 3 instances  
+@N: MT611 :|Automatically generated clock jtag_lm32_uniq_1|REG_UPDATE_inferred_clock is not used and is being removed
+@W: MT548 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":1:0:1:0|Source for clock clk not found in netlist.
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 200MB)
+
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":188:0:188:3|Instance tm_u of partition view:work.rvl_tm_Z12_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_4(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_3(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_2(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":164:0:164:3|Instance tu_3 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":178:0:178:3|Instance tu_4 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_0(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":198:0:198:3|Instance te_0 of partition view:work.rvl_te_Z10_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":234:0:234:5|Instance tcnt_0 of partition view:work.rvl_tcnt_1s_3s_1_0s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":107:0:107:9|Instance jtag_int_u of partition view:work.rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":188:0:188:3|Instance tm_u of partition view:work.rvl_tm_Z12_layer1(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":108:0:108:7|Instance decode_u of partition view:work.rvl_decode_5s_1s(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":122:0:122:3|Instance tu_0 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_4(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":136:0:136:3|Instance tu_1 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_3(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":150:0:150:3|Instance tu_2 of partition view:work.rvl_tu_1s_0s_0s_0s_1s_2(verilog) has no references to its outputs; instance not removed. 
+
+Only the first 100 messages of id 'BN117' are reported. To see all messages use 'report_messages -log D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synlog\platform1_platform1_premap.srr -id BN117' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN117} -count unlimited' in the Tcl shell.
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 200MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 200MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                Requested     Requested     Clock                          Clock                   Clock
+Level     Clock                                                Frequency     Period        Type                           Group                   Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       top|LMK_CLK                                          200.0 MHz     5.000         inferred                       Inferred_clkgroup_1     2741 
+1 .         spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     200.0 MHz     5.000         derived (from top|LMK_CLK)     Inferred_clkgroup_1     573  
+                                                                                                                                                       
+0 -       reveal_coretop|jtck_inferred_clock[0]                200.0 MHz     5.000         inferred                       Inferred_clkgroup_0     465  
+                                                                                                                                                       
+0 -       jtag_cores_uniq_1|jtck                               200.0 MHz     5.000         inferred                       Inferred_clkgroup_2     22   
+=======================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                   Clock     Source                                                                       Clock Pin                                                                Non-clock Pin     Non-clock Pin                                                                
+Clock                                              Load      Pin                                                                          Seq Example                                                              Seq Example       Comb Example                                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top|LMK_CLK                                        2741      LMK_CLK(port)                                                                reset_n.C                                                                -                 -                                                                            
+spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     573       inst_cpu.lm32_inst.spi.SCLK_MASTER.Q[0](dffre)                               inst2.inst_reg[15:0].C                                                   -                 inst2.un1_sclk.I[0](inv)                                                     
+                                                                                                                                                                                                                                                                                                                  
+reveal_coretop|jtck_inferred_clock[0]              465       top_reveal_coretop_instance.jtag0.jtck(jtagconn16)                           top_reveal_coretop_instance.core0.tm_u.tm_first_rd_d1.C                  -                 top_reveal_coretop_instance.core0.tm_u.genblk4\.un1_jtck.I[0](inv)           
+                                                                                                                                                                                                                                                                                                                  
+jtag_cores_uniq_1|jtck                             22        inst_cpu.lm32_inst.LM32.jtag_cores.jtagconn16_lm32_inst.jtck(jtagconn16)     inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt.C     -                 inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.un1_CLK.I[0](inv)
+==================================================================================================================================================================================================================================================================================================================
+
+@W: MT531 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25012:4:25012:9|Found signal identified as System clock which controls 4 sequential elements including inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4835:8:4835:9|Found inferred clock top|LMK_CLK which controls 2741 sequential elements including inst1_alive.cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26390:4:26390:9|Found inferred clock jtag_cores_uniq_1|jtck which controls 22 sequential elements including inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT0.DATA_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+3 non-gated/non-generated clock tree(s) driving 3101 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 577 clock pin(s) of sequential element(s)
+0 instances converted, 577 sequential instances remain driven by gated/generated clocks
+
+============================================================================ Non-Gated/Non-Generated Clocks =============================================================================
+Clock Tree ID     Driving Element                                                  Drive Element Type     Fanout     Sample Instance                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       LMK_CLK                                                          port                   2614       reset_n                                                             
+@KP:ckid0_1       top_reveal_coretop_instance.jtag0.jtck                           jtagconn16             465        ENCRYPTED                                                           
+@KP:ckid0_6       inst_cpu.lm32_inst.LM32.jtag_cores.jtagconn16_lm32_inst.jtck     jtagconn16             22         inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.DATA_OUT
+=========================================================================================================================================================================================
+==================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element                                                      Drive Element Type     Unconverted Fanout     Sample Instance                                   Explanation                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_3       inst_cpu.lm32_inst.spi.SCLK_MASTER.Q[0]                              dffre                  573                    inst2.ram\.mem_31[15:0]                           Derived clock on input (not legal for GCC)
+@KP:ckid0_5       inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1.OUT            and                    3                      inst_cpu.lm32_inst.spi.\\genblk1\.n_status[2]     Clock source is invalid for GCC           
+@KP:ckid0_8       inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE.OUT     and                    1                      inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle        Clock source is invalid for GCC           
+=================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 200MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 201MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 204MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 204MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Tue Feb 15 20:16:38 2022
+
+###########################################################]

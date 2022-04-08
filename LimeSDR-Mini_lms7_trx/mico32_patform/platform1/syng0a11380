@@ -1,0 +1,163 @@
+-- $Header: //vg/synplicity/map202103lat/mappers/xilinx/lib/generic/gen_generic/cmp_eq.vhd#1 $
+
+
+
+library ieee; 
+use ieee.std_logic_1164.all;
+
+entity eq_element is
+    port(a0, b0, a1, b1, ltin : in std_logic;
+             ltout: out std_logic);
+end eq_element;
+
+
+architecture eqn of eq_element is
+	signal t1 : std_logic;
+	
+	component MUXCY_L
+ 		port (
+   			LO : out std_logic;
+   			CI : in std_logic;
+   			DI : in std_logic;
+   			S : in std_logic
+ 		);
+	end component;
+	--attribute black_box of MUXCY : component is true;
+begin
+	t1 <= (not (a1 xor b1)) and (not (a0 xor b0));
+    mux_inst : MUXCY_L
+        port map(S => t1, 
+        LO => ltout,
+        CI => ltin,
+        DI => '1');
+end eqn;
+
+
+library ieee; 
+use ieee.std_logic_1164.all;
+
+entity eq_element_onebit is
+    port(a0, b0, ltin : in std_logic;
+             ltout: out std_logic);
+end eq_element_onebit;
+
+
+architecture eqn of eq_element_onebit is
+	signal t1 : std_logic;
+	
+	component MUXCY_L
+ 		port (
+   			LO : out std_logic;
+   			CI : in std_logic;
+   			DI : in std_logic;
+   			S : in std_logic
+ 		);
+	end component;
+	--attribute black_box of MUXCY : component is true;
+begin
+	t1 <= not (a0 xor b0);
+    mux_inst : MUXCY_L
+        port map(S => t1, 
+        LO => ltout,
+        CI => ltin,
+        DI => '1');
+end eqn;
+
+
+
+library ieee; 
+use ieee.std_logic_1164.all;
+
+entity CMP_EQ is
+    generic(width : integer :=13);
+    port(A: in std_logic_vector(width -1 downto 0);
+         B: in std_logic_vector(width -1 downto 0);
+         EQ : out std_logic);
+end CMP_EQ;
+
+
+architecture cell_level of CMP_EQ is
+
+function func_error(eq_width : integer) return string is
+begin
+  if ((eq_width >= 8) and (eq_width <= 64)) then
+    return("");
+  else
+    return("error");
+  end if;
+end func_error;
+attribute generator_report : string;
+attribute generator_report of cell_level : architecture is func_error(width);
+
+	constant iteration : integer := (width)/2;
+	constant remainder : integer := (width) mod 2;
+    signal data_tmp : std_logic_vector (width - 1 downto 0);
+
+    component eq_element is
+        port(a0, b0, a1, b1, ltin: in std_logic;
+                 ltout : out std_logic);
+    end component;
+
+	component eq_element_onebit is
+        port(a0, b0, ltin: in std_logic;
+                 ltout : out std_logic);
+    end component;
+ signal t1 : std_logic;
+begin
+	U0 : if( width > 1) generate
+	begin
+    U01 : eq_element
+                port map(
+				a0 => A(0), 
+                b0 => B(0),
+				a1 => A(1), 
+                b1 => B(1),
+                ltin => '0',
+                ltout => data_tmp(0));
+	end generate;
+
+        
+	U1 : if( width = 1) generate
+	begin
+		EQ <= A(0) xnor B(0);
+	end generate;
+
+    U2 : for bit_index in 1 to (iteration - 1)  generate
+        begin
+            U21 : eq_element
+                port map(
+				a0 => A(2*bit_index), 
+                b0 => B(2*bit_index),
+				a1 => A(2*bit_index + 1), 
+                b1 => B(2*bit_index + 1),
+                ltin => data_tmp(bit_index - 1),
+                ltout => data_tmp(bit_index));
+        end generate;
+
+	U3 : if( remainder = 1 and width > 1) generate
+	begin
+		U31 : eq_element_onebit
+			port map(
+				a0 => A(width -1),
+				b0 => B(width - 1),
+				ltin =>data_tmp(iteration - 1),
+				ltout => t1);
+				EQ <= not(t1);
+	end generate;
+
+        
+	U4 : if(remainder = 0 and width  > 1) generate
+	begin
+    	EQ <= not(data_tmp(iteration - 1)); 
+
+	end generate;
+
+end  cell_level;
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|top|-layerid|0|-orig_srs|D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\synwork\\platform1_platform1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1628583642
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1628582822
+#CUR:"D:\\darbas\\lattice\\orange_crab\\lm32_tutor\\platform1\\reveal_workspace\\tmpreveal\\top_rvl_top.vhd":1644956174
+0 "D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work top top_arch 0
+arch work fifo_dc_32x32_uniq_0 structure 0
+module work fifo_dc_32x32_uniq_0 0
+arch work fpgacfg_uniq_0 fpgacfg_arch 0
+arch work mcfg32wm_fsm_uniq_0 mcfg32wm_fsm_arch 0
+module work mcfg32wm_fsm_uniq_0 0
+module work fpgacfg_uniq_0 0
+arch work platform1_vhd_uniq_0 platform1_vhd_a 0
+module work platform1_vhd_uniq_0 0
+arch work alive_uniq_0 alive_arch 0
+module work alive_uniq_0 0
+module work top 0
+arch work fifo_dc_32x32 structure 0
+module work fifo_dc_32x32 0
+arch work fpgacfg fpgacfg_arch 0
+module work fpgacfg 0
+arch work mcfg32wm_fsm mcfg32wm_fsm_arch 0
+module work mcfg32wm_fsm 0
+arch work alive alive_arch 0
+module work alive 0
+arch work platform1_vhd platform1_vhd_a 0
+module work platform1_vhd 0
+arch work reveal_coretop one 0
+module work reveal_coretop 0
+
+# Unbound Instances to File Association
+inst work fifo_dc_32x32_uniq_0 vlo 0
+inst work fifo_dc_32x32_uniq_0 vhi 0
+inst work fifo_dc_32x32_uniq_0 ccu2c 0
+inst work fifo_dc_32x32_uniq_0 fd1s3bx 0
+inst work fifo_dc_32x32_uniq_0 fd1s3dx 0
+inst work fifo_dc_32x32_uniq_0 fd1p3dx 0
+inst work fifo_dc_32x32_uniq_0 fd1p3bx 0
+inst work fifo_dc_32x32_uniq_0 pdpw16kd 0
+inst work fifo_dc_32x32_uniq_0 rom16x1a 0
+inst work fifo_dc_32x32_uniq_0 xor2 0
+inst work fifo_dc_32x32_uniq_0 or2 0
+inst work fifo_dc_32x32_uniq_0 inv 0
+inst work fifo_dc_32x32_uniq_0 and2 0
+inst work platform1_vhd_uniq_0 platform1_uniq_1 0
+inst work fifo_dc_32x32 vlo 0
+inst work fifo_dc_32x32 vhi 0
+inst work fifo_dc_32x32 ccu2c 0
+inst work fifo_dc_32x32 fd1s3bx 0
+inst work fifo_dc_32x32 fd1s3dx 0
+inst work fifo_dc_32x32 fd1p3dx 0
+inst work fifo_dc_32x32 fd1p3bx 0
+inst work fifo_dc_32x32 pdpw16kd 0
+inst work fifo_dc_32x32 rom16x1a 0
+inst work fifo_dc_32x32 xor2 0
+inst work fifo_dc_32x32 or2 0
+inst work fifo_dc_32x32 inv 0
+inst work fifo_dc_32x32 and2 0
+inst work platform1_vhd platform1 0
+inst work reveal_coretop jtagconn16 0
+inst work reveal_coretop top_la0 0

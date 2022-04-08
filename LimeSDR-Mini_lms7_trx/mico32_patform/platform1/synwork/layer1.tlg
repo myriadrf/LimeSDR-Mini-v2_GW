@@ -1,0 +1,1128 @@
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3976:7:3976:21|Synthesizing module arbiter2_uniq_1 in library work.
+
+	MAX_DAT_WIDTH=32'b00000000000000000000000000100000
+	WBS_DAT_WIDTH=32'b00000000000000000000000000100000
+	WBM0_DAT_WIDTH=32'b00000000000000000000000000100000
+	WBM1_DAT_WIDTH=32'b00000000000000000000000000100000
+   Generated name = arbiter2_uniq_1_32s_32s_32s_32s
+Running optimization stage 1 on arbiter2_uniq_1_32s_32s_32s_32s .......
+Finished optimization stage 1 on arbiter2_uniq_1_32s_32s_32s_32s (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 109MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32232:7:32232:21|Synthesizing module lm32_ram_uniq_1 in library work.
+
+	data_width=32'b00000000000000000000000000100000
+	address_width=32'b00000000000000000000000000001011
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32275:4:32275:9|Found RAM \genblk1.mem, depth=2048, width=32
+Finished optimization stage 1 on lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32398:7:32398:21|Synthesizing module lm32_ram_uniq_2 in library work.
+
+	data_width=32'b00000000000000000000000000000100
+	address_width=32'b00000000000000000000000000001001
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32441:4:32441:9|Found RAM \genblk1.mem, depth=512, width=4
+Finished optimization stage 1 on lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1334:7:1334:24|Synthesizing module lm32_icache_uniq_1 in library work.
+
+	associativity=32'b00000000000000000000000000000001
+	sets=32'b00000000000000000000001000000000
+	bytes_per_line=32'b00000000000000000000000000010000
+	base_address=32'b00000000000000000000000000000000
+	limit=32'b00000000000000001111111111111111
+	addr_offset_width=32'b00000000000000000000000000000010
+	addr_set_width=32'b00000000000000000000000000001001
+	addr_offset_lsb=32'b00000000000000000000000000000010
+	addr_offset_msb=32'b00000000000000000000000000000011
+	addr_set_lsb=32'b00000000000000000000000000000100
+	addr_set_msb=32'b00000000000000000000000000001100
+	addr_tag_lsb=32'b00000000000000000000000000001101
+	addr_tag_msb=32'b00000000000000000000000000001111
+	addr_tag_width=32'b00000000000000000000000000000011
+   Generated name = lm32_icache_uniq_1_Z1_layer1
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1404:32:1404:48|Object refill_way_select is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on lm32_icache_uniq_1_Z1_layer1 .......
+Finished optimization stage 1 on lm32_icache_uniq_1_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1759:7:1759:34|Synthesizing module lm32_instruction_unit_uniq_1 in library work.
+
+	associativity=32'b00000000000000000000000000000001
+	sets=32'b00000000000000000000001000000000
+	bytes_per_line=32'b00000000000000000000000000010000
+	base_address=32'b00000000000000000000000000000000
+	limit=32'b00000000000000001111111111111111
+	addr_offset_width=32'b00000000000000000000000000000010
+	addr_offset_lsb=32'b00000000000000000000000000000010
+	addr_offset_msb=32'b00000000000000000000000000000011
+   Generated name = lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s
+@N: CG793 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2093:36:2093:43|Ignoring system task $display
+Running optimization stage 1 on lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s .......
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Optimizing register bit i_adr_o[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Optimizing register bit i_adr_o[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Optimizing register bit i_cti_o[1] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Optimizing register bit i_lock_o to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Pruning register bits 1 to 0 of i_adr_o[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Pruning unused register i_lock_o. Make sure that there are no unused intermediate registers.
+@W: CL260 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2051:4:2051:9|Pruning register bit 1 of i_cti_o[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 113MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":897:7:897:25|Synthesizing module lm32_decoder_uniq_1 in library work.
+Running optimization stage 1 on lm32_decoder_uniq_1 .......
+Finished optimization stage 1 on lm32_decoder_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 113MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32564:7:32564:21|Synthesizing module lm32_ram_uniq_3 in library work.
+
+	data_width=32'b00000000000000000000000000001000
+	address_width=32'b00000000000000000000000000001011
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32607:4:32607:9|Found RAM \genblk1.mem, depth=2048, width=8
+Finished optimization stage 1 on lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 114MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32730:7:32730:21|Synthesizing module lm32_ram_uniq_4 in library work.
+
+	data_width=32'b00000000000000000000000000001000
+	address_width=32'b00000000000000000000000000001011
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Found RAM \genblk1.mem, depth=2048, width=8
+Finished optimization stage 1 on lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 115MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32896:7:32896:21|Synthesizing module lm32_ram_uniq_5 in library work.
+
+	data_width=32'b00000000000000000000000000001000
+	address_width=32'b00000000000000000000000000001011
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Found RAM \genblk1.mem, depth=2048, width=8
+Finished optimization stage 1 on lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 116MB peak: 116MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33062:7:33062:21|Synthesizing module lm32_ram_uniq_6 in library work.
+
+	data_width=32'b00000000000000000000000000001000
+	address_width=32'b00000000000000000000000000001011
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Found RAM \genblk1.mem, depth=2048, width=8
+Finished optimization stage 1 on lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 117MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33228:7:33228:21|Synthesizing module lm32_ram_uniq_7 in library work.
+
+	data_width=32'b00000000000000000000000000000100
+	address_width=32'b00000000000000000000000000001001
+	RAM_IMPLEMENTATION=32'b01000001010101010101010001001111
+	RAM_TYPE=48'b010100100100000101001101010111110100010001010000
+   Generated name = lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP
+Running optimization stage 1 on lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33271:4:33271:9|Found RAM \genblk1.mem, depth=512, width=4
+Finished optimization stage 1 on lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 117MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23237:7:23237:24|Synthesizing module lm32_dcache_uniq_1 in library work.
+
+	associativity=32'b00000000000000000000000000000001
+	sets=32'b00000000000000000000001000000000
+	bytes_per_line=32'b00000000000000000000000000010000
+	base_address=32'b00000000000000000000000000000000
+	limit=32'b00000000000000001111111111111111
+	addr_offset_width=32'b00000000000000000000000000000010
+	addr_set_width=32'b00000000000000000000000000001001
+	addr_offset_lsb=32'b00000000000000000000000000000010
+	addr_offset_msb=32'b00000000000000000000000000000011
+	addr_set_lsb=32'b00000000000000000000000000000100
+	addr_set_msb=32'b00000000000000000000000000001100
+	addr_tag_lsb=32'b00000000000000000000000000001101
+	addr_tag_msb=32'b00000000000000000000000000001111
+	addr_tag_width=32'b00000000000000000000000000000011
+   Generated name = lm32_dcache_uniq_1_Z2_layer1
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23313:32:23313:48|Object refill_way_select is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on lm32_dcache_uniq_1_Z2_layer1 .......
+Finished optimization stage 1 on lm32_dcache_uniq_1_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":344:7:344:33|Synthesizing module lm32_load_store_unit_uniq_1 in library work.
+
+	associativity=32'b00000000000000000000000000000001
+	sets=32'b00000000000000000000001000000000
+	bytes_per_line=32'b00000000000000000000000000010000
+	base_address=32'b00000000000000000000000000000000
+	limit=32'b00000000000000001111111111111111
+	addr_offset_width=32'b00000000000000000000000000000010
+	addr_offset_lsb=32'b00000000000000000000000000000010
+	addr_offset_msb=32'b00000000000000000000000000000011
+   Generated name = lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s
+Running optimization stage 1 on lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s .......
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Optimizing register bit d_cti_o[1] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Optimizing register bit d_lock_o to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Pruning register bit 1 of d_cti_o[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Pruning unused register d_lock_o. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33372:7:33372:16|Synthesizing module pmi_addsub in library work.
+
+	pmi_data_width=32'b00000000000000000000000000100000
+	pmi_result_width=32'b00000000000000000000000000100000
+	pmi_sign=24'b011011110110011001100110
+	pmi_family=40'b0100010101000011010100000011010101010101
+	module_type=80'b01110000011011010110100101011111011000010110010001100100011100110111010101100010
+   Generated name = pmi_addsub_32s_32s_off_ECP5U_pmi_addsub
+Running optimization stage 1 on pmi_addsub_32s_32s_off_ECP5U_pmi_addsub .......
+Finished optimization stage 1 on pmi_addsub_32s_32s_off_ECP5U_pmi_addsub (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23865:7:23865:24|Synthesizing module lm32_addsub_uniq_1 in library work.
+Running optimization stage 1 on lm32_addsub_uniq_1 .......
+Finished optimization stage 1 on lm32_addsub_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23701:7:23701:23|Synthesizing module lm32_adder_uniq_1 in library work.
+Running optimization stage 1 on lm32_adder_uniq_1 .......
+Finished optimization stage 1 on lm32_adder_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24007:7:24007:26|Synthesizing module lm32_logic_op_uniq_1 in library work.
+Running optimization stage 1 on lm32_logic_op_uniq_1 .......
+Finished optimization stage 1 on lm32_logic_op_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24143:7:24143:25|Synthesizing module lm32_shifter_uniq_1 in library work.
+Running optimization stage 1 on lm32_shifter_uniq_1 .......
+Finished optimization stage 1 on lm32_shifter_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24327:7:24327:28|Synthesizing module lm32_multiplier_uniq_1 in library work.
+Running optimization stage 1 on lm32_multiplier_uniq_1 .......
+Finished optimization stage 1 on lm32_multiplier_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24484:7:24484:31|Synthesizing module lm32_mc_arithmetic_uniq_1 in library work.
+Running optimization stage 1 on lm32_mc_arithmetic_uniq_1 .......
+Finished optimization stage 1 on lm32_mc_arithmetic_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 118MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24712:7:24712:27|Synthesizing module lm32_interrupt_uniq_1 in library work.
+Running optimization stage 1 on lm32_interrupt_uniq_1 .......
+Finished optimization stage 1 on lm32_interrupt_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 119MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24951:7:24951:22|Synthesizing module lm32_jtag_uniq_1 in library work.
+Running optimization stage 1 on lm32_jtag_uniq_1 .......
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25044:4:25044:9|Pruning unused register command[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL113 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25044:4:25044:9|Feedback mux created for signal state[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25044:4:25044:9|All reachable assignments to state[3:0] assign 0, register removed by optimization
+Finished optimization stage 1 on lm32_jtag_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 119MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25238:7:25238:23|Synthesizing module lm32_debug_uniq_1 in library work.
+
+	breakpoints=32'b00000000000000000000000000000000
+	watchpoints=32'b00000000000000000000000000000000
+   Generated name = lm32_debug_uniq_1_0s_0
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25270:31:25270:40|Removing wire bp_match_n, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25273:25:25273:34|Removing wire wp_match_n, as there is no assignment to it.
+Running optimization stage 1 on lm32_debug_uniq_1_0s_0 .......
+Finished optimization stage 1 on lm32_debug_uniq_1_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 119MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2286:7:2286:21|Synthesizing module lm32_cpu_uniq_1 in library work.
+Running optimization stage 1 on lm32_cpu_uniq_1 .......
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Pruning unused register x_result_sel_logic_x. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Pruning unused register eret_m. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Pruning unused register bret_m. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on lm32_cpu_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5u.v":866:7:866:12|Synthesizing module DP16KD in library work.
+Running optimization stage 1 on DP16KD .......
+Finished optimization stage 1 on DP16KD (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+Running optimization stage 1 on VHI .......
+Finished optimization stage 1 on VHI (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+Finished optimization stage 1 on VLO (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25637:7:25637:29|Synthesizing module lm32_monitor_ram_uniq_1 in library work.
+Running optimization stage 1 on lm32_monitor_ram_uniq_1 .......
+Finished optimization stage 1 on lm32_monitor_ram_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25474:7:25474:25|Synthesizing module lm32_monitor_uniq_1 in library work.
+Running optimization stage 1 on lm32_monitor_uniq_1 .......
+@A: CL282 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25534:4:25534:9|Feedback mux created for signal write_data[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on lm32_monitor_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33648:7:33648:16|Synthesizing module jtagconn16 in library work.
+@W: CG146 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33648:7:33648:16|Creating black box for empty module jtagconn16
+
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26365:7:26365:18|Synthesizing module TYPEA_uniq_1 in library work.
+Running optimization stage 1 on TYPEA_uniq_1 .......
+Finished optimization stage 1 on TYPEA_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26469:7:26469:18|Synthesizing module TYPEA_uniq_2 in library work.
+Running optimization stage 1 on TYPEA_uniq_2 .......
+Finished optimization stage 1 on TYPEA_uniq_2 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26573:7:26573:18|Synthesizing module TYPEA_uniq_3 in library work.
+Running optimization stage 1 on TYPEA_uniq_3 .......
+Finished optimization stage 1 on TYPEA_uniq_3 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26677:7:26677:18|Synthesizing module TYPEA_uniq_4 in library work.
+Running optimization stage 1 on TYPEA_uniq_4 .......
+Finished optimization stage 1 on TYPEA_uniq_4 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26781:7:26781:18|Synthesizing module TYPEA_uniq_5 in library work.
+Running optimization stage 1 on TYPEA_uniq_5 .......
+Finished optimization stage 1 on TYPEA_uniq_5 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26885:7:26885:18|Synthesizing module TYPEA_uniq_6 in library work.
+Running optimization stage 1 on TYPEA_uniq_6 .......
+Finished optimization stage 1 on TYPEA_uniq_6 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26989:7:26989:18|Synthesizing module TYPEA_uniq_7 in library work.
+Running optimization stage 1 on TYPEA_uniq_7 .......
+Finished optimization stage 1 on TYPEA_uniq_7 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27093:7:27093:18|Synthesizing module TYPEA_uniq_8 in library work.
+Running optimization stage 1 on TYPEA_uniq_8 .......
+Finished optimization stage 1 on TYPEA_uniq_8 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27197:7:27197:18|Synthesizing module TYPEA_uniq_9 in library work.
+Running optimization stage 1 on TYPEA_uniq_9 .......
+Finished optimization stage 1 on TYPEA_uniq_9 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27301:7:27301:19|Synthesizing module TYPEA_uniq_10 in library work.
+Running optimization stage 1 on TYPEA_uniq_10 .......
+Finished optimization stage 1 on TYPEA_uniq_10 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27405:7:27405:19|Synthesizing module TYPEA_uniq_11 in library work.
+Running optimization stage 1 on TYPEA_uniq_11 .......
+Finished optimization stage 1 on TYPEA_uniq_11 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26165:7:26165:22|Synthesizing module jtag_lm32_uniq_1 in library work.
+Running optimization stage 1 on jtag_lm32_uniq_1 .......
+Finished optimization stage 1 on jtag_lm32_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26057:29:26057:45|Synthesizing module jtag_cores_uniq_1 in library work.
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26105:30:26105:30|Input CONTROL_DATAN on instance jtag_lm32_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on jtag_cores_uniq_1 .......
+Finished optimization stage 1 on jtag_cores_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3678:7:3678:21|Synthesizing module lm32_top_uniq_1 in library work.
+Running optimization stage 1 on lm32_top_uniq_1 .......
+Finished optimization stage 1 on lm32_top_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5u.v":55:7:55:8|Synthesizing module BB in library work.
+Running optimization stage 1 on BB .......
+Finished optimization stage 1 on BB (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31080:7:31080:17|Synthesizing module tpio_uniq_1 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31101:8:31101:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31102:8:31102:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31103:8:31103:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31104:8:31104:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31203:7:31203:17|Synthesizing module tpio_uniq_2 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31224:8:31224:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31225:8:31225:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31226:8:31226:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31227:8:31227:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31326:7:31326:17|Synthesizing module tpio_uniq_3 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31347:8:31347:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31348:8:31348:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31349:8:31349:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31350:8:31350:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31449:7:31449:17|Synthesizing module tpio_uniq_4 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31470:8:31470:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31471:8:31471:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31472:8:31472:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31473:8:31473:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31572:7:31572:17|Synthesizing module tpio_uniq_5 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31593:8:31593:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31594:8:31594:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31595:8:31595:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31596:8:31596:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31695:7:31695:17|Synthesizing module tpio_uniq_6 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31716:8:31716:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31717:8:31717:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31718:8:31718:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31719:8:31719:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31818:7:31818:17|Synthesizing module tpio_uniq_7 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31839:8:31839:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31840:8:31840:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31841:8:31841:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31842:8:31842:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31941:7:31941:17|Synthesizing module tpio_uniq_8 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31962:8:31962:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31963:8:31963:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31964:8:31964:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31965:8:31965:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27627:7:27627:17|Synthesizing module gpio_uniq_1 in library work.
+
+	GPIO_WB_DAT_WIDTH=32'b00000000000000000000000000100000
+	GPIO_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	DATA_WIDTH=32'b00000000000000000000000000001000
+	INPUT_WIDTH=32'b00000000000000000000000000000001
+	OUTPUT_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	INPUT_PORTS_ONLY=32'b00000000000000000000000000000000
+	OUTPUT_PORTS_ONLY=32'b00000000000000000000000000000001
+	BOTH_INPUT_AND_OUTPUT=32'b00000000000000000000000000000000
+	TRISTATE_PORTS=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = gpio_uniq_1_Z3_layer1
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27650:34:27650:45|Removing wire PIO_BOTH_OUT, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27659:31:27659:39|Object PIO_DATAO is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27660:30:27660:38|Object PIO_DATAI is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27664:9:27664:24|Removing wire PIO_DATA_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27664:27:27664:42|Removing wire PIO_DATA_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27664:45:27664:60|Removing wire PIO_DATA_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27664:63:27664:78|Removing wire PIO_DATA_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27666:9:27666:23|Removing wire PIO_TRI_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27666:26:27666:40|Removing wire PIO_TRI_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27666:43:27666:57|Removing wire PIO_TRI_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27666:60:27666:74|Removing wire PIO_TRI_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27668:9:27668:24|Removing wire IRQ_MASK_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27668:27:27668:42|Removing wire IRQ_MASK_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27668:45:27668:60|Removing wire IRQ_MASK_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27668:63:27668:78|Removing wire IRQ_MASK_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27670:9:27670:24|Removing wire EDGE_CAP_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27670:27:27670:42|Removing wire EDGE_CAP_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27670:45:27670:60|Removing wire EDGE_CAP_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27670:63:27670:78|Removing wire EDGE_CAP_WR_EN_3, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27676:29:27676:36|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27677:30:27677:42|Object IRQ_MASK_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27678:29:27678:36|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27679:30:27679:42|Object IRQ_TEMP_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27680:29:27680:40|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27681:30:27681:46|Object EDGE_CAPTURE_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27682:29:27682:40|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27683:30:27683:46|Object PIO_DATA_DLY_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on gpio_uniq_1_Z3_layer1 .......
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27650:34:27650:45|*Output PIO_BOTH_OUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on gpio_uniq_1_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33387:7:33387:16|Synthesizing module pmi_ram_dp in library work.
+
+	pmi_wr_addr_depth=32'b00000000000000000010000000000000
+	pmi_wr_addr_width=32'b00000000000000000000000000001101
+	pmi_wr_data_width=32'b00000000000000000000000000100000
+	pmi_rd_addr_depth=32'b00000000000000000010000000000000
+	pmi_rd_addr_width=32'b00000000000000000000000000001101
+	pmi_rd_data_width=32'b00000000000000000000000000100000
+	pmi_regmode=40'b0110111001101111011100100110010101100111
+	pmi_gsr=48'b011001010110111001100001011000100110110001100101
+	pmi_resetmode=32'b01110011011110010110111001100011
+	pmi_optimization=40'b0111001101110000011001010110010101100100
+	pmi_init_file=32'b01101110011011110110111001100101
+	pmi_init_file_format=24'b011010000110010101111000
+	pmi_family=40'b0100010101000011010100000011010101010101
+	module_type=80'b01110000011011010110100101011111011100100110000101101101010111110110010001110000
+   Generated name = pmi_ram_dp_Z4_layer1
+Running optimization stage 1 on pmi_ram_dp_Z4_layer1 .......
+Finished optimization stage 1 on pmi_ram_dp_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28374:7:28374:24|Synthesizing module wb_ebr_ctrl_uniq_1 in library work.
+
+	SIZE=32'b00000000000000001000000000000000
+	EBR_WB_DAT_WIDTH=32'b00000000000000000000000000100000
+	INIT_FILE_FORMAT=24'b011010000110010101111000
+	INIT_FILE_NAME=32'b01101110011011110110111001100101
+	lat_family=40'b0100010101000011010100000011010101010101
+	UDLY=32'b00000000000000000000000000000001
+	EBR_WB_ADR_WIDTH=32'b00000000000000000000000000001101
+	EBR_ADDR_DEPTH=32'b00000000000000000010000000000000
+	ST_IDLE=3'b000
+	ST_BURST=3'b001
+	ST_END=3'b010
+	ST_SUBRD=3'b100
+	ST_SUB=3'b101
+	ST_SUBWR=3'b110
+   Generated name = wb_ebr_ctrl_uniq_1_Z5_layer1
+Running optimization stage 1 on wb_ebr_ctrl_uniq_1_Z5_layer1 .......
+Finished optimization stage 1 on wb_ebr_ctrl_uniq_1_Z5_layer1 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32064:7:32064:17|Synthesizing module tpio_uniq_9 in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32085:8:32085:15|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32086:8:32086:15|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32087:8:32087:19|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32088:8:32088:19|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s .......
+Finished optimization stage 1 on tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28146:7:28146:17|Synthesizing module gpio_uniq_2 in library work.
+
+	GPIO_WB_DAT_WIDTH=32'b00000000000000000000000000100000
+	GPIO_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	INPUT_WIDTH=32'b00000000000000000000000000000001
+	OUTPUT_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	INPUT_PORTS_ONLY=32'b00000000000000000000000000000000
+	OUTPUT_PORTS_ONLY=32'b00000000000000000000000000000000
+	BOTH_INPUT_AND_OUTPUT=32'b00000000000000000000000000000001
+	TRISTATE_PORTS=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = gpio_uniq_2_Z6_layer1
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28168:32:28168:38|Removing wire PIO_OUT, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28183:9:28183:24|Removing wire PIO_DATA_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28183:27:28183:42|Removing wire PIO_DATA_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28183:45:28183:60|Removing wire PIO_DATA_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28183:63:28183:78|Removing wire PIO_DATA_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28185:9:28185:23|Removing wire PIO_TRI_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28185:26:28185:40|Removing wire PIO_TRI_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28185:43:28185:57|Removing wire PIO_TRI_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28185:60:28185:74|Removing wire PIO_TRI_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28187:9:28187:24|Removing wire IRQ_MASK_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28187:27:28187:42|Removing wire IRQ_MASK_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28187:45:28187:60|Removing wire IRQ_MASK_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28187:63:28187:78|Removing wire IRQ_MASK_WR_EN_3, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28189:9:28189:24|Removing wire EDGE_CAP_WR_EN_0, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28189:27:28189:42|Removing wire EDGE_CAP_WR_EN_1, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28189:45:28189:60|Removing wire EDGE_CAP_WR_EN_2, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28189:63:28189:78|Removing wire EDGE_CAP_WR_EN_3, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28194:29:28194:36|Object PIO_DATA is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28195:29:28195:36|Object IRQ_MASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28196:30:28196:42|Object IRQ_MASK_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28197:29:28197:36|Object IRQ_TEMP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28198:30:28198:42|Object IRQ_TEMP_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28199:29:28199:40|Object EDGE_CAPTURE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28200:30:28200:46|Object EDGE_CAPTURE_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28201:29:28201:40|Object PIO_DATA_DLY is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28202:30:28202:46|Object PIO_DATA_DLY_BOTH is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on gpio_uniq_2_Z6_layer1 .......
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28168:32:28168:38|*Output PIO_OUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on gpio_uniq_2_Z6_layer1 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28718:7:28718:23|Synthesizing module wb_reg_dev_uniq_1 in library work.
+
+	CLK_MHZ=72'b001101000011100000101110001100000011000000110000001100000011000000110000
+	reg_08_int_val=32'b00010010001101001010101111001101
+	CLK_MHZ_INT_VALUE=32'b00000000000000000000000000110000
+   Generated name = wb_reg_dev_uniq_1_48.000000_305441741_48s
+Running optimization stage 1 on wb_reg_dev_uniq_1_48.000000_305441741_48s .......
+Finished optimization stage 1 on wb_reg_dev_uniq_1_48.000000_305441741_48s (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28667:7:28667:21|Synthesizing module Reg_Comp_uniq_1 in library work.
+
+	reg_08_int_val=32'b00010010001101001010101111001101
+	CLK_MHZ=72'b001101000011100000101110001100000011000000110000001100000011000000110000
+   Generated name = Reg_Comp_uniq_1_305441741_48.000000
+Running optimization stage 1 on Reg_Comp_uniq_1_305441741_48.000000 .......
+Finished optimization stage 1 on Reg_Comp_uniq_1_305441741_48.000000 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28974:7:28974:16|Synthesizing module spi_uniq_1 in library work.
+
+	SHIFT_DIRECTION=32'b00000000000000000000000000000000
+	CLOCK_PHASE=32'b00000000000000000000000000000000
+	CLOCK_POLARITY=32'b00000000000000000000000000000000
+	CLOCK_SEL=32'b00000000000000000000000000000111
+	MASTER=32'b00000000000000000000000000000001
+	SLAVE_NUMBER=32'b00000000000000000000000000000010
+	DATA_LENGTH=32'b00000000000000000000000000100000
+	DELAY_TIME=32'b00000000000000000000000000000010
+	CLKCNT_WIDTH=32'b00000000000000000000000000010000
+	INTERVAL_LENGTH=32'b00000000000000000000000000000010
+	UDLY=32'b00000000000000000000000000000001
+	ST_IDLE=3'b000
+	ST_LOAD=3'b001
+	ST_WAIT=3'b010
+	ST_TRANS=3'b011
+	ST_TURNAROUND=3'b100
+	ST_INTERVAL=3'b101
+   Generated name = spi_uniq_1_Z7_layer1
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29023:8:29023:17|Object MISO_SLAVE is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on spi_uniq_1_Z7_layer1 .......
+@W: CL118 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29258:12:29258:15|Latch generated from always block for signal \genblk1.n_status[2:0]; possible missing assignment in an if or case statement.
+@W: CL190 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29338:4:29338:9|Optimizing register bit tx_shift_data[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29338:4:29338:9|Pruning register bit 0 of tx_shift_data[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on spi_uniq_1_Z7_layer1 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29525:7:29525:24|Synthesizing module wb_fifo_dev_uniq_1 in library work.
+
+	reg_16_int_val=32'b00010010001101001010101111001101
+   Generated name = wb_fifo_dev_uniq_1_305441741
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29608:15:29608:20|Object reg_04 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29609:15:29609:20|Object reg_08 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on wb_fifo_dev_uniq_1_305441741 .......
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 2 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 3 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 4 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 5 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 6 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 7 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 8 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 9 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 10 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 11 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 12 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 13 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 14 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 15 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 16 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 17 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 18 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 19 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 20 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 21 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 22 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 23 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 24 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 25 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 26 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 27 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 28 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 29 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 30 of status_reg[31:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29690:4:29690:9|All reachable assignments to bit 31 of status_reg[31:0] assign 0, register removed by optimization.
+Finished optimization stage 1 on wb_fifo_dev_uniq_1_305441741 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29461:7:29461:22|Synthesizing module FIFO_Comp_uniq_1 in library work.
+
+	reg_16_int_val=32'b00010010001101001010101111001101
+   Generated name = FIFO_Comp_uniq_1_305441741
+Running optimization stage 1 on FIFO_Comp_uniq_1_305441741 .......
+Finished optimization stage 1 on FIFO_Comp_uniq_1_305441741 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29961:7:29961:20|Synthesizing module intface_uniq_1 in library work.
+
+	CLK_IN_MHZ=72'b001101000011100000101110001100000011000000110000001100000011000000110000
+	UART_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	BAUD_RATE=32'b00000000000000011100001000000000
+	FIFO=32'b00000000000000000000000000000000
+	LCR_DATA_BITS=32'b00000000000000000000000000001000
+	LCR_STOP_BITS=32'b00000000000000000000000000000001
+	LCR_PARITY_ENABLE=32'b00000000000000000000000000000000
+	LCR_PARITY_ODD=32'b00000000000000000000000000000000
+	LCR_PARITY_STICK=32'b00000000000000000000000000000000
+	LCR_SET_BREAK=32'b00000000000000000000000000000000
+	STDOUT_SIM=32'b00000000000000000000000000000000
+	STDOUT_SIMFAST=32'b00000000000000000000000000000000
+	A_RBR=4'b0000
+	A_THR=4'b0000
+	A_IER=4'b0001
+	A_IIR=4'b0010
+	A_LCR=4'b0011
+	A_LSR=4'b0101
+	A_DIV=3'b100
+	idle=3'b000
+	int0=3'b001
+	int1=3'b010
+	int2=3'b011
+	int3=3'b100
+   Generated name = intface_uniq_1_Z8_layer1
+@W: CG813 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30047:31:30047:69|Rounding real from 416.666667 to 417 (simulation mismatch possible)
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30000:11:30000:24|Removing wire fifo_empty_thr, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30001:11:30001:23|Removing wire fifo_full_thr, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30012:37:30012:44|Removing wire thr_fifo, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30028:8:30028:26|Object iir_rd_strobe_delay is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30031:8:30031:13|Object lsr2_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30031:16:30031:21|Object lsr3_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30031:24:30031:29|Object lsr4_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30036:9:30036:28|Removing wire fifo_almost_full_thr, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30037:9:30037:29|Removing wire fifo_almost_empty_thr, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30038:15:30038:26|Removing wire fifo_din_thr, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30039:8:30039:18|Object fifo_wr_thr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30040:8:30040:20|Object fifo_wr_q_thr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30041:9:30041:25|Removing wire fifo_wr_pulse_thr, as there is no assignment to it.
+Running optimization stage 1 on intface_uniq_1_Z8_layer1 .......
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30000:11:30000:24|*Output fifo_empty_thr has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30001:11:30001:23|*Output fifo_full_thr has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on intface_uniq_1_Z8_layer1 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30238:7:30238:19|Synthesizing module rxcver_uniq_1 in library work.
+
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	FIFO=32'b00000000000000000000000000000000
+	idle=3'b000
+	shift=3'b001
+	parity=3'b010
+	stop=3'b011
+	idle1=3'b100
+	lat_family=40'b0100010101000011010100000011010101010101
+   Generated name = rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|Removing wire rbr_fifo, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30262:11:30262:20|Removing wire fifo_empty, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30263:11:30263:26|Removing wire fifo_almost_full, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30271:14:30271:18|Object count is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30283:8:30283:15|Object rxclk_en is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30285:15:30285:28|Removing wire rbr_fifo_error, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30296:9:30296:17|Removing wire fifo_full, as there is no assignment to it.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30299:9:30299:25|Removing wire fifo_almost_empty, as there is no assignment to it.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30300:15:30300:22|Object fifo_din is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30301:8:30301:14|Object fifo_wr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30302:8:30302:16|Object fifo_wr_q is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30303:9:30303:21|Removing wire fifo_wr_pulse, as there is no assignment to it.
+Running optimization stage 1 on rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U .......
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30255:17:30255:24|*Output rbr_fifo has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30262:11:30262:20|*Output fifo_empty has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30263:11:30263:26|*Output fifo_almost_full has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL177 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30533:4:30533:9|Sharing sequential element sin_d0_delay and merging sin_d1. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30725:7:30725:19|Synthesizing module txmitt_uniq_1 in library work.
+
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	FIFO=32'b00000000000000000000000000000000
+	start=3'b000
+	shift=3'b001
+	parity=3'b010
+	stop_1bit=3'b011
+	stop_2bit=3'b100
+	stop_halfbit=3'b101
+	start1=3'b110
+   Generated name = txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30756:8:30756:20|Object tx_in_start_s is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30761:8:30761:16|Object txclk_ena is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30762:8:30762:16|Object txclk_enb is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30764:14:30764:20|Object count_v is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30765:8:30765:17|Object thr_rd_int is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30766:8:30766:19|Object thr_rd_delay is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30767:8:30767:16|Object last_word is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6 .......
+Finished optimization stage 1 on txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29806:7:29806:22|Synthesizing module uart_core_uniq_1 in library work.
+
+	CLK_IN_MHZ=72'b001101000011100000101110001100000011000000110000001100000011000000110000
+	UART_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	BAUD_RATE=32'b00000000000000011100001000000000
+	FIFO=32'b00000000000000000000000000000000
+	LCR_DATA_BITS=32'b00000000000000000000000000001000
+	LCR_STOP_BITS=32'b00000000000000000000000000000001
+	LCR_PARITY_ENABLE=32'b00000000000000000000000000000000
+	LCR_PARITY_ODD=32'b00000000000000000000000000000000
+	LCR_PARITY_STICK=32'b00000000000000000000000000000000
+	LCR_SET_BREAK=32'b00000000000000000000000000000000
+	STDOUT_SIM=32'b00000000000000000000000000000000
+	STDOUT_SIMFAST=32'b00000000000000000000000000000000
+   Generated name = uart_core_uniq_1_Z9_layer1
+Running optimization stage 1 on uart_core_uniq_1_Z9_layer1 .......
+Finished optimization stage 1 on uart_core_uniq_1_Z9_layer1 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4293:7:4293:22|Synthesizing module platform1_uniq_1 in library work.
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4535:32:4535:34|Input PIO_IN on instance LED is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4535:32:4535:34|Input PIO_BOTH_IN on instance LED is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4598:32:4598:35|Input PIO_IN on instance GPIO is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4656:33:4656:35|Input MOSI_SLAVE on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4656:33:4656:35|Input SS_N_SLAVE on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4656:33:4656:35|Input SCLK_SLAVE on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4311:9:4311:20|Removing wire SHAREDBUS_en, as there is no assignment to it.
+Running optimization stage 1 on platform1_uniq_1 .......
+Finished optimization stage 1 on platform1_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 143MB)
+Running optimization stage 1 on rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s .......
+Finished optimization stage 1 on rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on rvl_decode_5s_1s .......
+Finished optimization stage 1 on rvl_decode_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on rvl_tu_1s_0s_0s_0s_1s .......
+Finished optimization stage 1 on rvl_tu_1s_0s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on pmi_ram_dp_Z11_layer1 .......
+Finished optimization stage 1 on pmi_ram_dp_Z11_layer1 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on rvl_te_Z10_layer1 .......
+Finished optimization stage 1 on rvl_te_Z10_layer1 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on rvl_tcnt_1s_3s_1_0s .......
+Finished optimization stage 1 on rvl_tcnt_1s_3s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":11:7:11:18|Synthesizing module top_la0_trig in library work.
+Running optimization stage 1 on top_la0_trig .......
+Finished optimization stage 1 on top_la0_trig (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on pmi_ram_dp_Z13_layer1 .......
+Finished optimization stage 1 on pmi_ram_dp_Z13_layer1 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 1 on rvl_tm_Z12_layer1 .......
+Finished optimization stage 1 on rvl_tm_Z12_layer1 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+@N: CG364 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":12:7:12:13|Synthesizing module top_la0 in library work.
+Running optimization stage 1 on top_la0 .......
+Finished optimization stage 1 on top_la0 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 2 on top_la0 .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":59:7:59:13|Input reset_n is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_la0_gen.v":74:7:74:16|Input trigger_en is unused.
+Finished optimization stage 2 on top_la0 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 2 on pmi_ram_dp_Z13_layer1 .......
+Finished optimization stage 2 on pmi_ram_dp_Z13_layer1 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 143MB)
+Running optimization stage 2 on rvl_tm_Z12_layer1 .......
+Finished optimization stage 2 on rvl_tm_Z12_layer1 (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on top_la0_trig .......
+Finished optimization stage 2 on top_la0_trig (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on rvl_tcnt_1s_3s_1_0s .......
+Finished optimization stage 2 on rvl_tcnt_1s_3s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on pmi_ram_dp_Z11_layer1 .......
+Finished optimization stage 2 on pmi_ram_dp_Z11_layer1 (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on rvl_te_Z10_layer1 .......
+Finished optimization stage 2 on rvl_te_Z10_layer1 (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on rvl_tu_1s_0s_0s_0s_1s .......
+Finished optimization stage 2 on rvl_tu_1s_0s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on rvl_decode_5s_1s .......
+Finished optimization stage 2 on rvl_decode_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 143MB)
+Running optimization stage 2 on rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s .......
+Finished optimization stage 2 on rvl_jtag_int_150s_5s_0s_0s_8s_150s_150s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 171MB)
+Running optimization stage 2 on platform1_uniq_1 .......
+Finished optimization stage 2 on platform1_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 171MB)
+Running optimization stage 2 on uart_core_uniq_1_Z9_layer1 .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29814:10:29814:20|Input UART_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29819:44:29819:53|Input UART_SEL_I is unused.
+Finished optimization stage 2 on uart_core_uniq_1_Z9_layer1 (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 171MB)
+Running optimization stage 2 on txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Trying to extract state machine for register tx_state.
+Extracted state machine for register tx_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30743:10:30743:23|Input fifo_empty_thr is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30744:10:30744:22|Input fifo_full_thr is unused.
+Finished optimization stage 2 on txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 171MB)
+Running optimization stage 2 on rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30412:4:30412:9|Trying to extract state machine for register cs_state.
+Extracted state machine for register cs_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Finished optimization stage 2 on rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on intface_uniq_1_Z8_layer1 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30166:4:30166:9|Trying to extract state machine for register cs_state.
+Extracted state machine for register cs_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29969:16:29969:20|Input cti_i is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29970:16:29970:20|Input bte_i is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29978:38:29978:45|Input rbr_fifo is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29999:10:29999:19|Input fifo_empty is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30002:10:30002:15|Input thr_rd is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30003:10:30003:25|Input fifo_almost_full is unused.
+Finished optimization stage 2 on intface_uniq_1_Z8_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on FIFO_Comp_uniq_1_305441741 .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29469:10:29469:18|Input wb_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29470:16:29470:23|Input wb_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29471:16:29471:23|Input wb_BTE_I is unused.
+Finished optimization stage 2 on FIFO_Comp_uniq_1_305441741 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on wb_fifo_dev_uniq_1_305441741 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29569:17:29569:22|Input port bits 31 to 5 of wb_adr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29569:17:29569:22|Input port bits 1 to 0 of wb_adr[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on wb_fifo_dev_uniq_1_305441741 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on spi_uniq_1_Z7_layer1 .......
+@W: CL169 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29323:4:29323:9|Pruning unused register \genblk1.wait_one_tick_done. Make sure that there are no unused intermediate registers.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28983:17:28983:25|Input port bits 31 to 8 of SPI_ADR_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29023:8:29023:17|*Unassigned bits of MISO_SLAVE are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28988:16:28988:24|Input SPI_SEL_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28989:16:28989:24|Input SPI_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28990:16:28990:24|Input SPI_BTE_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28991:10:28991:19|Input SPI_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29003:10:29003:19|Input MOSI_SLAVE is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29004:10:29004:19|Input SS_N_SLAVE is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29005:10:29005:19|Input SCLK_SLAVE is unused.
+Finished optimization stage 2 on spi_uniq_1_Z7_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on Reg_Comp_uniq_1_305441741_48.000000 .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28675:10:28675:18|Input wb_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28676:16:28676:23|Input wb_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28677:16:28677:23|Input wb_BTE_I is unused.
+Finished optimization stage 2 on Reg_Comp_uniq_1_305441741_48.000000 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on wb_reg_dev_uniq_1_48.000000_305441741_48s .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28759:17:28759:22|Input port bits 31 to 4 of wb_adr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28759:17:28759:22|Input port bits 1 to 0 of wb_adr[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on wb_reg_dev_uniq_1_48.000000_305441741_48s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on gpio_uniq_2_Z6_layer1 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28157:38:28157:47|Input port bits 1 to 0 of GPIO_ADR_I[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28158:38:28158:47|Input port bits 31 to 25 of GPIO_DAT_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28158:38:28158:47|Input port bits 23 to 0 of GPIO_DAT_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28159:44:28159:53|Input port bits 2 to 0 of GPIO_SEL_I[3:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28151:10:28151:19|Input GPIO_CYC_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28154:10:28154:20|Input GPIO_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28155:16:28155:25|Input GPIO_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28156:16:28156:25|Input GPIO_BTE_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28166:31:28166:36|Input PIO_IN is unused.
+Finished optimization stage 2 on gpio_uniq_2_Z6_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32085:8:32085:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32075:10:32075:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32076:10:32076:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_9_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on wb_ebr_ctrl_uniq_1_Z5_layer1 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28566:4:28566:9|Trying to extract state machine for register \genblk1.state.
+Extracted state machine for register \genblk1.state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   100
+   101
+   110
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28377:17:28377:25|Input port bits 31 to 15 of EBR_ADR_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28384:16:28384:24|Input EBR_BTE_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28385:10:28385:19|Input EBR_LOCK_I is unused.
+Finished optimization stage 2 on wb_ebr_ctrl_uniq_1_Z5_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on pmi_ram_dp_Z4_layer1 .......
+Finished optimization stage 2 on pmi_ram_dp_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on gpio_uniq_1_Z3_layer1 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27638:38:27638:47|Input port bits 1 to 0 of GPIO_ADR_I[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27639:38:27639:47|Input port bits 23 to 0 of GPIO_DAT_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27640:44:27640:53|Input port bits 2 to 0 of GPIO_SEL_I[3:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27632:10:27632:19|Input GPIO_CYC_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27635:10:27635:20|Input GPIO_LOCK_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27636:16:27636:25|Input GPIO_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27637:16:27637:25|Input GPIO_BTE_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27647:31:27647:36|Input PIO_IN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27648:32:27648:42|Input PIO_BOTH_IN is unused.
+Finished optimization stage 2 on gpio_uniq_1_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31962:8:31962:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31952:10:31952:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31953:10:31953:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_8_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31839:8:31839:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31829:10:31829:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31830:10:31830:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_7_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31716:8:31716:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31706:10:31706:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31707:10:31707:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_6_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31593:8:31593:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31583:10:31583:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31584:10:31584:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_5_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31470:8:31470:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31460:10:31460:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31461:10:31461:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_4_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31347:8:31347:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31337:10:31337:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31338:10:31338:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_3_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31224:8:31224:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31214:10:31214:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31215:10:31215:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_2_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s .......
+@A: CL153 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31101:8:31101:15|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31091:10:31091:23|Input IRQ_MASK_WR_EN is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":31092:10:31092:23|Input EDGE_CAP_WR_EN is unused.
+Finished optimization stage 2 on tpio_uniq_1_1s_0s_0s_1s_1s_0s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on BB .......
+Finished optimization stage 2 on BB (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on lm32_top_uniq_1 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3705:23:3705:33|Input port bits 31 to 14 of DEBUG_ADR_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3705:23:3705:33|Input port bits 12 to 11 of DEBUG_ADR_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3705:23:3705:33|Input port bits 1 to 0 of DEBUG_ADR_I[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3709:22:3709:32|Input DEBUG_CTI_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3710:22:3710:32|Input DEBUG_BTE_I is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3711:10:3711:21|Input DEBUG_LOCK_I is unused.
+Finished optimization stage 2 on lm32_top_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on jtag_cores_uniq_1 .......
+Finished optimization stage 2 on jtag_cores_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on jtag_lm32_uniq_1 .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26174:10:26174:22|Input CONTROL_DATAN is unused.
+Finished optimization stage 2 on jtag_lm32_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_11 .......
+Finished optimization stage 2 on TYPEA_uniq_11 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_10 .......
+Finished optimization stage 2 on TYPEA_uniq_10 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_9 .......
+Finished optimization stage 2 on TYPEA_uniq_9 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_8 .......
+Finished optimization stage 2 on TYPEA_uniq_8 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_7 .......
+Finished optimization stage 2 on TYPEA_uniq_7 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_6 .......
+Finished optimization stage 2 on TYPEA_uniq_6 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_5 .......
+Finished optimization stage 2 on TYPEA_uniq_5 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_4 .......
+Finished optimization stage 2 on TYPEA_uniq_4 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_3 .......
+Finished optimization stage 2 on TYPEA_uniq_3 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_2 .......
+Finished optimization stage 2 on TYPEA_uniq_2 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on TYPEA_uniq_1 .......
+Finished optimization stage 2 on TYPEA_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on lm32_monitor_uniq_1 .......
+Finished optimization stage 2 on lm32_monitor_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on lm32_monitor_ram_uniq_1 .......
+Finished optimization stage 2 on lm32_monitor_ram_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on VLO .......
+Finished optimization stage 2 on VLO (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on VHI .......
+Finished optimization stage 2 on VHI (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on DP16KD .......
+Finished optimization stage 2 on DP16KD (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 171MB)
+Running optimization stage 2 on lm32_cpu_uniq_1 .......
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Found RAM registers, depth=32, width=32
+@N: CL134 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Found RAM registers, depth=32, width=32
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2329:10:2329:16|Input I_RTY_I is unused.
+Finished optimization stage 2 on lm32_cpu_uniq_1 (CPU Time 0h:00m:01s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_debug_uniq_1_0s_0 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25256:23:25256:36|Input port bits 31 to 2 of csr_write_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25256:23:25256:36|Input port bit 0 of csr_write_data[31:0] is unused
+
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25251:35:25251:38|Input pc_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25252:10:25252:15|Input load_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25253:10:25253:16|Input store_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25254:23:25254:42|Input load_store_address_x is unused.
+Finished optimization stage 2 on lm32_debug_uniq_1_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_jtag_uniq_1 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24967:23:24967:36|Input port bits 31 to 8 of csr_write_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24961:10:24961:17|Input jtag_clk is unused.
+Finished optimization stage 2 on lm32_jtag_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_interrupt_uniq_1 .......
+Finished optimization stage 2 on lm32_interrupt_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_mc_arithmetic_uniq_1 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24527:4:24527:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   000
+   010
+   011
+Finished optimization stage 2 on lm32_mc_arithmetic_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_multiplier_uniq_1 .......
+Finished optimization stage 2 on lm32_multiplier_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_shifter_uniq_1 .......
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24155:23:24155:33|Input port bits 31 to 5 of operand_1_x[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on lm32_shifter_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_logic_op_uniq_1 .......
+Finished optimization stage 2 on lm32_logic_op_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_adder_uniq_1 .......
+Finished optimization stage 2 on lm32_adder_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_addsub_uniq_1 .......
+Finished optimization stage 2 on lm32_addsub_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on pmi_addsub_32s_32s_off_ECP5U_pmi_addsub .......
+Finished optimization stage 2 on pmi_addsub_32s_32s_off_ECP5U_pmi_addsub (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 171MB)
+Running optimization stage 2 on lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":379:10:379:15|Input load_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":380:10:380:16|Input store_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":382:10:382:18|Input store_q_x is unused.
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":391:10:391:16|Input d_rty_i is unused.
+Finished optimization stage 2 on lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_dcache_uniq_1_Z2_layer1 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   001
+   010
+   100
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23266:23:23266:31|Input port bits 31 to 13 of address_x[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23266:23:23266:31|Input port bits 1 to 0 of address_x[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on lm32_dcache_uniq_1_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33245:10:33245:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_7_4s_9s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33079:10:33079:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_6_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32913:10:32913:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_5_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32747:10:32747:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_4_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32581:10:32581:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_3_8s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_decoder_uniq_1 .......
+Finished optimization stage 2 on lm32_decoder_uniq_1 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s .......
+Finished optimization stage 2 on lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_icache_uniq_1_Z1_layer1 .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1543:4:1543:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+@W: CL246 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1364:35:1364:43|Input port bits 31 to 13 of address_a[31:2] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on lm32_icache_uniq_1_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32415:10:32415:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_2_4s_9s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP .......
+@N: CL159 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32249:10:32249:14|Input reset is unused.
+Finished optimization stage 2 on lm32_ram_uniq_1_32s_11s_AUTO_RAM_DP (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+Running optimization stage 2 on arbiter2_uniq_1_32s_32s_32s_32s .......
+@N: CL201 :"D:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4042:4:4042:9|Trying to extract state machine for register selected.
+Extracted state machine for register selected
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on arbiter2_uniq_1_32s_32s_32s_32s (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 171MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\layer1.rt.csv
+

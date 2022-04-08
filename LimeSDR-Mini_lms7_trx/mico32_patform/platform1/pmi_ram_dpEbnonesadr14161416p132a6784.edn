@@ -1,0 +1,467 @@
+(edif pmi_ram_dpEbnonesadr14161416p132a6784
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 1 29 14 48 32)
+      (program "SCUBA" (version "Diamond (64-bit) 3.12.1.454"))))
+      (comment "C:/lscc/diamond/3.12/ispfpga/bin/nt64/scuba -w -bus_exp 7 -bb -arch sa5p00 -type bram -wp 10 -rp 0011 -data_width 1 -num_rows 16 -rdata_width 1 -read_reg1 outreg -gsr DISABLED -reset_rel async -memformat bin -cascade -1 -n pmi_ram_dpEbnonesadr14161416p132a6784 -pmi ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell DP16KD
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port DIA17
+            (direction INPUT))
+          (port DIA16
+            (direction INPUT))
+          (port DIA15
+            (direction INPUT))
+          (port DIA14
+            (direction INPUT))
+          (port DIA13
+            (direction INPUT))
+          (port DIA12
+            (direction INPUT))
+          (port DIA11
+            (direction INPUT))
+          (port DIA10
+            (direction INPUT))
+          (port DIA9
+            (direction INPUT))
+          (port DIA8
+            (direction INPUT))
+          (port DIA7
+            (direction INPUT))
+          (port DIA6
+            (direction INPUT))
+          (port DIA5
+            (direction INPUT))
+          (port DIA4
+            (direction INPUT))
+          (port DIA3
+            (direction INPUT))
+          (port DIA2
+            (direction INPUT))
+          (port DIA1
+            (direction INPUT))
+          (port DIA0
+            (direction INPUT))
+          (port ADA13
+            (direction INPUT))
+          (port ADA12
+            (direction INPUT))
+          (port ADA11
+            (direction INPUT))
+          (port ADA10
+            (direction INPUT))
+          (port ADA9
+            (direction INPUT))
+          (port ADA8
+            (direction INPUT))
+          (port ADA7
+            (direction INPUT))
+          (port ADA6
+            (direction INPUT))
+          (port ADA5
+            (direction INPUT))
+          (port ADA4
+            (direction INPUT))
+          (port ADA3
+            (direction INPUT))
+          (port ADA2
+            (direction INPUT))
+          (port ADA1
+            (direction INPUT))
+          (port ADA0
+            (direction INPUT))
+          (port CEA
+            (direction INPUT))
+          (port OCEA
+            (direction INPUT))
+          (port CLKA
+            (direction INPUT))
+          (port WEA
+            (direction INPUT))
+          (port CSA2
+            (direction INPUT))
+          (port CSA1
+            (direction INPUT))
+          (port CSA0
+            (direction INPUT))
+          (port RSTA
+            (direction INPUT))
+          (port DIB17
+            (direction INPUT))
+          (port DIB16
+            (direction INPUT))
+          (port DIB15
+            (direction INPUT))
+          (port DIB14
+            (direction INPUT))
+          (port DIB13
+            (direction INPUT))
+          (port DIB12
+            (direction INPUT))
+          (port DIB11
+            (direction INPUT))
+          (port DIB10
+            (direction INPUT))
+          (port DIB9
+            (direction INPUT))
+          (port DIB8
+            (direction INPUT))
+          (port DIB7
+            (direction INPUT))
+          (port DIB6
+            (direction INPUT))
+          (port DIB5
+            (direction INPUT))
+          (port DIB4
+            (direction INPUT))
+          (port DIB3
+            (direction INPUT))
+          (port DIB2
+            (direction INPUT))
+          (port DIB1
+            (direction INPUT))
+          (port DIB0
+            (direction INPUT))
+          (port ADB13
+            (direction INPUT))
+          (port ADB12
+            (direction INPUT))
+          (port ADB11
+            (direction INPUT))
+          (port ADB10
+            (direction INPUT))
+          (port ADB9
+            (direction INPUT))
+          (port ADB8
+            (direction INPUT))
+          (port ADB7
+            (direction INPUT))
+          (port ADB6
+            (direction INPUT))
+          (port ADB5
+            (direction INPUT))
+          (port ADB4
+            (direction INPUT))
+          (port ADB3
+            (direction INPUT))
+          (port ADB2
+            (direction INPUT))
+          (port ADB1
+            (direction INPUT))
+          (port ADB0
+            (direction INPUT))
+          (port CEB
+            (direction INPUT))
+          (port OCEB
+            (direction INPUT))
+          (port CLKB
+            (direction INPUT))
+          (port WEB
+            (direction INPUT))
+          (port CSB2
+            (direction INPUT))
+          (port CSB1
+            (direction INPUT))
+          (port CSB0
+            (direction INPUT))
+          (port RSTB
+            (direction INPUT))
+          (port DOA17
+            (direction OUTPUT))
+          (port DOA16
+            (direction OUTPUT))
+          (port DOA15
+            (direction OUTPUT))
+          (port DOA14
+            (direction OUTPUT))
+          (port DOA13
+            (direction OUTPUT))
+          (port DOA12
+            (direction OUTPUT))
+          (port DOA11
+            (direction OUTPUT))
+          (port DOA10
+            (direction OUTPUT))
+          (port DOA9
+            (direction OUTPUT))
+          (port DOA8
+            (direction OUTPUT))
+          (port DOA7
+            (direction OUTPUT))
+          (port DOA6
+            (direction OUTPUT))
+          (port DOA5
+            (direction OUTPUT))
+          (port DOA4
+            (direction OUTPUT))
+          (port DOA3
+            (direction OUTPUT))
+          (port DOA2
+            (direction OUTPUT))
+          (port DOA1
+            (direction OUTPUT))
+          (port DOA0
+            (direction OUTPUT))
+          (port DOB17
+            (direction OUTPUT))
+          (port DOB16
+            (direction OUTPUT))
+          (port DOB15
+            (direction OUTPUT))
+          (port DOB14
+            (direction OUTPUT))
+          (port DOB13
+            (direction OUTPUT))
+          (port DOB12
+            (direction OUTPUT))
+          (port DOB11
+            (direction OUTPUT))
+          (port DOB10
+            (direction OUTPUT))
+          (port DOB9
+            (direction OUTPUT))
+          (port DOB8
+            (direction OUTPUT))
+          (port DOB7
+            (direction OUTPUT))
+          (port DOB6
+            (direction OUTPUT))
+          (port DOB5
+            (direction OUTPUT))
+          (port DOB4
+            (direction OUTPUT))
+          (port DOB3
+            (direction OUTPUT))
+          (port DOB2
+            (direction OUTPUT))
+          (port DOB1
+            (direction OUTPUT))
+          (port DOB0
+            (direction OUTPUT)))))
+    (cell pmi_ram_dpEbnonesadr14161416p132a6784
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (array (rename WrAddress "WrAddress(3:0)") 4)
+            (direction INPUT))
+          (port (array (rename RdAddress "RdAddress(3:0)") 4)
+            (direction INPUT))
+          (port (array (rename Data "Data(0:0)") 1)
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port RdClock
+            (direction INPUT))
+          (port RdClockEn
+            (direction INPUT))
+          (port Reset
+            (direction INPUT))
+          (port WrClock
+            (direction INPUT))
+          (port WrClockEn
+            (direction INPUT))
+          (port (array (rename Q "Q(0:0)") 1)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0
+            (viewRef view1 
+              (cellRef DP16KD))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "ASYNC"))
+            (property MEM_LPC_FILE
+              (string "pmi_ram_dpEbnonesadr14161416p132a6784__PMIP__16__1__1B"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "ASYNC"))
+            (property REGMODE_B
+              (string "OUTREG"))
+            (property REGMODE_A
+              (string "OUTREG"))
+            (property DATA_WIDTH_B
+              (string "1"))
+            (property DATA_WIDTH_A
+              (string "1")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))))
+          (net scuba_vlo
+            (joined
+              (portRef Z (instanceRef scuba_vlo_inst))
+              (portRef CSB2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CSA2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CSB1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CSA1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CSB0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CSA0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef WEB (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB13 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA13 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB12 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA12 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB11 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA11 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB10 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA10 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB9 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA9 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB8 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA8 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB7 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA7 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB6 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA6 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB5 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA5 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADB4 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef ADA4 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB17 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA17 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB16 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA16 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB15 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA15 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB14 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA14 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB13 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA13 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB12 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA12 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB11 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA11 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB10 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA10 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB9 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA9 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB8 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA8 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB7 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA7 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB6 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA6 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB5 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA5 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB4 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA4 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB3 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA3 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIA1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef DIB0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net dataout0
+            (joined
+              (portRef (member Q 0))
+              (portRef DOB0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net WrClockEn
+            (joined
+              (portRef WrClockEn)
+              (portRef OCEA (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CEA (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net clk
+            (joined
+              (portRef WrClock)
+              (portRef CLKA (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net Reset
+            (joined
+              (portRef Reset)
+              (portRef RSTB (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef RSTA (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net RdClockEn
+            (joined
+              (portRef RdClockEn)
+              (portRef OCEB (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))
+              (portRef CEB (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net rdclk
+            (joined
+              (portRef RdClock)
+              (portRef CLKB (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net wren
+            (joined
+              (portRef WE)
+              (portRef WEA (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net datain0
+            (joined
+              (portRef (member Data 0))
+              (portRef DIA0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net raddr3
+            (joined
+              (portRef (member RdAddress 0))
+              (portRef ADB3 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net raddr2
+            (joined
+              (portRef (member RdAddress 1))
+              (portRef ADB2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net raddr1
+            (joined
+              (portRef (member RdAddress 2))
+              (portRef ADB1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net raddr0
+            (joined
+              (portRef (member RdAddress 3))
+              (portRef ADB0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net waddr3
+            (joined
+              (portRef (member WrAddress 0))
+              (portRef ADA3 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net waddr2
+            (joined
+              (portRef (member WrAddress 1))
+              (portRef ADA2 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net waddr1
+            (joined
+              (portRef (member WrAddress 2))
+              (portRef ADA1 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))
+          (net waddr0
+            (joined
+              (portRef (member WrAddress 3))
+              (portRef ADA0 (instanceRef pmi_ram_dpEbnonesadr14161416p132a6784_0_0_0))))))))
+  (design pmi_ram_dpEbnonesadr14161416p132a6784
+    (cellRef pmi_ram_dpEbnonesadr14161416p132a6784
+      (libraryRef ORCLIB)))
+)

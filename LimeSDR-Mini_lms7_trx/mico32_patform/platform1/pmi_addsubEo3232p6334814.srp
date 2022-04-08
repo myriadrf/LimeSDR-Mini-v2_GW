@@ -1,0 +1,28 @@
+SCUBA, Version Diamond (64-bit) 3.12.1.454
+Tue Feb 15 19:43:22 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:/lscc/diamond/3.12/ispfpga/bin/nt64/scuba -w -arch sa5p00 -n pmi_addsubEo3232p6334814 -bb -bus_exp 7 -type addsub -width 32 -unsigned -port ci -port co -pmi 
+    Circuit name     : pmi_addsubEo3232p6334814
+    Module type      : addsub
+    Module Version   : 3.5
+    Width            : 32
+    Ports            : 
+	Inputs       : DataA[31:0], DataB[31:0], Cin, Add_Sub
+	Outputs      : Result[31:0], Cout, Overflow
+    I/O buffer       : not inserted
+    Representation   : unsigned number
+    EDIF output      : pmi_addsubEo3232p6334814.edn
+    Bus notation     : big endian
+    Report output    : pmi_addsubEo3232p6334814.srp
+    Element Usage    :
+          CCU2C : 19
+            INV : 1
+          XNOR2 : 1
+    Estimated Resource Usage:
+            LUT : 39

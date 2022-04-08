@@ -1,0 +1,18 @@
+[Deployment Project]
+version=Lattice Diamond 3.12.1.454
+EncryptionVer=1.0
+functionIdx=3
+typeIdx=16
+isRequiredXCFFile=0
+xcfFileName=
+optionList=Output Format;SPI Flash Size (Mb);SPI Flash Read Mode;Byte Wide Bit Mirror;Retain Bitstream Header;Optimize Memory Space;Multiple Boot;Golden Pattern;Golden Starting Address;Protect Golden Sector;Number of Alternate Patterns;Alternate Pattern 1;Address;Configure;Alternate Pattern 2;Address;Configure;Alternate Pattern 3;Address;Configure;Alternate Pattern 4;Address;Configure;User Data Files;Byte Wide Bit Mirroring;Number of User Data Files;User File 1;Address;User File 2;Address;User File 3;Address;User File 4;Address;User File 5;Address;User File 6;Address;User File 7;Address;User File 8;Address;User File 9;Address;User File 10;Address;User File 11;Address;User File 12;Address;User File 13;Address;User File 14;Address;User File 15;Address;User File 16;Address;Enable Cold Boot;Power On Reset Boot Image;Number of Patterns;Pattern 1;Address;Pattern 2;Address;Pattern 3;Address;Pattern 4;Address
+valueList=Intel Hex;128;Standard Read;Off;Off;Off;On;C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1_golden.bit;0x00140000;Off;1;C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit;0x00280000;Primary Pattern;;;Primary Pattern;;;Primary Pattern;;;Primary Pattern;Off;Off;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Off;1;2;C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit;0x000000;;0x000000;;0x000000;;0x000000
+
+[Input File Info]
+inputFileList=C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit
+familyList=ECP5U
+deviceList=LFE5U-45F
+outputFileList=C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1_dualboot.mcs
+
+[Command Line]
+Command="C:/lscc/diamond/3.12/bin/nt64/ddtcmd" -oft -advanced -dev "LFE5U-45F" -if "C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit" -format int -flashsize 128 -golden "C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1_golden.bit" -goldenadd 0x00140000 -multi 1 -altfile "C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit" -address 0x00280000 -next prim -of "C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1_dualboot.mcs"

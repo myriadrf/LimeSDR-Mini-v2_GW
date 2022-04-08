@@ -1,0 +1,100 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version R-2021.03L-SP1 for win64 - Aug 10, 2021 
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.12\synpbase
+Hostname:    DESKTOP-BDUFN08
+Date:        Tue Feb 15 19:37:46 2022
+Version:     R-2021.03L-SP1
+
+Arguments:   -product synplify_pro -batch platform1_platform1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srr to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srf
+
+hdl_info_gen completed
+# Tue Feb 15 19:37:47 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+log file: "D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srr"
+Running: platform1 in foreground
+
+Running proj_1|platform1
+
+Running Flow: compile (Compile) on proj_1|platform1
+# Tue Feb 15 19:37:47 2022
+
+Running Flow: compile_flow (Compile Process) on proj_1|platform1
+# Tue Feb 15 19:37:47 2022
+
+Running: compiler (Compile Input) on proj_1|platform1
+# Tue Feb 15 19:37:47 2022
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\platform1_platform1_comp.srs to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srs
+
+compiler completed
+# Tue Feb 15 19:38:04 2022
+
+Return Code: 0
+Run Time:00h:00m:17s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|platform1
+# Tue Feb 15 19:38:04 2022
+
+multi_srs_gen completed
+# Tue Feb 15 19:38:05 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\platform1_platform1_mult.srs to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srs
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srr to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srf
+Complete: Compile Process on proj_1|platform1
+
+Running: premap (Premap) on proj_1|platform1
+# Tue Feb 15 19:38:05 2022
+
+premap completed with warnings
+# Tue Feb 15 19:38:07 2022
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|platform1
+
+Running Flow: map (Map) on proj_1|platform1
+# Tue Feb 15 19:38:07 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|platform1
+# Tue Feb 15 19:38:07 2022
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\platform1_platform1_m.srm to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srm
+
+fpga_mapper completed with warnings
+# Tue Feb 15 19:38:58 2022
+
+Return Code: 1
+Run Time:00h:00m:51s
+Complete: Map on proj_1|platform1
+Copied D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srr to D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.srf
+Complete: Logic Synthesis on proj_1|platform1
+TCL script complete: "platform1_platform1_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+D:\darbas\lattice\orange_crab\lm32_tutor\platform1\proj_1.prj
+batch mode default:no

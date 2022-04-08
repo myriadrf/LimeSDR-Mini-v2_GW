@@ -1,0 +1,53 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-85F
+PartName=LFE5U-85F-8MG285C
+SpeedGrade=8
+Package=CSFBGA285
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.8
+ModuleName=fifo_dc_32x32
+SourceFormat=vhdl
+ParameterFileVersion=1.0
+Date=02/06/2022
+Time=15:15:00
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=32
+Width=32
+RDepth=32
+RWidth=32
+regout=0
+ClockEn=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Dual Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Async
+Reset1=Sync
+RDataCount=0
+WDataCount=0
+EnECC=0
+
+[Command]
+cmd_line= -w -n fifo_dc_32x32 -lang vhdl -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -depth 32 -width 32 -rwidth 32 -reset_rel SYNC -pe -1 -pf -1

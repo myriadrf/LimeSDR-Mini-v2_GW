@@ -1,0 +1,137 @@
+i LMK_CLK
+m 0 0
+u 498 2614
+p {p:LMK_CLK}{t:reset_n.C}
+e ckid0_0 {t:reset_n.C} dffr
+c ckid0_0 {p:LMK_CLK} port Unsupported/too complex instance on clock path
+i top_reveal_coretop_instance.jtck_i[0]
+m 0 0
+u 46 465
+p {t:top_reveal_coretop_instance.jtag0.jtck}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].I[0]}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].OUT[0]}{t:top_reveal_coretop_instance.core0.jtck}{p:top_reveal_coretop_instance.core0.jtck}{t:top_reveal_coretop_instance.core0.tm_u.jtck}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_1 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_1 {t:top_reveal_coretop_instance.jtag0.jtck} jtagconn16 Unsupported/too complex instance on clock path
+i inst_cpu.lm32_inst.spi.SCLK_MASTER_i
+m 0 0
+u 43 573
+n ckid0_2 {t:inst2.fsm.state[5].C} Derived clock on input (not legal for GCC)
+p {t:inst_cpu.lm32_inst.spi.SCLK_MASTER.Q[0]}{t:inst_cpu.lm32_inst.spi.SCLK_MASTER_derived_clock.I[0]}{t:inst_cpu.lm32_inst.spi.SCLK_MASTER_derived_clock.OUT[0]}{p:inst_cpu.lm32_inst.spi.SCLK_MASTER}{t:inst_cpu.lm32_inst.spi.SCLK_MASTER}{p:inst_cpu.lm32_inst.spiSCLK_MASTER}{t:inst_cpu.lm32_inst.spiSCLK_MASTER}{p:inst_cpu.spiSCLK_MASTER}{t:inst_cpu.spiSCLK_MASTER}{t:inst2.sclk}{p:inst2.sclk}{t:inst2.ram\.mem_31[15:0].C}
+e ckid0_3 {t:inst2.ram\.mem_31[15:0].C} dffpatr
+d ckid0_4 {t:inst_cpu.lm32_inst.spi.SCLK_MASTER.Q[0]} dffre Derived clock on input (not legal for GCC)
+i inst_cpu.lm32_inst.spi.Ügenblk1®n_status_1_sqmuxa_1
+m 0 0
+u 3 3
+n ckid0_5 {t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status[2].C} Clock source is invalid for GCC
+p {t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1.OUT}{t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1_buf_i.I[0]}{t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1_buf_i.OUT[0]}{t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status[2].C}
+e ckid0_5 {t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status[2].C} lat
+d ckid0_5 {t:inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1.OUT} and Unable to find a clock in input cone
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_4
+m 0 0
+u 22 22
+p {t:inst_cpu.lm32_inst.LM32.jtag_cores.jtagconn16_lm32_inst.jtck}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtck.I[0]}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtck.OUT[0]}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.JTCK}{p:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.JTCK}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.CLK}{p:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.CLK}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.un1_CLK.I[0]}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.un1_CLK.OUT[0]}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.DATA_OUT.C}
+e ckid0_6 {t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.DATA_OUT.C} dffre
+c ckid0_7 {t:inst_cpu.lm32_inst.LM32.jtag_cores.jtagconn16_lm32_inst.jtck} jtagconn16 Unsupported/too complex instance on clock path
+i inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE_i
+m 0 0
+u 1 1
+n ckid0_8 {t:inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle.C} Clock source is invalid for GCC
+p {t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE.OUT}{p:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE_i_buf}{t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE_i_buf}{p:inst_cpu.lm32_inst.LM32.jtag_cores.REG_UPDATE_i_buf}{t:inst_cpu.lm32_inst.LM32.jtag_cores.REG_UPDATE_i_buf}{t:inst_cpu.lm32_inst.LM32.cpu.REG_UPDATE_i_buf}{p:inst_cpu.lm32_inst.LM32.cpu.REG_UPDATE_i_buf}{t:inst_cpu.lm32_inst.LM32.cpu.jtag.REG_UPDATE_i_buf}{p:inst_cpu.lm32_inst.LM32.cpu.jtag.REG_UPDATE_i_buf}{t:inst_cpu.lm32_inst.LM32.cpu.jtag.I_1.I[0]}{t:inst_cpu.lm32_inst.LM32.cpu.jtag.I_1.OUT[0]}{t:inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle.C}
+e ckid0_8 {t:inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle.C} dffr
+d ckid0_8 {t:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE.OUT} and Unable to find a clock in input cone
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_3
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_6
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_5
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_2
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.un1_jtagconn16_lm32_inst_1
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.jupdate
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.LM32.jtag_cores.ip_enable
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jtdi[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jshift[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jrstn[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jce2[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.ip_enable[0]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®c_status[1]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®c_status[0]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®c_status[2]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[6]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[11]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[14]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[13]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[7]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[8]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[15]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[9]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[12]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[10]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[4]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[3]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[5]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[2]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[1]
+m 0 0
+u 0 0
+i inst_cpu.lm32_inst.spi.Ügenblk1®clock_cnt[0]
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

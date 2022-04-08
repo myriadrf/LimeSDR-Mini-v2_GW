@@ -1,0 +1,1422 @@
+# Tue Feb 15 20:16:38 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-BDUFN08
+
+Implementation : platform1
+Synopsys Lattice Technology Mapper, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.w_result_sel_load_x because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_x. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24353:4:24353:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.multiplier.multiplier[31:0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.operand_1_x[31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24353:4:24353:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.multiplier.muliplicand[31:0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.operand_0_x[31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33110:4:33110:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.ra[10:0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.ra[10:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32944:4:32944:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.ra[10:0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.ra[10:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32778:4:32778:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.ra[10:0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.ra[10:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_6 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_6. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_28 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_28. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_1 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_25 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_25. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_8 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_8. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_31 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_31. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_27 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_27. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_20 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_20. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_10 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_22 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_22. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_26 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_26. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_18 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_18. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_23 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_23. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_24 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_24. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_14 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_14. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_12 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_12. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_3 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_3. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_23 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_23. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_13 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_13. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_15 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_15. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_4 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_4. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_5 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_3 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_3. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_30 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_30. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_28 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_28. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_2 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_29 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_29. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_26 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_26. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_21 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_21. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_0 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_16 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_16. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_11 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_17 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_17. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_9 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_9. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_7 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_21 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_21. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_14 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_14. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_19 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_19. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing user instance inst_cpu.lm32_inst.LM32.cpu.registers_1r_27 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersr_27. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_5 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_25 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_25. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_7 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_16 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_16. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_29 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_29. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_11 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_20 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_20. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_4 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_4. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_17 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_17. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_10 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_1 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_13 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_13. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_18 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_18. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_12 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_12. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_2 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_15 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_15. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_30 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_30. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_24 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_24. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_8 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_8. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_31 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_31. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_9 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_9. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registersrff_6 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_6. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_0 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersrff_0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_19 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersrff_19. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.registers_1rff_22 because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.registersrff_22. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 192MB)
+
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.vhd":4835:8:4835:9|Found counter in view:work.top(top_arch) instance inst1_alive.cnt[24:0] 
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.condition_x[0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.size_x[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.logic_op_x[0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.size_x[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.condition_x[1] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.size_x[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.logic_op_x[1] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.size_x[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.condition_x[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.sign_extend_x. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.sign_extend_x because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.logic_op_x[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.logic_op_x[3] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.direction_x. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3059:23:3059:49|Found 32 by 32 bit equality operator ('==') cmp_zero (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2979:23:2979:50|Found 5 by 5 bit equality operator ('==') un1_raw_x_0 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2980:23:2980:50|Found 5 by 5 bit equality operator ('==') un1_raw_m_0 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2981:23:2981:50|Found 5 by 5 bit equality operator ('==') un1_raw_w_0 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2982:23:2982:50|Found 5 by 5 bit equality operator ('==') un1_raw_x_1 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2983:23:2983:50|Found 5 by 5 bit equality operator ('==') un1_raw_m_1 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2984:23:2984:50|Found 5 by 5 bit equality operator ('==') un1_raw_w_1 (in view: work.lm32_cpu_uniq_1(verilog))
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":1543:4:1543:9|Found counter in view:work.lm32_instruction_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog) instance icache.flush_set[8:0] 
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32441:4:32441:9|Found 9 by 9 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_512_4_TFFF_block_ram_ns_virtex2(netlist))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32275:4:32275:9|Found 11 by 11 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_2048_32_TFFF_block_ram_ns_virtex2(netlist))
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Removing sequential instance dcache.refill_address[3] (in view: work.lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Removing sequential instance dcache.refill_address[2] (in view: work.lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Removing sequential instance dcache.refill_address[1] (in view: work.lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Removing sequential instance dcache.refill_address[0] (in view: work.lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Found counter in view:work.lm32_load_store_unit_uniq_1_1s_512s_16s_0_65535_2s_2s_3s(verilog) instance dcache.flush_set[8:0] 
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33271:4:33271:9|Found 9 by 9 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_512_4_TFFF_block_ram_ns_virtex2_0(netlist))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Found 11 by 11 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_2048_8_TFFF_block_ram_ns_virtex2(netlist))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Found 11 by 11 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_2048_8_TFFF_block_ram_ns_virtex2_0(netlist))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Found 11 by 11 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_2048_8_TFFF_block_ram_ns_virtex2_1(netlist))
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32607:4:32607:9|Found 11 by 11 bit equality operator ('==') adreg (in view: VhdlGenLib.top_RAM_R_W_2048_8_TFFF_block_ram_ns_virtex2_2(netlist))
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24527:4:24527:9|Found counter in view:work.lm32_mc_arithmetic_uniq_1(verilog) instance cycles[5:0] 
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28468:45:28468:94|Found 13 by 13 bit equality operator ('==') un1_\\genblk1\.read_address (in view: work.wb_ebr_ctrl_uniq_1_Z5_layer1(verilog))
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29237:4:29237:9|Found counter in view:work.spi_uniq_1_Z7_layer1(verilog) instance \\genblk1\.clock_cnt[15:0] 
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30412:4:30412:9|Found counter in view:work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog) instance databit_recved_num[3:0] 
+@N: MF179 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30436:29:30436:49|Found 16 by 16 bit equality operator ('==') cs_state15 (in view: work.rxcver_uniq_1_8s_0s_0_1_2_3_4_ECP5U(verilog))
+@N: MO231 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Found counter in view:work.txmitt_uniq_1_8s_0s_0_1_2_3_4_5_6(verilog) instance counter[15:0] 
+@N: MF794 |RAM icache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem[3:0] required 23 registers during mapping 
+@N: MF794 |RAM icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem[31:0] required 55 registers during mapping 
+@N: MF794 |RAM dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem[3:0] required 23 registers during mapping 
+@N: MF794 |RAM dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem[7:0] required 31 registers during mapping 
+@N: MF794 |RAM dcache.\\memories\[0\]\.genblk1\.byte_memories\[2\]\.way_0_data_ram.\\genblk1\.mem[7:0] required 31 registers during mapping 
+@N: MF794 |RAM dcache.\\memories\[0\]\.genblk1\.byte_memories\[1\]\.way_0_data_ram.\\genblk1\.mem[7:0] required 31 registers during mapping 
+@N: MF794 |RAM dcache.\\memories\[0\]\.genblk1\.byte_memories\[0\]\.way_0_data_ram.\\genblk1\.mem[7:0] required 31 registers during mapping 
+@N: MF794 |RAM registers_1[31:0] required 32 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:10s; Memory used current: 219MB peak: 219MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:13s; Memory used current: 246MB peak: 246MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27700:4:27700:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[0] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27707:4:27707:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[1] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27714:4:27714:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[2] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27721:4:27721:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[3] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27728:4:27728:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[4] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27735:4:27735:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[5] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27742:4:27742:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[6] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":27749:4:27749:9|Removing sequential instance inst_cpu.lm32_inst.LED.PIO_DATA[7] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tx_output (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tx_parity (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[7] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[6] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[5] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[4] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[3] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[2] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[1] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30781:4:30781:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_txmitt.tsr[0] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[7] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[6] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[5] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[4] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[3] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[2] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[1] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":30111:4:30111:9|Removing sequential instance inst_cpu.lm32_inst.uart.u_intface.thr_nonfifo[0] (in view: work.top(top_arch)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:16s; Memory used current: 258MB peak: 295MB)
+
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[0] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[1] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[1] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[1] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[2] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[3] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[3] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[3] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[4] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[4] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[4] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[5] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[5] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[5] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[6] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[6] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":33105:4:33105:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[3].way_0_data_ram.\genblk1.mem_waddr_tmp[6] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32773:4:32773:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[1].way_0_data_ram.\genblk1.mem_waddr_tmp[7] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":32939:4:32939:9|Removing instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[2].way_0_data_ram.\genblk1.mem_waddr_tmp[7] because it is equivalent to instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\memories[0].genblk1.byte_memories[0].way_0_data_ram.\genblk1.mem_waddr_tmp[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synlog\platform1_platform1_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[5] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[4] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[2] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[0] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[20] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[19] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[18] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[17] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[16] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[15] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[14] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[13] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[12] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[11] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[10] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[9] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[8] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[7] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[6] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[31] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[30] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[29] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[28] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[27] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[26] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[25] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[24] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[23] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[22] (in view: work.top(top_arch)) because it does not drive other instances.
+@N: BN362 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":24782:4:24782:9|Removing sequential instance inst_cpu.lm32_inst.LM32.cpu.interrupt.ip[21] (in view: work.top(top_arch)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:23s; Memory used current: 261MB peak: 295MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:26s; Memory used current: 265MB peak: 295MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:27s; Memory used current: 266MB peak: 295MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:29s; Memory used current: 266MB peak: 295MB)
+
+@N: FX1019 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25027:4:25027:9|Adding ASYNC_REG property on synchronizing instance inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle_r (in view: work.top(top_arch)).
+
+Finished technology mapping (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:31s; Memory used current: 319MB peak: 331MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:32s		    -3.33ns		4926 /      3491
+   2		0h:00m:32s		    -3.33ns		4914 /      3491
+   3		0h:00m:32s		    -3.24ns		4916 /      3491
+   4		0h:00m:32s		    -3.24ns		4919 /      3491
+   5		0h:00m:32s		    -3.24ns		4922 /      3491
+   6		0h:00m:32s		    -3.24ns		4925 /      3491
+   7		0h:00m:32s		    -3.24ns		4928 /      3491
+@N: FX1019 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":25027:4:25027:9|Adding ASYNC_REG property on synchronizing instance inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle_r (in view: work.top(top_arch)).
+@N: FX271 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3336:4:3336:9|Replicating instance inst_cpu.lm32_inst.LM32.cpu.exception_m (in view: work.top(top_arch)) with 51 loads 2 times to improve timing.
+@N: FX271 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":633:4:633:9|Replicating instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.d_cyc_o (in view: work.top(top_arch)) with 27 loads 2 times to improve timing.
+@N: FX271 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":2116:4:2116:9|Replicating instance inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[31] (in view: work.top(top_arch)) with 35 loads 2 times to improve timing.
+@N: FX271 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23516:4:23516:9|Replicating instance inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.refill_request (in view: work.top(top_arch)) with 91 loads 2 times to improve timing.
+Timing driven replication report
+Added 8 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+   8		0h:00m:33s		    -3.26ns		4934 /      3499
+   9		0h:00m:34s		    -3.26ns		4934 /      3499
+  10		0h:00m:34s		    -3.26ns		4934 /      3499
+  11		0h:00m:34s		    -3.26ns		4934 /      3499
+  12		0h:00m:34s		    -3.36ns		4934 /      3499
+
+
+  13		0h:00m:34s		    -3.35ns		4933 /      3499
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:35s; Memory used current: 319MB peak: 331MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Generating RAM inst_cpu.lm32_inst.LM32.cpu.registers_1[31:0]
+@N: FO126 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":3519:4:3519:9|Generating RAM inst_cpu.lm32_inst.LM32.cpu.registers[31:0]
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:40s; Memory used current: 322MB peak: 331MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:40s; Memory used current: 254MB peak: 331MB)
+
+Writing Analyst data base D:\darbas\lattice\orange_crab\lm32_tutor\platform1\synwork\platform1_platform1_m.srm
+Warning: Found 3 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net I_257.t1
+1) instance I_257.lat (in view: work.top(top_arch)), output net I_257.t1 (in view: work.top(top_arch))
+    net        I_257.t1
+    input  pin I_257.lat/A
+    instance   I_257.lat (cell ORCALUT4)
+    output pin I_257.lat/Z
+    net        I_257.t1
+@W: BN137 :|Found combinational loop during mapping at net I_256.t1
+2) instance I_256.lat (in view: work.top(top_arch)), output net I_256.t1 (in view: work.top(top_arch))
+    net        I_256.t1
+    input  pin I_256.lat/A
+    instance   I_256.lat (cell ORCALUT4)
+    output pin I_256.lat/Z
+    net        I_256.t1
+@W: BN137 :|Found combinational loop during mapping at net I_255.t1
+3) instance I_255.lat (in view: work.top(top_arch)), output net I_255.t1 (in view: work.top(top_arch))
+    net        I_255.t1
+    input  pin I_255.lat/A
+    instance   I_255.lat (cell ORCALUT4)
+    output pin I_255.lat/Z
+    net        I_255.t1
+End of loops
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:45s; Memory used current: 317MB peak: 331MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\darbas\lattice\orange_crab\lm32_tutor\platform1\platform1_platform1.edi
+@W: BW268 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":29871:32:29871:40|Ignoring parameter CLK_IN_MHZ with floating-point value in -edn file
+@W: BW268 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28690:67:28690:88|Ignoring parameter CLK_MHZ with floating-point value in -edn file
+@W: BW268 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4624:28:4624:30|Ignoring parameter CLK_MHZ with floating-point value in -edn file
+@W: BW268 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":4726:32:4726:35|Ignoring parameter CLK_IN_MHZ with floating-point value in -edn file
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@W: BW150 :|Clock jtag_lm32_uniq_1|REG_UPDATE_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:51s; CPU Time elapsed 0h:00m:47s; Memory used current: 327MB peak: 331MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:51s; CPU Time elapsed 0h:00m:47s; Memory used current: 327MB peak: 331MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:52s; CPU Time elapsed 0h:00m:48s; Memory used current: 309MB peak: 331MB)
+
+Warning: Found 3 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net I_257.t1
+1) instance I_257.lat (in view: work.top(top_arch)), output net I_257.t1 (in view: work.top(top_arch))
+    net        I_257.t1
+    input  pin I_257.lat/A
+    instance   I_257.lat (cell ORCALUT4)
+    output pin I_257.lat/Z
+    net        I_257.t1
+@W: BN137 :|Found combinational loop during mapping at net I_256.t1
+2) instance I_256.lat (in view: work.top(top_arch)), output net I_256.t1 (in view: work.top(top_arch))
+    net        I_256.t1
+    input  pin I_256.lat/A
+    instance   I_256.lat (cell ORCALUT4)
+    output pin I_256.lat/Z
+    net        I_256.t1
+@W: BN137 :|Found combinational loop during mapping at net I_255.t1
+3) instance I_255.lat (in view: work.top(top_arch)), output net I_255.t1 (in view: work.top(top_arch))
+    net        I_255.t1
+    input  pin I_255.lat/A
+    instance   I_255.lat (cell ORCALUT4)
+    output pin I_255.lat/Z
+    net        I_255.t1
+End of loops
+@W: MT246 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":28604:40:28604:51|Blackbox pmi_ram_dp_Z4_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":23887:40:23887:54|Blackbox pmi_addsub_32s_32s_off_ECP5U_pmi_addsub is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\darbas\lattice\orange_crab\lm32_tutor\platform1\reveal_workspace\tmpreveal\top_rvl_top.v":26087:74:26087:93|Blackbox jtagconn16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1192:8:1192:20|Blackbox pmi_ram_dp_Z11_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":2162:8:2162:13|Blackbox pmi_ram_dp_Z13_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock reveal_coretop|jtck_inferred_clock[0] with period 5.00ns. Please declare a user-defined clock on net top_reveal_coretop_instance.jtck[0].
+@W: MT420 |Found inferred clock top|LMK_CLK with period 5.00ns. Please declare a user-defined clock on port LMK_CLK.
+@W: MT420 |Found inferred clock jtag_cores_uniq_1|jtck with period 5.00ns. Please declare a user-defined clock on net inst_cpu.lm32_inst.LM32.jtag_cores.jtckz.
+@N: MT615 |Found clock spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock with period 5.00ns 
+@W: MT420 |Found inferred clock jtag_lm32_uniq_1|reg_update_inferred_clock with period 5.00ns. Please declare a user-defined clock on net inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE_i_buf.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Feb 15 20:17:31 2022
+#
+
+
+Top view:               top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\darbas\lattice\orange_crab\lm32_tutor\timing_sdc.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -3.530
+
+                                                   Requested     Estimated     Requested     Estimated                Clock                          Clock              
+Starting Clock                                     Frequency     Frequency     Period        Period        Slack      Type                           Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+jtag_cores_uniq_1|jtck                             200.0 MHz     739.6 MHz     5.000         1.352         3.648      inferred                       Inferred_clkgroup_2
+jtag_lm32_uniq_1|reg_update_inferred_clock         200.0 MHz     733.1 MHz     5.000         1.364         3.636      inferred                       Inferred_clkgroup_4
+reveal_coretop|jtck_inferred_clock[0]              200.0 MHz     196.6 MHz     5.000         5.088         -0.087     inferred                       Inferred_clkgroup_0
+spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     200.0 MHz     269.7 MHz     5.000         3.708         0.646      derived (from top|LMK_CLK)     Inferred_clkgroup_1
+top|LMK_CLK                                        200.0 MHz     117.2 MHz     5.000         8.530         -3.530     inferred                       Inferred_clkgroup_1
+System                                             200.0 MHz     346.0 MHz     5.000         2.890         2.110      system                         system_clkgroup    
+========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                          |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                        Ending                                          |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                          System                                          |  5.000       2.110   |  No paths    -       |  No paths    -      |  No paths    -    
+System                                          reveal_coretop|jtck_inferred_clock[0]           |  No paths    -       |  No paths    -       |  5.000       1.033  |  No paths    -    
+System                                          top|LMK_CLK                                     |  5.000       2.257   |  No paths    -       |  No paths    -      |  No paths    -    
+System                                          jtag_cores_uniq_1|jtck                          |  No paths    -       |  No paths    -       |  5.000       4.446  |  No paths    -    
+reveal_coretop|jtck_inferred_clock[0]           System                                          |  No paths    -       |  No paths    -       |  No paths    -      |  5.000       0.990
+reveal_coretop|jtck_inferred_clock[0]           reveal_coretop|jtck_inferred_clock[0]           |  No paths    -       |  5.000       -0.088  |  No paths    -      |  No paths    -    
+reveal_coretop|jtck_inferred_clock[0]           top|LMK_CLK                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+top|LMK_CLK                                     System                                          |  5.000       -0.422  |  No paths    -       |  No paths    -      |  No paths    -    
+top|LMK_CLK                                     reveal_coretop|jtck_inferred_clock[0]           |  No paths    -       |  No paths    -       |  Diff grp    -      |  No paths    -    
+top|LMK_CLK                                     top|LMK_CLK                                     |  5.000       -3.530  |  No paths    -       |  No paths    -      |  No paths    -    
+top|LMK_CLK                                     jtag_cores_uniq_1|jtck                          |  No paths    -       |  No paths    -       |  Diff grp    -      |  No paths    -    
+top|LMK_CLK                                     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock  |  5.000       3.472   |  No paths    -       |  No paths    -      |  No paths    -    
+jtag_cores_uniq_1|jtck                          System                                          |  No paths    -       |  No paths    -       |  No paths    -      |  5.000       4.202
+jtag_cores_uniq_1|jtck                          top|LMK_CLK                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+jtag_cores_uniq_1|jtck                          jtag_cores_uniq_1|jtck                          |  No paths    -       |  5.000       3.648   |  No paths    -      |  No paths    -    
+spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock  top|LMK_CLK                                     |  5.000       1.822   |  No paths    -       |  No paths    -      |  2.500       0.646
+spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock  spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock  |  5.000       5.240   |  5.000       8.501   |  2.500       3.890  |  No paths    -    
+jtag_lm32_uniq_1|reg_update_inferred_clock      top|LMK_CLK                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+jtag_lm32_uniq_1|reg_update_inferred_clock      jtag_lm32_uniq_1|reg_update_inferred_clock      |  No paths    -       |  5.000       3.636   |  No paths    -      |  No paths    -    
+========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: jtag_cores_uniq_1|jtck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                       Starting                                                     Arrival          
+Instance                                                               Reference                  Type        Pin     Net           Time        Slack
+                                                                       Clock                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT1.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[9]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT0.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[8]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT7.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[7]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT6.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[6]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT5.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[5]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT4.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[4]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT3.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[3]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT2.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[2]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT1.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[1]     0.798       3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT0.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     Q       tdibus[0]     0.798       3.648
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                                        Required          
+Instance                                                               Reference                  Type        Pin     Net              Time         Slack
+                                                                       Clock                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       N_29_i           4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT1.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_8     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT0.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_7     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT7.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_6     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT6.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_5     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT5.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_4     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT4.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_3     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT3.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_2     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT2.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_1     4.789        3.648
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.DATA_BIT1.tdoInt     jtag_cores_uniq_1|jtck     FD1P3DX     D       tdoInt_RNO_0     4.789        3.648
+=========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.141
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.648
+
+    Number of logic level(s):                1
+    Starting point:                          inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT1.tdoInt / Q
+    Ending point:                            inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt / D
+    The start point is clocked by            jtag_cores_uniq_1|jtck [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            jtag_cores_uniq_1|jtck [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                          Pin      Pin               Arrival     No. of    
+Name                                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT1.tdoInt         FD1P3DX      Q        Out     0.798     0.798 r     -         
+tdibus[9]                                                                  Net          -        -       -         -           2         
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt_RNO     ORCALUT4     B        In      0.000     0.798 r     -         
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt_RNO     ORCALUT4     Z        Out     0.343     1.141 r     -         
+N_29_i                                                                     Net          -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.tdoInt         FD1P3DX      D        In      0.000     1.141 r     -         
+=========================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_lm32_uniq_1|reg_update_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                               Starting                                                                         Arrival          
+Instance                                       Reference                                      Type        Pin     Net           Time        Slack
+                                               Clock                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle     jtag_lm32_uniq_1|reg_update_inferred_clock     FD1S3DX     Q       rx_toggle     0.798       3.636
+=================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                               Starting                                                                           Required          
+Instance                                       Reference                                      Type        Pin     Net             Time         Slack
+                                               Clock                                                                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle     jtag_lm32_uniq_1|reg_update_inferred_clock     FD1S3DX     D       rx_toggle_i     4.789        3.636
+====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.153
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.636
+
+    Number of logic level(s):                1
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle / Q
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle / D
+    The start point is clocked by            jtag_lm32_uniq_1|reg_update_inferred_clock [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            jtag_lm32_uniq_1|reg_update_inferred_clock [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                               Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle         FD1S3DX     Q        Out     0.798     0.798 r     -         
+rx_toggle                                          Net         -        -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle_RNO     INV         A        In      0.000     0.798 r     -         
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle_RNO     INV         Z        Out     0.355     1.153 f     -         
+rx_toggle_i                                        Net         -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle         FD1S3DX     D        In      0.000     1.153 f     -         
+================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: reveal_coretop|jtck_inferred_clock[0]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                                       Arrival           
+Instance                Reference                                 Type        Pin     Net              Time        Slack 
+                        Clock                                                                                            
+-------------------------------------------------------------------------------------------------------------------------
+ngfjhruLu9jrb           reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       jshift_d1        1.121       -0.087
+eLGADJzvI6lrAAobHxn     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       addr[1]          0.989       0.074 
+eLGADJzvI6lrAAobHrJ     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       addr[0]          0.987       0.076 
+eLGADJzvI6lrAAobH23     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       addr[2]          0.982       0.082 
+eLGADJzvI6lrAAocybJ     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       addr[12]         0.964       0.089 
+eLGADJzvI6lrAAocyhn     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       addr[13]         0.964       0.089 
+JrykuKumiJldlLyI3       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       te_precnt[0]     0.798       0.174 
+JrykuKumiJldlLzbJ       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       te_precnt[1]     0.798       0.174 
+JrykuKumiJldlLzhn       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       te_precnt[2]     0.798       0.174 
+JrykuKumiJldlLzm3       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       te_precnt[3]     0.798       0.174 
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                                                Required           
+Instance                         Reference                                 Type        Pin     Net                       Time         Slack 
+                                 Clock                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------
+ikjxdeE9yeis2eI9                 reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       parity_calc_5             4.789        -0.087
+jvruGlHB3jGpHinrmKay9vw423       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tt_wr_addr_cntr_s[3]      4.789        0.174 
+jvruGlHB3jGpHinrmKay9vw47J       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tt_wr_addr_cntr_s[4]      4.789        0.174 
+jvruGlHB3jGpHinrmKay9vw4rJ       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tt_wr_addr_cntr_s[1]      4.789        0.234 
+jvruGlHB3jGpHinrmKay9vw4xn       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tt_wr_addr_cntr_s[2]      4.789        0.234 
+jvmp30bLmJrLte02tr6kqqI17J       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tm_rd_addr_cntr_s[9]      4.789        0.283 
+bcrr9n0G2fbLIBEnDxolDhkn4Ixn     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tm_rd_addr_cntr_s[10]     4.789        0.283 
+jvmp30bLmJrLte02tr6kqqI1xn       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tm_rd_addr_cntr_s[7]      4.789        0.342 
+jvmp30bLmJrLte02tr6kqqI123       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tm_rd_addr_cntr_s[8]      4.789        0.342 
+jvpKCibig7y5FLcjIqpjGrpz7J       reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       tr_dout_bit_cnt_s[7]      4.789        0.352 
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.877
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.088
+
+    Number of logic level(s):                7
+    Starting point:                          ngfjhruLu9jrb / Q
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+ngfjhruLu9jrb                        FD1P3DX      Q        Out     1.121     1.121 r     -         
+jshift_d1                            Net          -        -       -         -           179       
+eBmK1Hoypfr94bL3sCHG20awheLH8        ORCALUT4     A        In      0.000     1.121 r     -         
+eBmK1Hoypfr94bL3sCHG20awheLH8        ORCALUT4     Z        Out     0.688     1.808 r     -         
+N_3089                               Net          -        -       -         -           11        
+Fxzjj7kb74Bhgyzbc                    ORCALUT4     A        In      0.000     1.808 r     -         
+Fxzjj7kb74Bhgyzbc                    ORCALUT4     Z        Out     0.523     2.332 r     -         
+N_3153                               Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws       ORCALUT4     B        In      0.000     2.332 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws       ORCALUT4     Z        Out     0.523     2.854 f     -         
+jtdo_iv_i_5_m6_0_a2_2                Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu       ORCALUT4     C        In      0.000     2.854 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu       ORCALUT4     Z        Out     0.523     3.377 f     -         
+jtdo_iv_i_5_m6_0_a2_4                Net          -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c          ORCALUT4     A        In      0.000     3.377 f     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c          ORCALUT4     Z        Out     0.633     4.011 f     -         
+jtdo                                 Net          -        -       -         -           4         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb     ORCALUT4     B        In      0.000     4.011 f     -         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb     ORCALUT4     Z        Out     0.523     4.534 r     -         
+parity_calc_5_iv_0_0_1               Net          -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq        ORCALUT4     D        In      0.000     4.534 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq        ORCALUT4     Z        Out     0.343     4.877 f     -         
+parity_calc_5                        Net          -        -       -         -           1         
+ikjxdeE9yeis2eI9                     FD1P3DX      D        In      0.000     4.877 f     -         
+===================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.877
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.088
+
+    Number of logic level(s):                7
+    Starting point:                          ngfjhruLu9jrb / Q
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+ngfjhruLu9jrb                         FD1P3DX      Q        Out     1.121     1.121 r     -         
+jshift_d1                             Net          -        -       -         -           179       
+eBmK1Hoypfr94bL3sCHG20awheLH8         ORCALUT4     A        In      0.000     1.121 r     -         
+eBmK1Hoypfr94bL3sCHG20awheLH8         ORCALUT4     Z        Out     0.688     1.808 r     -         
+N_3089                                Net          -        -       -         -           11        
+Fxzjj7kb74Bhgyzbc                     ORCALUT4     A        In      0.000     1.808 r     -         
+Fxzjj7kb74Bhgyzbc                     ORCALUT4     Z        Out     0.523     2.332 r     -         
+N_3153                                Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws        ORCALUT4     B        In      0.000     2.332 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws        ORCALUT4     Z        Out     0.523     2.854 f     -         
+jtdo_iv_i_5_m6_0_a2_2                 Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu        ORCALUT4     C        In      0.000     2.854 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu        ORCALUT4     Z        Out     0.523     3.377 f     -         
+jtdo_iv_i_5_m6_0_a2_4                 Net          -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c           ORCALUT4     A        In      0.000     3.377 f     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c           ORCALUT4     Z        Out     0.633     4.011 f     -         
+jtdo                                  Net          -        -       -         -           4         
+rdsGlvdvxxBJozv6e3A84g0Iy2hdo5b7a     ORCALUT4     C        In      0.000     4.011 f     -         
+rdsGlvdvxxBJozv6e3A84g0Iy2hdo5b7a     ORCALUT4     Z        Out     0.523     4.534 r     -         
+N_65                                  Net          -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq         ORCALUT4     A        In      0.000     4.534 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq         ORCALUT4     Z        Out     0.343     4.877 r     -         
+parity_calc_5                         Net          -        -       -         -           1         
+ikjxdeE9yeis2eI9                      FD1P3DX      D        In      0.000     4.877 r     -         
+====================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.715
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.074
+
+    Number of logic level(s):                7
+    Starting point:                          eLGADJzvI6lrAAobHxn / Q
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+eLGADJzvI6lrAAobHxn                     FD1P3DX      Q        Out     0.989     0.989 r     -         
+addr[1]                                 Net          -        -       -         -           47        
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     B        In      0.000     0.989 r     -         
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     Z        Out     0.658     1.647 r     -         
+N_3126                                  Net          -        -       -         -           6         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     B        In      0.000     1.647 r     -         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     Z        Out     0.523     2.170 f     -         
+jtdo_iv_i_5_m6_0_a2_1_1                 Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     B        In      0.000     2.170 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     Z        Out     0.523     2.692 r     -         
+jtdo_iv_i_5_m6_0_a2_1                   Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     B        In      0.000     2.692 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     Z        Out     0.523     3.216 r     -         
+jtdo_iv_i_5_m6_0_a2_4                   Net          -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     A        In      0.000     3.216 r     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     Z        Out     0.633     3.849 r     -         
+jtdo                                    Net          -        -       -         -           4         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb        ORCALUT4     B        In      0.000     3.849 r     -         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb        ORCALUT4     Z        Out     0.523     4.372 r     -         
+parity_calc_5_iv_0_0_1                  Net          -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     D        In      0.000     4.372 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     Z        Out     0.343     4.715 f     -         
+parity_calc_5                           Net          -        -       -         -           1         
+ikjxdeE9yeis2eI9                        FD1P3DX      D        In      0.000     4.715 f     -         
+======================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.715
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.074
+
+    Number of logic level(s):                7
+    Starting point:                          eLGADJzvI6lrAAobHxn / Q
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+eLGADJzvI6lrAAobHxn                     FD1P3DX      Q        Out     0.989     0.989 r     -         
+addr[1]                                 Net          -        -       -         -           47        
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     B        In      0.000     0.989 r     -         
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     Z        Out     0.658     1.647 r     -         
+N_3126                                  Net          -        -       -         -           6         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     B        In      0.000     1.647 r     -         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     Z        Out     0.523     2.170 f     -         
+jtdo_iv_i_5_m6_0_a2_1_1                 Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     B        In      0.000     2.170 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     Z        Out     0.523     2.692 r     -         
+jtdo_iv_i_5_m6_0_a2_1                   Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     B        In      0.000     2.692 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     Z        Out     0.523     3.216 r     -         
+jtdo_iv_i_5_m6_0_a2_4                   Net          -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     A        In      0.000     3.216 r     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     Z        Out     0.633     3.849 r     -         
+jtdo                                    Net          -        -       -         -           4         
+rdsGlvdvxxBJozv6e3A84g0Iy2hdo5b7a       ORCALUT4     C        In      0.000     3.849 r     -         
+rdsGlvdvxxBJozv6e3A84g0Iy2hdo5b7a       ORCALUT4     Z        Out     0.523     4.372 r     -         
+N_65                                    Net          -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     A        In      0.000     4.372 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     Z        Out     0.343     4.715 r     -         
+parity_calc_5                           Net          -        -       -         -           1         
+ikjxdeE9yeis2eI9                        FD1P3DX      D        In      0.000     4.715 r     -         
+======================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.713
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.076
+
+    Number of logic level(s):                7
+    Starting point:                          eLGADJzvI6lrAAobHrJ / Q
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+eLGADJzvI6lrAAobHrJ                     FD1P3DX      Q        Out     0.987     0.987 r     -         
+addr[0]                                 Net          -        -       -         -           45        
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     A        In      0.000     0.987 r     -         
+bLgwux1czBdjrievzwn4iCyzoJBADEfIfl9     ORCALUT4     Z        Out     0.658     1.645 f     -         
+N_3126                                  Net          -        -       -         -           6         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     B        In      0.000     1.645 f     -         
+qiiHwAjzL78ddo4u27fLAr3q01C0Jmdwr       ORCALUT4     Z        Out     0.523     2.167 r     -         
+jtdo_iv_i_5_m6_0_a2_1_1                 Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     B        In      0.000     2.167 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwr          ORCALUT4     Z        Out     0.523     2.691 f     -         
+jtdo_iv_i_5_m6_0_a2_1                   Net          -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     B        In      0.000     2.691 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu          ORCALUT4     Z        Out     0.523     3.213 f     -         
+jtdo_iv_i_5_m6_0_a2_4                   Net          -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     A        In      0.000     3.213 f     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c             ORCALUT4     Z        Out     0.633     3.846 f     -         
+jtdo                                    Net          -        -       -         -           4         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb        ORCALUT4     B        In      0.000     3.846 f     -         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb        ORCALUT4     Z        Out     0.523     4.370 r     -         
+parity_calc_5_iv_0_0_1                  Net          -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     D        In      0.000     4.370 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq           ORCALUT4     Z        Out     0.343     4.713 f     -         
+parity_calc_5                           Net          -        -       -         -           1         
+ikjxdeE9yeis2eI9                        FD1P3DX      D        In      0.000     4.713 f     -         
+======================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                                                Arrival          
+Instance               Reference                                          Type        Pin     Net              Time        Slack
+                       Clock                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------
+inst2.dout_reg[15]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       dout_reg[15]     0.798       0.646
+inst2.inst_reg[5]      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[5]      0.798       1.822
+inst2.inst_reg[6]      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[6]      0.798       1.822
+inst2.inst_reg[7]      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[7]      0.798       1.822
+inst2.inst_reg[8]      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[8]      0.798       1.822
+inst2.inst_reg[9]      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[9]      0.798       1.822
+inst2.inst_reg[10]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[10]     0.798       1.822
+inst2.inst_reg[11]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[11]     0.798       1.822
+inst2.inst_reg[12]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[12]     0.798       1.822
+inst2.inst_reg[13]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     Q       inst_reg[13]     0.798       2.345
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                            Starting                                                                                        Required          
+Instance                                    Reference                                          Type        Pin     Net                      Time         Slack
+                                            Clock                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.spi.rx_shift_data[0]     spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     D       inst1_spiMISO_MASTER     2.289        0.646
+inst2.dout_reg[0]                           spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     D       dout_reg_23[0]           7.644        3.889
+inst2.dout_reg[7]                           spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     D       dout_reg_23[7]           7.644        3.889
+inst2.dout_reg[11]                          spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     D       dout_reg_23[11]          7.644        3.889
+inst2.dout_reg[14]                          spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1P3DX     D       dout_reg_23[14]          7.644        3.889
+cLuL7ECB0ny5wgGgg5GBrJ                      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1S3DX     D       trace_din[70]            4.789        3.951
+cLuL7ECB0ny5wgGgg5GBxn                      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1S3DX     D       trace_din[71]            4.789        3.951
+cLuL7ECB0ny5wgGgg5GB23                      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1S3DX     D       trace_din[72]            4.789        3.951
+cLuL7ECB0ny5wgGgg5GB7J                      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1S3DX     D       trace_din[73]            4.789        3.951
+cLuL7ECB0ny5wgGgg5GBDn                      spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock     FD1S3DX     D       trace_din[74]            4.789        3.951
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.500
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.289
+
+    - Propagation time:                      1.643
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.646
+
+    Number of logic level(s):                2
+    Starting point:                          inst2.dout_reg[15] / Q
+    Ending point:                            inst_cpu.lm32_inst.spi.rx_shift_data[0] / D
+    The start point is clocked by            spi_uniq_1_Z7_layer1|SCLK_MASTER_derived_clock [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+inst2.dout_reg[15]                          FD1P3DX      Q        Out     0.798     0.798 r     -         
+dout_reg[15]                                Net          -        -       -         -           2         
+inst2.inst1_spiMISO_MASTER_u_am             ORCALUT4     A        In      0.000     0.798 r     -         
+inst2.inst1_spiMISO_MASTER_u_am             ORCALUT4     Z        Out     0.523     1.321 r     -         
+inst1_spiMISO_MASTER_u_am                   Net          -        -       -         -           1         
+inst2.inst1_spiMISO_MASTER_u                PFUMX        BLUT     In      0.000     1.321 r     -         
+inst2.inst1_spiMISO_MASTER_u                PFUMX        Z        Out     0.322     1.643 r     -         
+inst1_spiMISO_MASTER                        Net          -        -       -         -           1         
+inst_cpu.lm32_inst.spi.rx_shift_data[0]     FD1P3DX      D        In      0.000     1.643 r     -         
+==========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: top|LMK_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                        Starting                                                         Arrival           
+Instance                                                                                                                Reference       Type         Pin      Net                        Time        Slack 
+                                                                                                                        Clock                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     PDPW16KD     DO19     mem_dout_tmp[1]            4.990       -3.530
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     PDPW16KD     DO21     mem_dout_tmp[3]            4.990       -3.530
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27]                                                          top|LMK_CLK     FD1P3DX      Q        size_d[1]                  0.948       -3.442
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     PDPW16KD     DO20     mem_dout_tmp[2]            4.880       -3.343
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d_fast[31]                                                     top|LMK_CLK     FD1P3DX      Q        instruction_d_fast[31]     0.798       -3.292
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[30]                                                          top|LMK_CLK     FD1P3DX      Q        instruction_d[30]          0.962       -2.907
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[29]                                                          top|LMK_CLK     FD1P3DX      Q        direction_d                0.946       -2.891
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     PDPW16KD     DO18     mem_dout_tmp[0]            4.965       -2.880
+inst_cpu.lm32_inst.LM32.cpu.load_x                                                                                      top|LMK_CLK     FD1P3DX      Q        load_x                     0.883       -2.874
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.stall_wb_load                                                               top|LMK_CLK     FD1P3DX      Q        stall_wb_load              0.863       -2.854
+===========================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                      Starting                                                           Required           
+Instance                                                                                                                                              Reference       Type         Pin       Net                         Time         Slack 
+                                                                                                                                                      Clock                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     DP16KD       WEB       mem_din_tmp_RNI4G9P7[1]     3.228        -3.530
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                 top|LMK_CLK     DP16KD       ADA11     ra_RNIBIH27[8]              3.223        -3.442
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_1                                 top|LMK_CLK     DP16KD       ADA11     ra_RNIBIH27[8]              3.223        -3.442
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_2                                 top|LMK_CLK     DP16KD       ADA11     ra_RNIBIH27[8]              3.223        -3.442
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_3                                 top|LMK_CLK     DP16KD       ADA11     ra_RNIBIH27[8]              3.223        -3.442
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                  top|LMK_CLK     PDPW16KD     ADR11     ra_RNIBG6U6[6]              3.223        -3.357
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[1\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     top|LMK_CLK     DP16KD       WEB       mem_din_tmp_RNIHNOC8[3]     3.228        -3.021
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                 top|LMK_CLK     DP16KD       ADA6      ra_RNIQJC17[3]              3.223        -2.918
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                 top|LMK_CLK     DP16KD       ADA7      ra_RNISLC17[4]              3.223        -2.918
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                 top|LMK_CLK     DP16KD       ADA8      ra_RNIUNC17[5]              3.223        -2.918
+============================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            1.772
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.228
+
+    - Propagation time:                      6.758
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.530
+
+    Number of logic level(s):                3
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0 / DO19
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0 / WEB
+    The start point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKR
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKB
+
+Instance / Net                                                                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                   PDPW16KD     DO19     Out     4.990     4.990 r     -         
+mem_dout_tmp[1]                                                                                                                                       Net          -        -       -         -           4         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNINTQR[1]                                   ORCALUT4     D        In      0.000     4.990 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNINTQR[1]                                   ORCALUT4     Z        Out     0.523     5.513 r     -         
+N_5                                                                                                                                                   Net          -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIG4082[1]                                  ORCALUT4     A        In      0.000     5.513 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIG4082[1]                                  ORCALUT4     Z        Out     0.523     6.036 r     -         
+g0_4_0_1                                                                                                                                              Net          -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNI4G9P7[1]                                  PFUMX        C0       In      0.000     6.036 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNI4G9P7[1]                                  PFUMX        Z        Out     0.722     6.758 r     -         
+mem_din_tmp_RNI4G9P7[1]                                                                                                                               Net          -        -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     DP16KD       WEB      In      0.000     6.758 r     -         
+====================================================================================================================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            1.772
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.228
+
+    - Propagation time:                      6.758
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.530
+
+    Number of logic level(s):                3
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0 / DO21
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0 / WEB
+    The start point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKR
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKB
+
+Instance / Net                                                                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_\\genblk1\.mem_0_0                                   PDPW16KD     DO21     Out     4.990     4.990 r     -         
+mem_dout_tmp[3]                                                                                                                                       Net          -        -       -         -           4         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIPVQR[3]                                   ORCALUT4     D        In      0.000     4.990 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIPVQR[3]                                   ORCALUT4     Z        Out     0.523     5.513 r     -         
+N_6                                                                                                                                                   Net          -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIG4082[1]                                  ORCALUT4     B        In      0.000     5.513 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNIG4082[1]                                  ORCALUT4     Z        Out     0.523     6.036 r     -         
+g0_4_0_1                                                                                                                                              Net          -        -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNI4G9P7[1]                                  PFUMX        C0       In      0.000     6.036 r     -         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.way_0_tag_ram.\\genblk1\.mem_din_tmp_RNI4G9P7[1]                                  PFUMX        Z        Out     0.722     6.758 r     -         
+mem_din_tmp_RNI4G9P7[1]                                                                                                                               Net          -        -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.load_store_unit.dcache.\\memories\[0\]\.genblk1\.byte_memories\[3\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     DP16KD       WEB      In      0.000     6.758 r     -         
+====================================================================================================================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            1.777
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.223
+
+    - Propagation time:                      6.665
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -3.442
+
+    Number of logic level(s):                10
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27] / Q
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0 / ADA11
+    The start point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKA
+
+Instance / Net                                                                                                                         Pin       Pin               Arrival     No. of    
+Name                                                                                                                      Type         Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27]                                                            FD1P3DX      Q         Out     0.948     0.948 r     -         
+size_d[1]                                                                                                                 Net          -         -       -         -           21        
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     B         In      0.000     0.948 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     Z         Out     0.633     1.581 r     -         
+op_bg_1                                                                                                                   Net          -         -       -         -           4         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     A         In      0.000     1.581 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     Z         Out     0.523     2.104 r     -         
+op_bg                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     B         In      0.000     2.104 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     Z         Out     0.568     2.672 r     -         
+bi_conditional_0                                                                                                          Net          -         -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     B         In      0.000     2.672 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     Z         Out     0.608     3.280 r     -         
+branch_predict_d                                                                                                          Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     A         In      0.000     3.280 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     Z         Out     0.755     4.035 r     -         
+branch_predict_taken_d_1                                                                                                  Net          -         -       -         -           44        
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     A         In      0.000     4.035 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     Z         Out     0.523     4.559 r     -         
+branch_predict_address_d[10]                                                                                              Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     B         In      0.000     4.559 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     Z         Out     0.523     5.082 r     -         
+N_210                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     A         In      0.000     5.082 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     Z         Out     0.523     5.604 r     -         
+pc_a_am[10]                                                                                                               Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        BLUT      In      0.000     5.604 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        Z         Out     0.407     6.011 r     -         
+pc_a[10]                                                                                                                  Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     B         In      0.000     6.011 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     Z         Out     0.653     6.665 r     -         
+ra_RNIBIH27[8]                                                                                                            Net          -         -       -         -           5         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_0     DP16KD       ADA11     In      0.000     6.665 r     -         
+=========================================================================================================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            1.777
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.223
+
+    - Propagation time:                      6.665
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -3.442
+
+    Number of logic level(s):                10
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27] / Q
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_1 / ADA11
+    The start point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKA
+
+Instance / Net                                                                                                                         Pin       Pin               Arrival     No. of    
+Name                                                                                                                      Type         Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27]                                                            FD1P3DX      Q         Out     0.948     0.948 r     -         
+size_d[1]                                                                                                                 Net          -         -       -         -           21        
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     B         In      0.000     0.948 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     Z         Out     0.633     1.581 r     -         
+op_bg_1                                                                                                                   Net          -         -       -         -           4         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     A         In      0.000     1.581 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     Z         Out     0.523     2.104 r     -         
+op_bg                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     B         In      0.000     2.104 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     Z         Out     0.568     2.672 r     -         
+bi_conditional_0                                                                                                          Net          -         -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     B         In      0.000     2.672 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     Z         Out     0.608     3.280 r     -         
+branch_predict_d                                                                                                          Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     A         In      0.000     3.280 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     Z         Out     0.755     4.035 r     -         
+branch_predict_taken_d_1                                                                                                  Net          -         -       -         -           44        
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     A         In      0.000     4.035 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     Z         Out     0.523     4.559 r     -         
+branch_predict_address_d[10]                                                                                              Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     B         In      0.000     4.559 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     Z         Out     0.523     5.082 r     -         
+N_210                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     A         In      0.000     5.082 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     Z         Out     0.523     5.604 r     -         
+pc_a_am[10]                                                                                                               Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        BLUT      In      0.000     5.604 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        Z         Out     0.407     6.011 r     -         
+pc_a[10]                                                                                                                  Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     B         In      0.000     6.011 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     Z         Out     0.653     6.665 r     -         
+ra_RNIBIH27[8]                                                                                                            Net          -         -       -         -           5         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_1     DP16KD       ADA11     In      0.000     6.665 r     -         
+=========================================================================================================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            1.777
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.223
+
+    - Propagation time:                      6.665
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -3.442
+
+    Number of logic level(s):                10
+    Starting point:                          inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27] / Q
+    Ending point:                            inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_2 / ADA11
+    The start point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            top|LMK_CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLKA
+
+Instance / Net                                                                                                                         Pin       Pin               Arrival     No. of    
+Name                                                                                                                      Type         Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.instruction_d[27]                                                            FD1P3DX      Q         Out     0.948     0.948 r     -         
+size_d[1]                                                                                                                 Net          -         -       -         -           21        
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     B         In      0.000     0.948 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg_1                                                                               ORCALUT4     Z         Out     0.633     1.581 r     -         
+op_bg_1                                                                                                                   Net          -         -       -         -           4         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     A         In      0.000     1.581 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.op_bg                                                                                 ORCALUT4     Z         Out     0.523     2.104 r     -         
+op_bg                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     B         In      0.000     2.104 r     -         
+inst_cpu.lm32_inst.LM32.cpu.decoder.bi_conditional_0                                                                      ORCALUT4     Z         Out     0.568     2.672 r     -         
+bi_conditional_0                                                                                                          Net          -         -       -         -           2         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     B         In      0.000     2.672 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_d                                                      ORCALUT4     Z         Out     0.608     3.280 r     -         
+branch_predict_d                                                                                                          Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     A         In      0.000     3.280 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.branch_predict_taken_d_1_f0                                           ORCALUT4     Z         Out     0.755     4.035 r     -         
+branch_predict_taken_d_1                                                                                                  Net          -         -       -         -           44        
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     A         In      0.000     4.035 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.branch_predict_address_d[10]                                                 ORCALUT4     Z         Out     0.523     4.559 r     -         
+branch_predict_address_d[10]                                                                                              Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     B         In      0.000     4.559 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am_RNO[10]                                                              ORCALUT4     Z         Out     0.523     5.082 r     -         
+N_210                                                                                                                     Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     A         In      0.000     5.082 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a_am[10]                                                                  ORCALUT4     Z         Out     0.523     5.604 r     -         
+pc_a_am[10]                                                                                                               Net          -         -       -         -           1         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        BLUT      In      0.000     5.604 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.pc_a[10]                                                                     PFUMX        Z         Out     0.407     6.011 r     -         
+pc_a[10]                                                                                                                  Net          -         -       -         -           3         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     B         In      0.000     6.011 r     -         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.ra_RNIBIH27[8]             ORCALUT4     Z         Out     0.653     6.665 r     -         
+ra_RNIBIH27[8]                                                                                                            Net          -         -       -         -           5         
+inst_cpu.lm32_inst.LM32.cpu.instruction_unit.icache.\\memories\[0\]\.way_0_data_ram.\\genblk1\.mem_\\genblk1\.mem_0_2     DP16KD       ADA11     In      0.000     6.665 r     -         
+=========================================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                                                        Arrival          
+Instance                                                       Reference     Type                                        Pin            Net                    Time        Slack
+                                                               Clock                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtag0                              System        jtagconn16                                  jce2           jce2[0]                0.000       1.033
+top_reveal_coretop_instance.jtag0                              System        jtagconn16                                  jshift         jshift[0]              0.000       1.033
+top_reveal_coretop_instance.jtag0                              System        jtagconn16                                  ip_enable      ip_enable[0]           0.000       2.244
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[2]      adder_result_x[2]      0.000       2.257
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[3]      adder_result_x[3]      0.000       2.257
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[6]      adder_result_x[6]      0.000       2.257
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[10]     adder_result_x[10]     0.000       2.257
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[7]      adder_result_x[7]      0.000       2.297
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[16]     adder_result_x[16]     0.000       2.479
+inst_cpu.lm32_inst.LM32.cpu.adder.addsub.\\genblk1\.addsub     System        pmi_addsub_32s_32s_off_ECP5U_pmi_addsub     Result[17]     adder_result_x[17]     0.000       2.479
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                    Required          
+Instance                         Reference     Type        Pin     Net                       Time         Slack
+                                 Clock                                                                         
+---------------------------------------------------------------------------------------------------------------
+ikjxdeE9yeis2eI9                 System        FD1P3DX     D       parity_calc_5             4.789        1.033
+orh8KHqvnKqbJ                    System        FD1P3BX     D       tm_crc_7[0]               4.789        1.556
+jvmp30bLmJrLte02tr6kqqI17J       System        FD1P3DX     D       tm_rd_addr_cntr_s[9]      4.789        1.817
+bcrr9n0G2fbLIBEnDxolDhkn4Ixn     System        FD1P3DX     D       tm_rd_addr_cntr_s[10]     4.789        1.817
+jvmp30bLmJrLte02tr6kqqI1xn       System        FD1P3DX     D       tm_rd_addr_cntr_s[7]      4.789        1.875
+jvmp30bLmJrLte02tr6kqqI123       System        FD1P3DX     D       tm_rd_addr_cntr_s[8]      4.789        1.875
+jvmp30bLmJrLte02tr6kqqI1m3       System        FD1P3DX     D       tm_rd_addr_cntr_s[5]      4.789        1.935
+jvmp30bLmJrLte02tr6kqqI1rJ       System        FD1P3DX     D       tm_rd_addr_cntr_s[6]      4.789        1.935
+jvmp30bLmJrLte02tr6kqqI1bJ       System        FD1P3DX     D       tm_rd_addr_cntr_s[3]      4.789        1.994
+jvmp30bLmJrLte02tr6kqqI1hn       System        FD1P3DX     D       tm_rd_addr_cntr_s[4]      4.789        1.994
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      3.756
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.033
+
+    Number of logic level(s):                7
+    Starting point:                          top_reveal_coretop_instance.jtag0 / jce2
+    Ending point:                            ikjxdeE9yeis2eI9 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                  Type           Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtag0     jtagconn16     jce2     Out     0.000     0.000 r     -         
+jce2[0]                               Net            -        -       -         -           14        
+eBmK1Hoypfr94bL3sCHG20awheLH8         ORCALUT4       C        In      0.000     0.000 r     -         
+eBmK1Hoypfr94bL3sCHG20awheLH8         ORCALUT4       Z        Out     0.688     0.688 f     -         
+N_3089                                Net            -        -       -         -           11        
+Fxzjj7kb74Bhgyzbc                     ORCALUT4       A        In      0.000     0.688 f     -         
+Fxzjj7kb74Bhgyzbc                     ORCALUT4       Z        Out     0.523     1.211 r     -         
+N_3153                                Net            -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws        ORCALUT4       B        In      0.000     1.211 r     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdws        ORCALUT4       Z        Out     0.523     1.734 f     -         
+jtdo_iv_i_5_m6_0_a2_2                 Net            -        -       -         -           1         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu        ORCALUT4       C        In      0.000     1.734 f     -         
+1nDbrteeFxGxi17qAtHf2r8yIEIdwu        ORCALUT4       Z        Out     0.523     2.257 f     -         
+jtdo_iv_i_5_m6_0_a2_4                 Net            -        -       -         -           1         
+KcoForjIkbo7fw9nnv1AuFHmd7c           ORCALUT4       A        In      0.000     2.257 f     -         
+KcoForjIkbo7fw9nnv1AuFHmd7c           ORCALUT4       Z        Out     0.633     2.890 f     -         
+jtdo                                  Net            -        -       -         -           4         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb      ORCALUT4       B        In      0.000     2.890 f     -         
+dj4zIgJ5btwfx8BdaF1Gx5lcq3npaDbb      ORCALUT4       Z        Out     0.523     3.413 r     -         
+parity_calc_5_iv_0_0_1                Net            -        -       -         -           1         
+ftmz9x9brrEpnb60ewic7H74Kbtwq         ORCALUT4       D        In      0.000     3.413 r     -         
+ftmz9x9brrEpnb60ewic7H74Kbtwq         ORCALUT4       Z        Out     0.343     3.756 f     -         
+parity_calc_5                         Net            -        -       -         -           1         
+ikjxdeE9yeis2eI9                      FD1P3DX        D        In      0.000     3.756 f     -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":4:0:4:0|Timing constraint (to [get_ports LED_R]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":5:0:5:0|Timing constraint (to [get_ports LED_G]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":6:0:6:0|Timing constraint (to [get_ports LED_B]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":7:0:7:0|Timing constraint (to [get_ports IO_SCK]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":8:0:8:0|Timing constraint (to [get_ports IO_MOSI]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":9:0:9:0|Timing constraint (to [get_ports IO_MISO]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":10:0:10:0|Timing constraint (to [get_ports IO_0]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/darbas/lattice/orange_crab/lm32_tutor/timing_sdc.sdc":11:0:11:0|Timing constraint (from [get_ports USER_BUTTON]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:48s; Memory used current: 312MB peak: 331MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:48s; Memory used current: 312MB peak: 331MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_45f-8
+
+Register bits: 3561 of 43848 (8%)
+PIC Latch:       0
+I/O cells:       15
+Block Rams : 13 of 108 (12%)
+
+DSP primitives:       6 of 108 (5%)
+
+Details:
+ALU54B:         2
+AND2:           2
+CCU2C:          251
+DP16KD:         10
+DPR16X4C:       32
+FD1P3AX:        50
+FD1P3BX:        90
+FD1P3DX:        2077
+FD1S3AX:        160
+FD1S3AY:        1
+FD1S3BX:        73
+FD1S3DX:        1021
+FD1S3IX:        87
+FD1S3JX:        2
+GSR:            1
+IB:             9
+INV:            33
+L6MUX21:        94
+MULT18X18D:     4
+OB:             6
+OR2:            1
+ORCALUT4:       4989
+PDPW16KD:       3
+PFUMX:          426
+PUR:            1
+ROM16X1A:       14
+VHI:            71
+VLO:            71
+XOR2:           10
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 103MB peak: 331MB)
+
+Process took 0h:00m:53s realtime, 0h:00m:49s cputime
+# Tue Feb 15 20:17:31 2022
+
+###########################################################]

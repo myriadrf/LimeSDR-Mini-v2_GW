@@ -1,0 +1,6 @@
+ckid0_0:@|S:LMK_CLK@|E:reset_n@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:top_reveal_coretop_instance.jtag0.jtck@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_3:@|S:inst_cpu.lm32_inst.spi.SCLK_MASTER.Q[0]@|E:inst2.ram\.mem_31[15:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
+ckid0_5:@|S:inst_cpu.lm32_inst.spi.\\genblk1\.n_status_1_sqmuxa_1.OUT@|E:inst_cpu.lm32_inst.spi.\\genblk1\.n_status[2]@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
+ckid0_6:@|S:inst_cpu.lm32_inst.LM32.jtag_cores.jtagconn16_lm32_inst.jtck@|E:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.ADDR_BIT2.DATA_OUT@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6
+ckid0_8:@|S:inst_cpu.lm32_inst.LM32.jtag_cores.jtag_lm32_inst.REG_UPDATE.OUT@|E:inst_cpu.lm32_inst.LM32.cpu.jtag.rx_toggle@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8

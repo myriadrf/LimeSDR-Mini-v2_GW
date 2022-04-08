@@ -1,0 +1,38 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202103lat, Build 070R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "top_reveal_coretop_instance/jtck[0]" 200.0 MHz;
+#FREQUENCY PORT "LMK_CLK" 200.0 MHz;
+#FREQUENCY NET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz" 200.0 MHz;
+#FREQUENCY NET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf" 200.0 MHz;
+#FREQUENCY NET "inst_cpu/lm32_inst/spi/FPGA_SPI_SCLK_c" 200.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+#MULTICYCLE FROM CLKNET "inst_cpu/lm32_inst/spi/FPGA_SPI_SCLK_c"  TO CLKNET "inst_cpu/lm32_inst/spi/FPGA_SPI_SCLK_c"  2X;
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz";
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf" TO CLKNET "LMK_CLK_c";
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf" TO CLKNET "top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf";
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz" TO CLKNET "LMK_CLK_c";
+#BLOCK PATH FROM CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz" TO CLKNET "top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "LMK_CLK_c" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf";
+#BLOCK PATH FROM CLKNET "LMK_CLK_c" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz";
+#BLOCK PATH FROM CLKNET "LMK_CLK_c" TO CLKNET "top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "top_reveal_coretop_instance/jtck[0]" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtag_lm32_inst/REG_UPDATE_i_buf";
+#BLOCK PATH FROM CLKNET "top_reveal_coretop_instance/jtck[0]" TO CLKNET "inst_cpu/lm32_inst/LM32/jtag_cores/jtckz";
+#BLOCK PATH FROM CLKNET "top_reveal_coretop_instance/jtck[0]" TO CLKNET "LMK_CLK_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

@@ -1,0 +1,425 @@
+# Reading pref.tcl
+# Loading project proj
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.delayf_ctrl_tb
+# vsim work.delayf_ctrl_tb 
+# Start time: 14:38:46 on Apr 05,2022
+# //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/clk \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/reset_n
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/delay_en
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/delay_en \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_en \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_done \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_error
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/current_state
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst2_delayf_ctrl/delayf_loadn \
+sim:/delayf_ctrl_tb/dut0/inst2_delayf_ctrl/delayf_move \
+sim:/delayf_ctrl_tb/dut0/inst2_delayf_ctrl/delayf_direction \
+sim:/delayf_ctrl_tb/dut0/inst2_delayf_ctrl/current_state
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+add wave -position insertpoint  \
+sim:/delayf_ctrl_tb/dut0/inst2_delayf_ctrl/load_default_cnt
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of delay_ctrl_tb.vhd was successful.
+# Compile of delayf_ctrl.vhd was successful.
+# Compile of delay_ctrl_top.vhd was successful.
+# Compile of delay_ctrl_fsm.vhd was successful.
+# Compile of sync_reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delayf_ctrl_tb(tb_behave)
+# Loading work.delay_ctrl_top(arch)
+# Loading work.delay_ctrl_fsm(arch)
+# Loading work.delayf_ctrl(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /delayf_ctrl_tb/dut0/inst0_delay_ctrl_fsm/smpl_cmp_cnt(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:37:48 on Apr 05,2022, Elapsed time: 7:59:02
+# Errors: 0, Warnings: 2
