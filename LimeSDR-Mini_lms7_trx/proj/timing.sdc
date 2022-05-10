@@ -63,9 +63,7 @@ create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.SPIFlash_.cl
 
 create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.spi.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16 
 
-create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.dac_spi_.n_status_1_sqmuxa_1.OUT}] -name FPGA_DAC_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16
-
-
+create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.dac_spi_.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_DAC_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16
 # ----------------------------------------------------------------------------
 # Input constraints
 # ----------------------------------------------------------------------------
@@ -110,7 +108,10 @@ set_output_delay 	-max 1 \
 									
 set_output_delay 	-min -2 \
 					-clock 	[get_clocks FPGA_CFG_SPI_SCLK] \
-					[get_ports {FPGA_CFG_SPI_MOSI FPGA_CFG_SPI_SS_N}]									
+					[get_ports {FPGA_CFG_SPI_MOSI FPGA_CFG_SPI_SS_N}]	
+
+
+
 # ----------------------------------------------------------------------------
 # IO interface exceptions
 # ----------------------------------------------------------------------------

@@ -1150,8 +1150,8 @@
             <Parm Condition="MASTER" Name="INTERVAL_LENGTH" OType="Integer" Text="Tx Interframe Pause" Type="Integer" Value="2" ValueRange="0-63" isparm="true"/>
             <Parm Name="DATA_LENGTH" OType="Integer" Text="Data Length" Type="Integer" Value="16" isparm="true"/>
             <Parm ListValues="0,1" Name="SHIFT_DIRECTION" OType="Integer" Text="Shift Direction (0 MSB First, 1 LSB First)" Type="Integer" Value="0" isparm="true"/>
-            <Parm ListValues="0,1" Name="CLOCK_PHASE" OType="Integer" Text="Phase" Type="Integer" Value="0" isparm="true"/>
-            <Parm ListValues="0,1" Name="CLOCK_POLARITY" OType="Integer" Text="Polarity" Type="Integer" Value="1" isparm="true"/>
+            <Parm ListValues="0,1" Name="CLOCK_PHASE" OType="Integer" Text="Phase" Type="Integer" Value="1" isparm="true"/>
+            <Parm ListValues="0,1" Name="CLOCK_POLARITY" OType="Integer" Text="Polarity" Type="Integer" Value="0" isparm="true"/>
       </Parms>
       <GUIS Columns="2" Help="component_help\lm32.htm" Name="GPIO">
             <GUI Name="InstanceName" Span="1" Widget="Text" Width="40"/>

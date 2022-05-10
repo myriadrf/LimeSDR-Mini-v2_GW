@@ -148,6 +148,6 @@
 `define dac_spi_INTERVAL_LENGTH 2
 `define dac_spi_DATA_LENGTH 16
 `define dac_spi_SHIFT_DIRECTION 0
-`define dac_spi_CLOCK_PHASE 0
-`define dac_spi_CLOCK_POLARITY 1
+`define dac_spi_CLOCK_PHASE 1
+`define dac_spi_CLOCK_POLARITY 0
 `endif // SYSTEM_CONF

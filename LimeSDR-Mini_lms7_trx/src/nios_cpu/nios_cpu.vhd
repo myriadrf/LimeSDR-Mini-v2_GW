@@ -101,7 +101,6 @@ architecture arch of nios_cpu is
    
    attribute syn_keep: boolean;
 	attribute syn_keep of fpga_cfg_spi_wp: signal is true;
-   attribute syn_keep of inst0_dac_spi_ext_MISO: signal is true;
    
 
   
@@ -179,7 +178,8 @@ port map (
  
 );
 
-inst0_dac_spi_ext_MISO <= '0';
+-- DAC does not have MISO, this is just to prevent optimizations on SPI module of LM32
+inst0_dac_spi_ext_MISO <= spi_0_MISO;
 
 -- ----------------------------------------------------------------------------
 -- fpgacfg instance

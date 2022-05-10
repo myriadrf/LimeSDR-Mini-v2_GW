@@ -37,7 +37,7 @@
 //
 //      Project:           platform1
 //      File:              platform1.v
-//      Date:              Tr, 30 Kov 2022 20:44:25 BST
+//      Date:              An, 10 Geg 2022 23:34:34 BST
 //      Version:           2.1
 //      Targeted Family:   LFE5U-85F
 //
@@ -1193,8 +1193,8 @@ spi
 .INTERVAL_LENGTH(2),
 .DATA_LENGTH(16),
 .SHIFT_DIRECTION(0),
-.CLOCK_PHASE(0),
-.CLOCK_POLARITY(1))
+.CLOCK_PHASE(1),
+.CLOCK_POLARITY(0))
  dac_spi_( 
 .SPI_ADR_I(SHAREDBUS_ADR_I[31:0]),
 .SPI_DAT_I(dac_spi_SPI_DAT_I[31:0]),

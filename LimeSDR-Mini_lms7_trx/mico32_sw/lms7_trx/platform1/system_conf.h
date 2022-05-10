@@ -312,8 +312,8 @@
 #define DAC_SPI__INTERVAL_LENGTH  (2)
 #define DAC_SPI__DATA_LENGTH  (16)
 #define DAC_SPI__SHIFT_DIRECTION  (0)
-#define DAC_SPI__CLOCK_PHASE  (0)
-#define DAC_SPI__CLOCK_POLARITY  (1)
+#define DAC_SPI__CLOCK_PHASE  (1)
+#define DAC_SPI__CLOCK_POLARITY  (0)
 
 
 #endif /* __SYSTEM_CONFIG_H_ */
