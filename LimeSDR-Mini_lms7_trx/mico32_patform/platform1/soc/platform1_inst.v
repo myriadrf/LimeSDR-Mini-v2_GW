@@ -37,7 +37,7 @@
 //
 //      Project:           platform1
 //      File:              platform1_inst.v
-//      Date:              An, 10 Geg 2022 23:34:34 BST
+//      Date:              Sk, 15 Geg 2022 12:36:48 EEST
 //      Version:           2.1
 //      Targeted Family:   ECP5U
 //
