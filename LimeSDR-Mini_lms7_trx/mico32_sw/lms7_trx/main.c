@@ -41,7 +41,7 @@
 
 #define DAC_VAL_ADDR  			0x0010		// Address in EEPROM memory where TCXO DAC value is stored
 #define DAC_VAL_ADDR_IN_FLASH  	0x00FF0000	// Address in EEPROM memory where TCXO DAC value is stored
-#define DAC_DEFF_VAL			721			// Default TCXO DAC value loaded when EEPROM is empty
+#define DAC_DEFF_VAL			566			// Default TCXO DAC value loaded when EEPROM is empty
 
 const char *LED_GPIO_INSTANCE = "LED";
 const char *GPIO_GPIO_INSTANCE = "GPIO";
