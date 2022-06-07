@@ -1,7 +1,7 @@
 -- ----------------------------------------------------------------------------
--- FILE:          nios_cpu.vhd
--- DESCRIPTION:   NIOS CPU top level
--- DATE:          10:52 AM Friday, May 11, 2018
+-- FILE:          cpu.vhd
+-- DESCRIPTION:   CPU top level
+-- DATE:          09:00 PM Tuesday, June 07, 2022
 -- AUTHOR(s):     Lime Microsystems
 -- REVISIONS:
 -- ----------------------------------------------------------------------------
@@ -21,7 +21,7 @@ use work.periphcfg_pkg.all;
 -- ----------------------------------------------------------------------------
 -- Entity declaration
 -- ----------------------------------------------------------------------------
-entity nios_cpu is
+entity cpu is
    generic(
       -- CFG_START_ADDR has to be multiple of 32, because there are 32 addresses
       FPGACFG_START_ADDR   : integer := 0;
@@ -75,12 +75,12 @@ entity nios_cpu is
       to_periphcfg         : in     t_TO_PERIPHCFG;
       from_periphcfg       : out    t_FROM_PERIPHCFG
    );
-end nios_cpu;
+end cpu;
 
 -- ----------------------------------------------------------------------------
 -- Architecture
 -- ----------------------------------------------------------------------------
-architecture arch of nios_cpu is
+architecture arch of cpu is
 --declare signals,  components here
    
 --inst0
@@ -100,69 +100,39 @@ architecture arch of nios_cpu is
    signal inst1_sdout               : std_logic;
    
    attribute syn_keep: boolean;
-	attribute syn_keep of fpga_cfg_spi_wp: signal is true;
+   attribute syn_keep of fpga_cfg_spi_wp: signal is true;
    
 
   
 begin
 
 -- ----------------------------------------------------------------------------
--- NIOS instance
+-- Soft CPU instance
 -- ----------------------------------------------------------------------------
-   --lms_ctr_inst0 : component lms_ctr
-   --port map (
-      --clk_clk                                   => clk,
-      --exfifo_if_d_export                        => exfifo_if_d,
-      --exfifo_if_rd_export                       => exfifo_if_rd,
-      --exfifo_if_rdempty_export                  => exfifo_if_rdempty,
-      --exfifo_of_d_export                        => exfifo_of_d,
-      --exfifo_of_wr_export                       => exfifo_of_wr,
-      --exfifo_of_wrfull_export                   => exfifo_of_wrfull,
-      --exfifo_rst_export                         => exfifo_of_rst,
-      --leds_external_connection_export           => gpo,
-      --lms_ctr_gpio_external_connection_export   => lms_ctr_gpio,
-      --dac_spi_ext_MISO                          => '0',
-      --dac_spi_ext_MOSI                          => inst0_dac_spi_ext_MOSI,
-      --dac_spi_ext_SCLK                          => inst0_dac_spi_ext_SCLK,
-      --dac_spi_ext_SS_n                          => inst0_dac_spi_ext_SS_n,
-      --fpga_spi_ext_MISO                         => inst0_fpga_spi_ext_MISO,
-      --fpga_spi_ext_MOSI                         => inst0_fpga_spi_ext_MOSI,
-      --fpga_spi_ext_SCLK                         => inst0_fpga_spi_ext_SCLK,
-      --fpga_spi_ext_SS_n                         => inst0_fpga_spi_ext_SS_n,
-      --switch_external_connection_export         => gpi,
-      --uart_external_connection_rxd              => '0',
-      --uart_external_connection_txd              => open,
-      --i2c_scl_export                            => i2c_scl,
-      --i2c_sda_export                            => i2c_sda,
-      --flash_spi_MISO                            => spi_1_MISO,
-      --flash_spi_MOSI                            => spi_1_MOSI,
-      --flash_spi_SCLK                            => spi_1_SCLK,
-      --flash_spi_SS_n                            => inst0_flash_spi_SS_n
-   --);
-	
+
 inst_cpu : entity work.platform1_vhd
 port map (
-   clk_i             	=> clk,
-   reset_n           	=> reset_n,
-   LEDPIO_OUT        	=> open,
-   GPIOPIO_BOTH_IN   	=> (others=>'0'),
-   GPIOPIO_BOTH_OUT  	=> open,
-   GPOout_pins       	=> gpo,
-   spiMISO_MASTER    	=> inst0_fpga_spi_ext_MISO,
-   spiMOSI_MASTER    	=> inst0_fpga_spi_ext_MOSI,
-   spiSS_N_MASTER    	=> inst0_fpga_spi_ext_SS_n,
-   spiSCLK_MASTER    	=> inst0_fpga_spi_ext_SCLK,
-   FIFOout_pins      	=> open,
-   FIFOof_d          	=> exfifo_of_d,
-   FIFOof_wr         	=> exfifo_of_wr,
-   FIFOof_wrfull     	=> exfifo_of_wrfull,
-   FIFOif_d          	=> exfifo_if_d,
-   FIFOif_rd         	=> exfifo_if_rd,
-   FIFOif_rdempty    	=> exfifo_if_rdempty,
-   FIFOfifo_rst      	=> exfifo_of_rst,
-   uartSIN           	=> '1',
-   uartSOUT          	=> open,
-	lms_ctr_gpioPIO_OUT 	=> lms_ctr_gpio,
+   clk_i                => clk,
+   reset_n              => reset_n,
+   LEDPIO_OUT           => open,
+   GPIOPIO_BOTH_IN      => (others=>'0'),
+   GPIOPIO_BOTH_OUT     => open,
+   GPOout_pins          => gpo,
+   spiMISO_MASTER       => inst0_fpga_spi_ext_MISO,
+   spiMOSI_MASTER       => inst0_fpga_spi_ext_MOSI,
+   spiSS_N_MASTER       => inst0_fpga_spi_ext_SS_n,
+   spiSCLK_MASTER       => inst0_fpga_spi_ext_SCLK,
+   FIFOout_pins         => open,
+   FIFOof_d             => exfifo_of_d,
+   FIFOof_wr            => exfifo_of_wr,
+   FIFOof_wrfull        => exfifo_of_wrfull,
+   FIFOif_d             => exfifo_if_d,
+   FIFOif_rd            => exfifo_if_rd,
+   FIFOif_rdempty       => exfifo_if_rdempty,
+   FIFOfifo_rst         => exfifo_of_rst,
+   uartSIN              => '1',
+   uartSOUT             => open,
+   lms_ctr_gpioPIO_OUT  => lms_ctr_gpio,
    SPIFlash_CEJ         => fpga_cfg_spi_SS_n,
    SPIFlash_SCK         => fpga_cfg_spi_SCLK,
    SPIFlash_SI          => fpga_cfg_spi_MOSI,
@@ -227,7 +197,7 @@ inst0_dac_spi_ext_MISO <= spi_0_MISO;
    spi_1_SS_n  <= '1' & inst0_flash_spi_SS_n;
    
    
-	
+   
 end arch;   
 
 

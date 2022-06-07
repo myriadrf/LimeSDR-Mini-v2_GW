@@ -340,10 +340,10 @@ begin
    port map(LMK_CLK, reset_n, '1', reset_n_lmk_clk);   
 
 -- ----------------------------------------------------------------------------
--- NIOS CPU instance.
+-- CPU (Mico32) instance.
 -- CPU is responsible for communication interfaces and control logic
 -- ----------------------------------------------------------------------------   
-   inst0_nios_cpu : entity work.nios_cpu
+   inst0_cpu : entity work.cpu
    generic map (
       FPGACFG_START_ADDR   => FPGACFG_START_ADDR,
       PLLCFG_START_ADDR    => PLLCFG_START_ADDR,

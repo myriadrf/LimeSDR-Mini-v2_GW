@@ -42,7 +42,7 @@ If there is a need to modify Mico32 platform or software follow steps below, oth
 - Open Lattice Diamond software and open *File->Open->Project...* project file from *./LimeSDR-Mini_lms7_trx/proj/lms7_trx.ldf*
 - Recompile project right click on *Bitstram file->Rerun All* in *Process* tab
 - Open *Tools -> ECO Editor* and Select *"Memory Initialization"* tab
-- Add *LimeSDR-Mini_lms7_trx/mico32_sw/lms7_trx/lms7_trx.mem* file to *inst0_nios_cpu/inst_cpu/lm32_inst/ebr/\genblk1.ram*
+- Add *LimeSDR-Mini_lms7_trx/mico32_sw/lms7_trx/lms7_trx.mem* file to *inst0_cpu/inst_cpu/lm32_inst/ebr/\genblk1.ram*
 - Update and Save
 - Rerun only *"Bitstream File"* step 
 - Reprogram FPGA

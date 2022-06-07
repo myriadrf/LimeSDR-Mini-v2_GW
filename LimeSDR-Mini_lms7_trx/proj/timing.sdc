@@ -59,11 +59,11 @@ create_clock	-name LMK_CLK \
 								#-divide_by 4 \
 											#[get_registers *nios_cpu*|*altera_onchip*|flash_se_neg_reg]
 
-create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.SPIFlash_.clk_div.Q[0]}] -name FPGA_CFG_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 10 
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.SPIFlash_.clk_div.Q[0]}] -name FPGA_CFG_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 10 
 
-create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.spi.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16 
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.spi.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16 
 
-create_generated_clock [get_pins {inst0_nios_cpu.inst_cpu.lm32_inst.dac_spi_.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_DAC_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.dac_spi_.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_DAC_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16
 # ----------------------------------------------------------------------------
 # Input constraints
 # ----------------------------------------------------------------------------
