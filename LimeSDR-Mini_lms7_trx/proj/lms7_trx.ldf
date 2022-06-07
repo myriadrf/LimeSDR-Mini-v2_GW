@@ -57,9 +57,6 @@
         <Source name="../src/general/sync_reg.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
-        <Source name="../src/nios_cpu/nios_cpu.vhd" type="VHDL" type_short="VHDL">
-            <Options/>
-        </Source>
         <Source name="../src/FT601/synth/FT601_top.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -319,6 +316,9 @@
             <Options/>
         </Source>
         <Source name="ip/fifo_dc/fifodc_w32x256_r32/fifodc_w32x256_r32.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../src/cpu/cpu.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="../../LimeSDR-Mini_bitstreams/impl1_flash_dualboot.xcf" type="Programming Project File" type_short="Programming" excluded="TRUE">
