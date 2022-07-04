@@ -32,16 +32,20 @@
 //#define FW_VER				2 //FLASH programming added
 //#define FW_VER				3 //Temperature and Si5351C control added
 //#define FW_VER				4 //LM75 configured to control fan; I2C speed increased up to 400kHz; ADF/DAC control implementation.
-//#define FW_VER				5 //EEPROM and FLASH R/W funtionality added
-#define FW_VER				6 // DAC value read from EEPROM memory
+//#define FW_VER				5 //EEPROM and FLASH R/W functionality added
+//#define FW_VER				6 // DAC value read from EEPROM memory
+#define FW_VER				7 // DAC value read from FLASH memory
 
 
 #define SPI_LMS7002_SELECT 0x01
 #define SPI_FPGA_SELECT 0x02
 
 #define DAC_VAL_ADDR  			0x0010		// Address in EEPROM memory where TCXO DAC value is stored
-#define DAC_VAL_ADDR_IN_FLASH  	0x00FF0000	// Address in EEPROM memory where TCXO DAC value is stored
+#define DAC_VAL_ADDR_IN_FLASH  	0x00FF0000	// Address in FLASH memory where TCXO DAC value is stored
 #define DAC_DEFF_VAL			566			// Default TCXO DAC value loaded when EEPROM is empty
+
+#define FLASH_USRSEC_START_ADDR	0x00400000  // Start address for user space in FLASH memory
+
 
 const char *LED_GPIO_INSTANCE = "LED";
 const char *GPIO_GPIO_INSTANCE = "GPIO";
@@ -816,7 +820,7 @@ int main(void)
 
 								flash_page = (LMS_Ctrl_Packet_Rx->Data_field[6] << 24) | (LMS_Ctrl_Packet_Rx->Data_field[7] << 16) | (LMS_Ctrl_Packet_Rx->Data_field[8] << 8) | (LMS_Ctrl_Packet_Rx->Data_field[9]);
 
-								if (flash_page >= DAC_VAL_ADDR_IN_FLASH) {
+								if (flash_page >= FLASH_USRSEC_START_ADDR) {
 									if (flash_page % FLASH_BLOCK_SIZE == 0) {
 										flash_op_status = MicoSPIFlash_BlockErase(spiflash, spiflash->memory_base+flash_page, 3);
 									}
