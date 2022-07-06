@@ -34,7 +34,8 @@
 //#define FW_VER				4 //LM75 configured to control fan; I2C speed increased up to 400kHz; ADF/DAC control implementation.
 //#define FW_VER				5 //EEPROM and FLASH R/W functionality added
 //#define FW_VER				6 // DAC value read from EEPROM memory
-#define FW_VER				7 // DAC value read from FLASH memory
+//#define FW_VER				7 // DAC value read from FLASH memory
+#define FW_VER				8 // Added FLASH write command protect when write count is 0
 
 
 #define SPI_LMS7002_SELECT 0x01
@@ -821,7 +822,7 @@ int main(void)
 								flash_page = (LMS_Ctrl_Packet_Rx->Data_field[6] << 24) | (LMS_Ctrl_Packet_Rx->Data_field[7] << 16) | (LMS_Ctrl_Packet_Rx->Data_field[8] << 8) | (LMS_Ctrl_Packet_Rx->Data_field[9]);
 
 								if (flash_page >= FLASH_USRSEC_START_ADDR) {
-									if (flash_page % FLASH_BLOCK_SIZE == 0) {
+									if (flash_page % FLASH_BLOCK_SIZE == 0 && data_cnt > 0) {
 										flash_op_status = MicoSPIFlash_BlockErase(spiflash, spiflash->memory_base+flash_page, 3);
 									}
 
@@ -829,8 +830,9 @@ int main(void)
 										wdata[k] = LMS_Ctrl_Packet_Rx->Data_field[24+k];
 									}
 
-									if(MicoSPIFlash_PageProgram(spiflash, spiflash->memory_base+flash_page, (unsigned int)data_cnt, wdata)!= 0) cmd_errors++;
-
+									if (data_cnt > 0) {
+										if(MicoSPIFlash_PageProgram(spiflash, spiflash->memory_base+flash_page, (unsigned int)data_cnt, wdata)!= 0) cmd_errors++;
+									}
 									if(cmd_errors) LMS_Ctrl_Packet_Tx->Header.Status = STATUS_ERROR_CMD;
 									else LMS_Ctrl_Packet_Tx->Header.Status = STATUS_COMPLETED_CMD;
 
