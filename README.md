@@ -1,4 +1,4 @@
-# LimeSDR-Mini_v2_GW
+# LimeSDR Mini v2 Gateware
 
 LimeSDR-Mini v2 (featuring Lattice FPGA) gateware project
 
