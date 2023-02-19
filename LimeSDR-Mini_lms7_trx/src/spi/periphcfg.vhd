@@ -156,7 +156,7 @@ begin
    begin
       -- Defaults
       if mreset = '0' then	
-         mem(0)	<= "0000000000000000"; --  0 free, BOARD_GPIO_OVRD[15:0]
+         mem(0)	<= "0000000000001111"; --  0 free, BOARD_GPIO_OVRD[15:0]
          mem(1)	<= "0000000000000000"; --  0 free, Reserved
          mem(2)	<= "0000000000000000"; --  0 free, BOARD_GPIO_RD[15:0]
          mem(3)	<= "0000000000000000"; --  0 free, Reserved

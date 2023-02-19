@@ -1,10 +1,8 @@
-Release 1.29 (2019-01-29)
+Release 2.1 (2022-04-08)
 ==========================
+Initial release
 
-RX TX path changes:
-- Short packet feature 
-
-Release 1.30 (2019-05-07)
+Release 2.2 (2023-02-19)
 ==========================
-TX path changes:
-- Modified txiq module to output zero samples if FIFO is empty after enable
+GPIO changes:
+- FPGA_GPIO[3:0] is user controlled by default. Changed GPIO[7:4] to push-pull buffer type. 

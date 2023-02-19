@@ -12,7 +12,7 @@ use IEEE.std_logic_unsigned.all;
 
 package revisions is
 	constant MAJOR_REV : INTEGER := 2;
-	constant MINOR_REV : INTEGER := 1;
+	constant MINOR_REV : INTEGER := 2;
 	constant BETA_REV : INTEGER := 1;
 	constant COMPILE_REV : INTEGER := 1;
 	constant COMPILE_YEAR_STAMP : INTEGER := 19;
