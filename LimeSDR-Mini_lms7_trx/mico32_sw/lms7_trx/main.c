@@ -561,9 +561,7 @@ int main(void)
 	MICO_GPIO_WRITE_DATA(lms_ctr_gpio,0x0);
 	MICO_GPIO_WRITE_DATA(lms_ctr_gpio,0xFFFFFFFF);
 
-	Configure_LM75(i2c_master);
-
-	testEEPROM(i2c_master);
+	//testEEPROM(i2c_master);
 
 	// Read TCXO DAC value from EEPROM memory
 	/*
@@ -605,6 +603,8 @@ int main(void)
 
 	gpo_val = 0x00000000;
 	*gpo_reg = gpo_val;
+
+	Configure_LM75(i2c_master);
 
 
 	while(1) {
