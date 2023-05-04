@@ -14,7 +14,7 @@ package revisions is
 	constant MAJOR_REV : INTEGER := 2;
 	constant MINOR_REV : INTEGER := 2;
 	constant BETA_REV : INTEGER := 1;
-	constant COMPILE_REV : INTEGER := 3;
+	constant COMPILE_REV : INTEGER := 4;
 	constant COMPILE_YEAR_STAMP : INTEGER := 19;
 	constant COMPILE_MONTH_STAMP : INTEGER := 05;
 	constant COMPILE_DAY_STAMP : INTEGER := 07;

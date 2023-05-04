@@ -13,6 +13,7 @@
 # Timing parameters
 # ----------------------------------------------------------------------------
 set LMK_CLK_period  		25.00
+set OSC_CLK_period			12.903 
 
 # ----------------------------------------------------------------------------
 # Base clocks
@@ -20,6 +21,10 @@ set LMK_CLK_period  		25.00
 create_clock	-name LMK_CLK \
 					-period 	$LMK_CLK_period \
 								[get_ports LMK_CLK]
+								
+create_clock	-name OSC_CLK \
+					-period 	$OSC_CLK_period \
+								[get_pins {OSCInst0.OSC}]
 
 # ----------------------------------------------------------------------------
 # Virtual clocks
@@ -59,11 +64,11 @@ create_clock	-name LMK_CLK \
 								#-divide_by 4 \
 											#[get_registers *nios_cpu*|*altera_onchip*|flash_se_neg_reg]
 
-create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.SPIFlash_.clk_div.Q[0]}] -name FPGA_CFG_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 10 
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.SPIFlash_.clk_div.Q[0]}] -name FPGA_CFG_SPI_SCLK -source [get_pins {OSCInst0.OSC}] -divide_by 20 
 
-create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.spi.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16 
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.spi.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_SPI_SCLK -source [get_pins {OSCInst0.OSC}] -divide_by 16 
 
-create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.dac_spi_.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_DAC_SPI_SCLK -source [get_ports {LMK_CLK}] -divide_by 16
+create_generated_clock [get_pins {inst0_cpu.inst_cpu.lm32_inst.dac_spi_.genblk1\.SCLK_MASTER.Q[0]}] -name FPGA_DAC_SPI_SCLK -source [get_pins {OSCInst0.OSC}] -divide_by 16
 # ----------------------------------------------------------------------------
 # Input constraints
 # ----------------------------------------------------------------------------

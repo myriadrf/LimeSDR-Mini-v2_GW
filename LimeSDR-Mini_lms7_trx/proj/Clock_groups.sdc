@@ -27,8 +27,9 @@
 						#-group { RX_C2 } \
 						#-group { RX_C3 LMS_FCLK2}
 set_clock_groups 	-asynchronous \
-						-group { LMK_CLK FPGA_CFG_SPI_SCLK FPGA_SPI_SCLK FPGA_DAC_SPI_SCLK} \
+						-group { OSC_CLK FPGA_CFG_SPI_SCLK FPGA_SPI_SCLK FPGA_DAC_SPI_SCLK} \
 						-group { FT_CLK } \
+						-group { LMK_CLK } \
 						-group { LMS_MCLK1 } \
 						-group { LMS_MCLK2 }
 
@@ -39,7 +40,8 @@ set_clock_groups 	-asynchronous \
 #set_false_path	 	-from [get_clocks LMS_MCLK2] \
 #						-to 	[get_clocks LMS_MCLK2]
 						
-#set_false_path	 	-from [get_clocks LMS_MCLK2_VIRT] \
+
+#set_false_path	 	-from [get_clocks LMS_MCLK2_VIRT] \
 #						-to 	[get_clocks LMS_MCLK2]
 						
 						
