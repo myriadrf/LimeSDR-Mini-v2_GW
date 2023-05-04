@@ -6,3 +6,17 @@ Release 2.2 (2023-02-19)
 ==========================
 GPIO changes:
 - FPGA_GPIO[3:0] is user controlled by default. Changed GPIO[7:4] to push-pull buffer type. 
+
+Release 2.3 (2023-04-27)
+==========================
+GPIO changes:
+- Added Pull-UP on LM75 os pin
+
+Release 2.4 (2023-05-04)
+==========================
+Clocking:
+- Added internal oscilator
+- Mico32 is running on internal oscilator clk source
+
+
+

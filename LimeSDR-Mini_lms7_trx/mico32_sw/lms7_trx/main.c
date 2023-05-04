@@ -35,7 +35,8 @@
 //#define FW_VER				5 //EEPROM and FLASH R/W functionality added
 //#define FW_VER				6 // DAC value read from EEPROM memory
 //#define FW_VER				7 // DAC value read from FLASH memory
-#define FW_VER				8 // Added FLASH write command protect when write count is 0
+//#define FW_VER				8 // Added FLASH write command protect when write count is 0
+#define FW_VER				9 // Temporary fix for LM75 configuration
 
 
 #define SPI_LMS7002_SELECT 0x01
@@ -304,7 +305,8 @@ void spiflash_erase_primary(MicoSPIFlashCtx_t *ctx)
 void Configure_LM75(OpenCoresI2CMasterCtx_t *ctx)
 {
 	int spirez;
-	char wdata[4];
+	unsigned char wdata[4];
+	unsigned char rdata[4];
 
 	// OS polarity configuration
 	wdata[0]=0x01; // Pointer = configuration register
@@ -312,19 +314,48 @@ void Configure_LM75(OpenCoresI2CMasterCtx_t *ctx)
 	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 2, wdata);
 	OpenCoresI2CMasterStop(ctx);
 
+
+	// Read  back OS polarity configuration
+	wdata[0]=0x01; // Pointer = Configuration register
+	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 1, wdata);
+
+	spirez = OpenCoresI2CMasterRead(ctx, LM75_I2C_ADDR, 1, rdata);
+	OpenCoresI2CMasterStop(ctx);
+	MicoSleepMilliSecs(100);
+
+
+
 	// THYST configuration
 	wdata[0]=0x02;	// Pointer = THYST register
-	wdata[1]=45;	// Set THYST H
+	wdata[1]=0x2D;	// Set THYST H (45)
 	wdata[2]=0;		// Set THYST L
 	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 3, wdata);
 	OpenCoresI2CMasterStop(ctx);
 
+
+	// Read  back THYST configuration
+	wdata[0]=0x02; // Pointer = THYST
+	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 1, wdata);
+
+	spirez = OpenCoresI2CMasterRead(ctx, LM75_I2C_ADDR, 2, rdata);
+	OpenCoresI2CMasterStop(ctx);
+	MicoSleepMilliSecs(100);
+
 	// TOS configuration
 	wdata[0]=0x03;	// Pointer = TOS register
-	wdata[1]=55;	// Set TOS H
+	wdata[1]=0x37;	// Set TOS H (55)
 	wdata[2]=0;		// Set TOS L
 	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 3, wdata);
 	OpenCoresI2CMasterStop(ctx);
+
+
+	// Read back TOS configuration
+	wdata[0]=0x03; // Pointer = TOS
+	spirez = OpenCoresI2CMasterWrite(ctx, LM75_I2C_ADDR, 1, wdata);
+
+	spirez = OpenCoresI2CMasterRead(ctx, LM75_I2C_ADDR, 2, rdata);
+	OpenCoresI2CMasterStop(ctx);
+	MicoSleepMilliSecs(100);
 }
 
 //

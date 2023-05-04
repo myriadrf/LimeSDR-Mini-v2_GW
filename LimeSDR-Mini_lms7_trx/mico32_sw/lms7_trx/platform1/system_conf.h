@@ -5,7 +5,7 @@
 #define FPGA_DEVICE_FAMILY    "ECP5U"
 #define PLATFORM_NAME         "platform1"
 #define USE_PLL               (0)
-#define CPU_FREQUENCY         (48000000)
+#define CPU_FREQUENCY         (77500000)
 
 
 /* FOUND 1 CPU UNIT(S) */

@@ -91,6 +91,7 @@ entity lms7_trx_top is
       FT_TXEn           : in     std_logic;
       FT_WRn            : out    std_logic; 
       FT_RESETn         : out    std_logic;
+	  FT_WAKEUPn        : out    std_logic;
       -- ----------------------------------------------------------------------------
       -- External communication interfaces
          -- FPGA_SPI
@@ -143,8 +144,6 @@ signal por_rst_vect              : std_logic_vector(3 downto 0);
 signal por_rst_n                 : std_logic;
 
 signal reset_n                   : std_logic; 
-signal reset_n_ft_clk            : std_logic;
-signal reset_n_lmk_clk           : std_logic;
 
 --inst0 (NIOS CPU instance)
 signal inst0_exfifo_if_rd        : std_logic;
@@ -257,6 +256,11 @@ signal lms_smpl_cmp_error  : std_logic;
 
 signal mico32_busy         : std_logic;
 
+signal osc_clk				: std_logic;
+
+attribute keep: boolean;
+attribute keep of por_rst_vect: signal is true;
+
 
 -- Component for FPGA configuration flash access
 COMPONENT USRMCLK
@@ -309,8 +313,32 @@ component lms7002_top
 end component;
 
 
+COMPONENT OSCG
+--synthesis translate_off
+	GENERIC (
+		DIV: integer := 128
+	);
+--synthesis translate_on
+	PORT (
+		OSC : OUT std_logic
+	);
+END COMPONENT;
+
+attribute DIV : integer;
+attribute DIV of OSCinst0 : label is 4;
+
 
 begin
+
+-- ----------------------------------------------------------------------------
+-- Internal Oscilator
+-- ----------------------------------------------------------------------------
+-- DIV values: 2(~155MHz) - 128(~2.4MHz)
+OSCInst0: OSCG
+--synthesis translate_off
+	GENERIC MAP (DIV => 4)
+--synthesis translate_on
+	PORT MAP (OSC => osc_clk);
 
 -- ----------------------------------------------------------------------------
 -- Reset logic
@@ -318,26 +346,19 @@ begin
    -- HW_VER(3) is connected to GND
    ext_rst  <= HW_VER(3);
    
-   process(ext_rst, LMK_CLK)
+   process(ext_rst, osc_clk)
    begin 
       if ext_rst = '1' then 
          por_rst_vect <= (others=>'0');
-      elsif rising_edge(LMK_CLK) then 
+      elsif rising_edge(osc_clk) then 
          por_rst_vect <= por_rst_vect(2 downto 0) & '1';
       end if;
    end process;
       
-   por_rst_n <= '1' when por_rst_vect = "1111" else '0';
+   reset_n <= '1' when por_rst_vect = "1111" else '0';
   
    -- Reset for all logic. 
-   reset_n <= por_rst_n;
-   
-   -- Reset signal with synchronous removal to FTDI_PCLK clock domain, 
-   sync_reg0 : entity work.sync_reg 
-   port map(FT_CLK, reset_n, '1', reset_n_ft_clk);
-   
-   sync_reg1 : entity work.sync_reg 
-   port map(LMK_CLK, reset_n, '1', reset_n_lmk_clk);   
+   --reset_n <= por_rst_n;  
 
 -- ----------------------------------------------------------------------------
 -- CPU (Mico32) instance.
@@ -351,8 +372,8 @@ begin
       PERIPHCFG_START_ADDR => PERIPHCFG_START_ADDR
    )
    port map(
-      clk                        => LMK_CLK,
-      reset_n                    => reset_n,--reset_n_lmk_clk,
+      clk                        => osc_clk,
+      reset_n                    => reset_n,
       -- Control data FIFO
       exfifo_if_d                => inst2_EP02_rdata,
       exfifo_if_rd               => inst0_exfifo_if_rd, 
@@ -416,18 +437,18 @@ begin
       delay_time 		=> 100  -- delay time in ms
    )
    port map(
-      clk      => LMK_CLK,
+      clk      => osc_clk,
       reset_n  => reset_n,
       busy_in  => inst0_gpo(0),
       busy_out => mico32_busy
    );
    
-	process(LMK_CLK, reset_n_lmk_clk)
+	process(osc_clk, reset_n)
 	begin 
-		if reset_n_lmk_clk = '0' then 
+		if reset_n = '0' then 
 			cpu_alive_cnt <= (others=>'0');
          inst0_gpo_reg <= (others=>'0');
-		elsif rising_edge(LMK_CLK) then 
+		elsif rising_edge(osc_clk) then 
          inst0_gpo_reg <= inst0_gpo;
          --Increment on rising edge
 			if inst0_gpo_reg(0) = '0' AND inst0_gpo(0) = '1' then 
@@ -535,12 +556,12 @@ begin
       FT_txe_n       => FT_TXEn,
       FT_RESETn      => FT_RESETn,
       --controll endpoint fifo PC->FPGA 
-      EP02_rdclk     => LMK_CLK, 
+      EP02_rdclk     => osc_clk, 
       EP02_rd        => inst0_exfifo_if_rd,
       EP02_rdata     => inst2_EP02_rdata,
       EP02_rempty    => inst2_EP02_rempty,
       --controll endpoint fifo FPGA->PC
-      EP82_wclk      => LMK_CLK,
+      EP82_wclk      => osc_clk,
       EP82_aclrn     => not inst0_exfifo_of_rst,
       EP82_wr        => inst0_exfifo_of_wr,
       EP82_wdata     => inst0_exfifo_of_d,
@@ -571,7 +592,7 @@ begin
    port map(
       --input ports 
       FX3_clk           => FT_CLK,
-      reset_n           => reset_n_ft_clk,    
+      reset_n           => reset_n,    
       Si5351C_clk_0     => '0',
       Si5351C_clk_1     => '0',
       Si5351C_clk_2     => '0',
@@ -598,8 +619,8 @@ begin
    )
    port map(
       -- General ports
-      clk                  => FT_CLK,
-      reset_n              => reset_n_ft_clk,
+      clk                  => osc_clk,
+      reset_n              => reset_n,
       -- configuration memory
       to_periphcfg         => inst0_to_periphcfg,
       from_periphcfg       => inst0_from_periphcfg,     
@@ -724,6 +745,8 @@ begin
    RFSW_TX_V2        <= inst0_from_fpgacfg.GPIO(13);
    TX_LB_AT          <= inst0_from_fpgacfg.GPIO(1);
    TX_LB_SH          <= inst0_from_fpgacfg.GPIO(2);
+   
+   FT_WAKEUPn        <= '1';
    
 	
 end arch;   

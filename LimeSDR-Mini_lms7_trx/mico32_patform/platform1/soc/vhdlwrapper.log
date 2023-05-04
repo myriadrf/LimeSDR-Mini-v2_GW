@@ -1,6 +1,6 @@
 Program: C:\lscc\diamond\3.12\micosystem\utilities\tclscript\vhdlwrapper.tcl
 Number of arguments: 9
-Argument: 0: D:\Darbas\lattice\limeSDR_mini\limesdr-mini_v2_gw\LimeSDR-Mini_lms7_trx\mico32_patform\platform1\soc
+Argument: 0: D:\work_dir\LimeSDR-Mini\LimeSDR-Mini-v2_GW\LimeSDR-Mini_lms7_trx\mico32_patform\platform1\soc
 Argument: 1: platform1
 Argument: 2: nongo
 Argument: 3: 2.1
@@ -17,11 +17,11 @@ fpga_dir: C:/lscc/diamond/3.12/ispfpga
 tcl_lib: C:/lscc/diamond/3.12/tcltk/lib
 bali_app: true
 
-Verilog Filename: D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
-VHDL Filename: D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
-MSB Filename: D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+Verilog Filename: D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
+VHDL Filename: D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+MSB Filename: D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
 
-open D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+open D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
 tech: ECP5U
 cpu: LM32
 comp: lm32_top
@@ -37,9 +37,9 @@ comp: gpio
 comp: gpio
 comp: i2cm_opencores
 comp: spi
-close D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
+close D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.msb
 
-open D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
+open D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1.v
 
 
 list top module port type width bus
@@ -74,7 +74,7 @@ dac_spi_MISO_MASTER in 1 0
 dac_spi_MOSI_MASTER out 1 0
 dac_spi_SS_N_MASTER out 1-1 1
 dac_spi_SCLK_MASTER out 1 0
-open D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
-close D:/Darbas/lattice/limeSDR_mini/limesdr-mini_v2_gw/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+open D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
+close D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/mico32_patform/platform1/soc/platform1_vhd.vhd
 
 Tech: ECP5U

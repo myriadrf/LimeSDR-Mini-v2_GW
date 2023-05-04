@@ -37,7 +37,7 @@
 //
 //      Project:           platform1
 //      File:              platform1.v
-//      Date:              Sk, 15 Geg 2022 12:36:48 EEST
+//      Date:              Kt, 4 Geg 2023 10:33:54 EEST
 //      Version:           2.1
 //      Targeted Family:   LFE5U-85F
 //
@@ -930,7 +930,7 @@ assign GPOwb_en = ( SHAREDBUS_ADR_I[31:5] == 27'b100000000000000000011000000);
 Reg_Comp 
 #(
 .reg_08_int_val(32'h1234abcd),
-.CLK_MHZ(48.0))
+.CLK_MHZ(77.5))
  GPO( 
 .wb_ADR_I(SHAREDBUS_ADR_I[31:0]),
 .wb_DAT_I(GPOwb_DAT_I[31:0]),
@@ -1037,7 +1037,7 @@ uart_core
 #(
 .UART_WB_DAT_WIDTH(8),
 .UART_WB_ADR_WIDTH(4),
-.CLK_IN_MHZ(48.0),
+.CLK_IN_MHZ(77.5),
 .BAUD_RATE(115200),
 .STDOUT_SIM(0),
 .STDOUT_SIMFAST(0),
@@ -1158,7 +1158,7 @@ assign i2cm_oc_I2CM_en = ( SHAREDBUS_ADR_I[31:7] == 25'b100000000000000001001000
 i2cm_opencores 
 #(
 .SPEED(400),
-.SYSCLK(48.0))
+.SYSCLK(77.5))
  i2cm_oc_( 
 .I2CM_ADR_I(SHAREDBUS_ADR_I[31:0]),
 .I2CM_DAT_I(i2cm_oc_I2CM_DAT_I[31:0]),
