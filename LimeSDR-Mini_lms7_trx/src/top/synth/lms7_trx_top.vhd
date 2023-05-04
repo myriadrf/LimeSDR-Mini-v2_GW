@@ -71,7 +71,7 @@ entity lms7_trx_top is
          -- PORT2
       LMS_MCLK2         : in     std_logic;
       LMS_FCLK2         : out    std_logic;
-      LMS_TXNRX2        : out    std_logic;
+      LMS_TXNRX2_or_CLK_SEL : out    std_logic; --In v2.3 board version this pin is changed to CLK_SEL
       LMS_ENABLE_IQSEL2 : in     std_logic;
       LMS_DIQ2_D        : in     std_logic_vector(LMS_DIQ_WIDTH-1 downto 0);
          --MISC
@@ -169,7 +169,7 @@ signal inst0_from_tstcfg         : t_FROM_TSTCFG;
 signal inst0_to_tstcfg           : t_TO_TSTCFG;
 signal inst0_from_periphcfg      : t_FROM_PERIPHCFG;
 signal inst0_to_periphcfg        : t_TO_PERIPHCFG;
-signal cpu_alive_cnt					: std_logic_vector(15 downto 0);
+signal cpu_alive_cnt             : std_logic_vector(15 downto 0);
 signal inst0_fpga_cfg_usrmclkts  : std_logic_vector(0 downto 0);
 signal inst0_fpga_cfg_spi_MOSI   : std_logic;
 signal inst0_fpga_cfg_spi_SCLK   : std_logic;
@@ -256,7 +256,7 @@ signal lms_smpl_cmp_error  : std_logic;
 
 signal mico32_busy         : std_logic;
 
-signal osc_clk				: std_logic;
+signal osc_clk             : std_logic;
 
 attribute keep: boolean;
 attribute keep of por_rst_vect: signal is true;
@@ -315,13 +315,13 @@ end component;
 
 COMPONENT OSCG
 --synthesis translate_off
-	GENERIC (
-		DIV: integer := 128
-	);
+   GENERIC (
+      DIV: integer := 128
+   );
 --synthesis translate_on
-	PORT (
-		OSC : OUT std_logic
-	);
+   PORT (
+      OSC : OUT std_logic
+   );
 END COMPONENT;
 
 attribute DIV : integer;
@@ -336,9 +336,9 @@ begin
 -- DIV values: 2(~155MHz) - 128(~2.4MHz)
 OSCInst0: OSCG
 --synthesis translate_off
-	GENERIC MAP (DIV => 4)
+   GENERIC MAP (DIV => 4)
 --synthesis translate_on
-	PORT MAP (OSC => osc_clk);
+   PORT MAP (OSC => osc_clk);
 
 -- ----------------------------------------------------------------------------
 -- Reset logic
@@ -429,12 +429,12 @@ OSCInst0: OSCG
    inst0_to_fpgacfg.HW_VER    <= HW_VER;
    inst0_to_fpgacfg.BOM_VER   <= '0' & BOM_VER; 
    inst0_to_fpgacfg.PWR_SRC   <= '0';
-	
-	--CPU alive status
+   
+   --CPU alive status
    busy_delay_inst : entity work.busy_delay
    generic map(
-      clock_period 	=> 25,  -- input clock period in ns
-      delay_time 		=> 100  -- delay time in ms
+      clock_period   => 25,  -- input clock period in ns
+      delay_time     => 100  -- delay time in ms
    )
    port map(
       clk      => osc_clk,
@@ -443,21 +443,21 @@ OSCInst0: OSCG
       busy_out => mico32_busy
    );
    
-	process(osc_clk, reset_n)
-	begin 
-		if reset_n = '0' then 
-			cpu_alive_cnt <= (others=>'0');
+   process(osc_clk, reset_n)
+   begin 
+      if reset_n = '0' then 
+         cpu_alive_cnt <= (others=>'0');
          inst0_gpo_reg <= (others=>'0');
-		elsif rising_edge(osc_clk) then 
+      elsif rising_edge(osc_clk) then 
          inst0_gpo_reg <= inst0_gpo;
          --Increment on rising edge
-			if inst0_gpo_reg(0) = '0' AND inst0_gpo(0) = '1' then 
-				cpu_alive_cnt <= std_logic_vector(unsigned(cpu_alive_cnt) +1);
-			else 
-				cpu_alive_cnt <= cpu_alive_cnt;
-			end if;
-		end if;
-	end process;
+         if inst0_gpo_reg(0) = '0' AND inst0_gpo(0) = '1' then 
+            cpu_alive_cnt <= std_logic_vector(unsigned(cpu_alive_cnt) +1);
+         else 
+            cpu_alive_cnt <= cpu_alive_cnt;
+         end if;
+      end if;
+   end process;
    
 -- ----------------------------------------------------------------------------
 -- pll_top instance.
@@ -737,7 +737,10 @@ OSCInst0: OSCG
    LMS_RXEN          <= inst0_from_fpgacfg.LMS1_RXEN;
    LMS_CORE_LDO_EN   <= inst0_from_fpgacfg.LMS1_CORE_LDO_EN;
    LMS_TXNRX1        <= inst0_from_fpgacfg.LMS1_TXNRX1;
-   LMS_TXNRX2        <= inst0_from_fpgacfg.LMS1_TXNRX2;
+   
+   --In HW versions before v2.3 this pin is LMS_TXNRX2. After v2.3 - Clock select for LMK clock buffer (CLK_SEL) 
+   LMS_TXNRX2_or_CLK_SEL <=   inst0_from_periphcfg.PERIPH_OUTPUT_VAL_1(0) when unsigned(HW_VER) > 5 else 
+                              inst0_from_fpgacfg.LMS1_TXNRX2;
    
    RFSW_RX_V1        <= inst0_from_fpgacfg.GPIO(8);
    RFSW_RX_V2        <= inst0_from_fpgacfg.GPIO(9);
@@ -748,5 +751,5 @@ OSCInst0: OSCG
    
    FT_WAKEUPn        <= '1';
    
-	
+   
 end arch;   
