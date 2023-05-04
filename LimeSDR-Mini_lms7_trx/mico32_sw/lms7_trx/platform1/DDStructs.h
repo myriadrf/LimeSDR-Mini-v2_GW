@@ -15,7 +15,7 @@ extern "C"
 #include "LookupServices.h"
 #include "LookupServices.h"
 /* platform frequency in MHz */
-#define MICO32_CPU_CLOCK_MHZ (48000000)
+#define MICO32_CPU_CLOCK_MHZ (77500000)
 
 /*Device-driver structure for lm32_top*/
 #define LatticeMico32Ctx_t_DEFINED (1)
