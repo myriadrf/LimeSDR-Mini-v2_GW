@@ -36,7 +36,8 @@
 //#define FW_VER				6 // DAC value read from EEPROM memory
 //#define FW_VER				7 // DAC value read from FLASH memory
 //#define FW_VER				8 // Added FLASH write command protect when write count is 0
-#define FW_VER				9 // Temporary fix for LM75 configuration
+//#define FW_VER				9 // Temporary fix for LM75 configuration
+#define FW_VER			   10 // Fix for LM75 temperature reading with 0.5 precision
 
 
 #define SPI_LMS7002_SELECT 0x01
@@ -972,7 +973,7 @@ int main(void)
 						converted_val = (signed short int)i2c_rdata[0];
 						converted_val = converted_val << 8;
 						converted_val = 10 * (converted_val >> 8);
-						spirez = i2c_rdata[0];
+						spirez = i2c_rdata[1];
 						if(spirez & 0x80) converted_val = converted_val + 5;
 
 						LMS_Ctrl_Packet_Tx->Data_field[0 + (block * 4)] = LMS_Ctrl_Packet_Rx->Data_field[block]; //ch
