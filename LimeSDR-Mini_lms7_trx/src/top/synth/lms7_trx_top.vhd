@@ -652,7 +652,8 @@ OSCInst0: OSCG
       gpio_out_val(6)            => '1',                    -- Shared with FPGA_LED3_G
       gpio_out_val(5)            => '1',                    -- Shared with FPGA_LED2_R
       gpio_out_val(4)            => NOT inst2_EP83_active,  -- Shared with FPGA_LED2_G
-      gpio_out_val(3 downto 0)   => "0000",
+      gpio_out_val(3 downto 1)   => "000",
+      gpio_out_val(0)            => inst6_tx_txant_en,
       gpio_rd_val          => open,
       gpio(7 downto 0)     => FPGA_GPIO,
       gpio(9 downto 8)     => FPGA_EGPIO,

@@ -70,10 +70,10 @@ architecture fpgacfg_arch of fpgacfg is
    signal MAJOR_REV_reg       : std_logic_vector(15 downto 0);
    signal COMPILE_REV_reg     : std_logic_vector(7 downto 0);
 
-   attribute noprune          : boolean;
-   attribute noprune of BOARD_ID_reg      : signal is true;
-   attribute noprune of MAJOR_REV_reg     : signal is true;
-   attribute noprune of COMPILE_REV_reg   : signal is true;
+   attribute syn_keep          : boolean;
+   attribute syn_keep of BOARD_ID_reg      : signal is true;
+   attribute syn_keep of MAJOR_REV_reg     : signal is true;
+   attribute syn_keep of COMPILE_REV_reg   : signal is true;
    
    -- Components
    use work.mcfg_components.mcfg32wm_fsm;
