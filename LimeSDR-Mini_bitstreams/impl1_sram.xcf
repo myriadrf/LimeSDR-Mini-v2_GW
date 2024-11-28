@@ -19,19 +19,15 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/lattice/LimeSDR-Mini_GW/LimeSDR-Mini_bitstreams/lms7_trx_impl1.bit</File>
-			<FileTime>04/06/22 21:11:46</FileTime>
-			<JedecChecksum>0x3DBB</JedecChecksum>
+			<File>D:/work_dir/LimeSDR-Mini/LimeSDR-Mini-v2_GW/LimeSDR-Mini_lms7_trx/proj/impl1/lms7_trx_impl1.bit</File>
 			<Operation>Fast Program</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
 				<IOState>HighZ</IOState>
-				<PreloadLength>510</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
 				<OverideUES value="TRUE"/>
 				<TCKFrequency>1.000000 MHz</TCKFrequency>
 				<SVFProcessor>ispVM</SVFProcessor>
-				<Usercode>0x00000000</Usercode>
 			</Option>
 		</Device>
 	</Chain>
@@ -48,9 +44,5 @@
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
 		<USBID>Lattice HW-USBN-2B Ch A Location 0000 Serial VER00001A</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
 	</CableOptions>
 </ispXCF>
