@@ -162,6 +162,7 @@ signal inst0_spi_1_MOSI          : std_logic;
 signal inst0_spi_1_SCLK          : std_logic;
 signal inst0_spi_1_SS_n          : std_logic_vector(1 downto 0);
 signal inst0_from_fpgacfg        : t_FROM_FPGACFG;
+signal inst0_from_fpgacfg_mod    : t_FROM_FPGACFG;
 signal inst0_to_fpgacfg          : t_TO_FPGACFG;
 signal inst0_from_pllcfg         : t_FROM_PLLCFG;
 signal inst0_to_pllcfg           : t_TO_PLLCFG;
@@ -257,6 +258,8 @@ signal lms_smpl_cmp_error  : std_logic;
 signal mico32_busy         : std_logic;
 
 signal osc_clk             : std_logic;
+
+signal rx_en_mux           : std_logic;
 
 attribute keep: boolean;
 attribute keep of por_rst_vect: signal is true;
@@ -424,6 +427,23 @@ OSCInst0: OSCG
       USRMCLKTS   => inst0_fpga_cfg_usrmclkts(0)
    );
    
+
+   
+   process(all)
+   begin 
+      if inst0_from_fpgacfg.gpio_sync_en = '1' then 
+         rx_en_mux <= inst0_from_fpgacfg.rx_en AND FPGA_EGPIO(1);
+      else 
+         rx_en_mux <= inst0_from_fpgacfg.rx_en;
+      end if;
+   end process;
+
+   process(all)
+   begin 
+         inst0_from_fpgacfg_mod        <= inst0_from_fpgacfg;
+         inst0_from_fpgacfg_mod.rx_en  <= rx_en_mux;
+   end process;
+   
    u1_USRMCLKI <= inst0_fpga_cfg_spi_SCLK when inst0_fpga_cfg_spi_SS_n ='0' else '0';
    
    inst0_to_fpgacfg.HW_VER    <= HW_VER;
@@ -568,7 +588,7 @@ OSCInst0: OSCG
       EP82_wfull     => inst2_EP82_wfull,
       --stream endpoint fifo PC->FPGA
       EP03_active    => inst2_EP03_active,
-      EP03_aclrn     => inst0_from_fpgacfg.rx_en,
+      EP03_aclrn     => inst0_from_fpgacfg_mod.rx_en,
       EP03_rdclk     => lms_tx_clk, --inst1_pll_c1,
       EP03_rd        => inst6_tx_in_pct_rdreq,
       EP03_rdata     => inst2_EP03_rdata,
@@ -627,7 +647,7 @@ OSCInst0: OSCG
       -- Dual colour LEDs
       -- LED1 (Clock and PLL lock status)
       led1_mico32_busy     => mico32_busy,
-      led1_ctrl            => inst0_from_fpgacfg.FPGA_LED1_CTRL,
+      led1_ctrl            => inst0_from_fpgacfg_mod.FPGA_LED1_CTRL,
       led1_g               => FPGA_LED1_G,
       led1_r               => FPGA_LED1_R,      
       --LED2 (TCXO control status)
@@ -635,19 +655,20 @@ OSCInst0: OSCG
       led2_adf_muxout      => '0',
       led2_dac_ss          => '0',
       led2_adf_ss          => '0',
-      led2_ctrl            => inst0_from_fpgacfg.FPGA_LED2_CTRL,
+      led2_ctrl            => inst0_from_fpgacfg_mod.FPGA_LED2_CTRL,
       led2_g               => open,
       led2_r               => open,     
       --LED3 (FX3 and NIOS CPU busy)
       led3_g_in            => '0',
       led3_r_in            => '0',
-      led3_ctrl            => inst0_from_fpgacfg.FX3_LED_CTRL,
+      led3_ctrl            => inst0_from_fpgacfg_mod.FX3_LED_CTRL,
       led3_hw_ver          => HW_VER,
       led3_g               => open,
       led3_r               => open,     
       --GPIO
-      gpio_dir             => (others=>'1'),
-      gpio_out_val(9 downto 8)   => "00",
+      gpio_dir                   => "0111111111",
+      gpio_out_val(9)            => '0',
+      gpio_out_val(8)            => inst0_from_fpgacfg_mod.rx_en,
       gpio_out_val(7)            => NOT inst2_EP03_active,  -- Shared with FPGA_LED3_R
       gpio_out_val(6)            => '1',                    -- Shared with FPGA_LED3_G
       gpio_out_val(5)            => '1',                    -- Shared with FPGA_LED2_R
@@ -684,7 +705,7 @@ OSCInst0: OSCG
      
   )
   port map(                                            
-     from_fpgacfg            => inst0_from_fpgacfg,
+     from_fpgacfg            => inst0_from_fpgacfg_mod,
      to_tstcfg_from_rxtx     => inst6_to_tstcfg_from_rxtx,
      from_tstcfg             => inst0_from_tstcfg,
      
@@ -733,22 +754,22 @@ OSCInst0: OSCG
    FPGA_CFG_SPI_MOSI <= inst0_fpga_cfg_spi_MOSI;
    FPGA_CFG_SPI_SS_N <= inst0_fpga_cfg_spi_SS_n;
    
-   LMS_RESET         <= inst0_from_fpgacfg.LMS1_RESET AND inst0_lms_ctr_gpio(0);
-   LMS_TXEN          <= inst0_from_fpgacfg.LMS1_TXEN;
-   LMS_RXEN          <= inst0_from_fpgacfg.LMS1_RXEN;
-   LMS_CORE_LDO_EN   <= inst0_from_fpgacfg.LMS1_CORE_LDO_EN;
-   LMS_TXNRX1        <= inst0_from_fpgacfg.LMS1_TXNRX1;
+   LMS_RESET         <= inst0_from_fpgacfg_mod.LMS1_RESET AND inst0_lms_ctr_gpio(0);
+   LMS_TXEN          <= inst0_from_fpgacfg_mod.LMS1_TXEN;
+   LMS_RXEN          <= inst0_from_fpgacfg_mod.LMS1_RXEN;
+   LMS_CORE_LDO_EN   <= inst0_from_fpgacfg_mod.LMS1_CORE_LDO_EN;
+   LMS_TXNRX1        <= inst0_from_fpgacfg_mod.LMS1_TXNRX1;
    
    --In HW versions before v2.3 this pin is LMS_TXNRX2. After v2.3 - Clock select for LMK clock buffer (CLK_SEL) 
    LMS_TXNRX2_or_CLK_SEL <=   inst0_from_periphcfg.PERIPH_OUTPUT_VAL_1(0) when unsigned(HW_VER) > 5 else 
-                              inst0_from_fpgacfg.LMS1_TXNRX2;
+                              inst0_from_fpgacfg_mod.LMS1_TXNRX2;
    
-   RFSW_RX_V1        <= inst0_from_fpgacfg.GPIO(8);
-   RFSW_RX_V2        <= inst0_from_fpgacfg.GPIO(9);
-   RFSW_TX_V1        <= inst0_from_fpgacfg.GPIO(12);
-   RFSW_TX_V2        <= inst0_from_fpgacfg.GPIO(13);
-   TX_LB_AT          <= inst0_from_fpgacfg.GPIO(1);
-   TX_LB_SH          <= inst0_from_fpgacfg.GPIO(2);
+   RFSW_RX_V1        <= inst0_from_fpgacfg_mod.GPIO(8);
+   RFSW_RX_V2        <= inst0_from_fpgacfg_mod.GPIO(9);
+   RFSW_TX_V1        <= inst0_from_fpgacfg_mod.GPIO(12);
+   RFSW_TX_V2        <= inst0_from_fpgacfg_mod.GPIO(13);
+   TX_LB_AT          <= inst0_from_fpgacfg_mod.GPIO(1);
+   TX_LB_SH          <= inst0_from_fpgacfg_mod.GPIO(2);
    
    FT_WAKEUPn        <= '1';
    

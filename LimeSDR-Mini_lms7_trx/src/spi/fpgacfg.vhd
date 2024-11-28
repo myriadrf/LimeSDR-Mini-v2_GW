@@ -284,6 +284,7 @@ begin
       from_fpgacfg.txpct_loss_clr      <= mem(9) (1);
       from_fpgacfg.rx_en               <= mem(10) (0);
       from_fpgacfg.tx_en               <= mem(10) (1);
+	  from_fpgacfg.gpio_sync_en        <= mem(10) (3);
       from_fpgacfg.rx_ptrn_en          <= mem(10) (8);
       from_fpgacfg.tx_ptrn_en          <= mem(10) (9);
       from_fpgacfg.tx_cnt_en           <= mem(10) (10);
